@@ -1,0 +1,431 @@
+[
+  {
+    "sekcja": "Podstawy rachunku prawdopodobieństwa",
+    "zagadnienie": "1. Doświadczenie losowe.",
+    "opracowanie": "Doświadczenie losowe to czynność lub proces, którego wyniku nie można jednoznacznie przewidzieć, mimo znajomości warunków, w jakich się odbywa. Musi ono spełniać trzy warunki: 1) jest możliwe jego wielokrotne powtarzanie w zbliżonych warunkach, 2) zbiór wszystkich możliwych wyników jest znany przed przeprowadzeniem doświadczenia, 3) konkretny wynik jest kwestią przypadku (brak determinizmu). Przykładem jest rzut symetryczną kostką do gry lub losowanie karty z talii."
+  },
+  {
+    "sekcja": "Podstawy rachunku prawdopodobieństwa",
+    "zagadnienie": "2. Przestrzeń zdarzeń elementarnych. σ-algebra zdarzeń i jej własności.",
+    "opracowanie": "Przestrzeń zdarzeń elementarnych $\\Omega$ to zbiór wszystkich możliwych, wzajemnie wykluczających się wyników doświadczenia losowego. Pojedynczy wynik $\\omega \\in \\Omega$ nazywamy zdarzeniem elementarnym. $\\sigma$-algebra zdarzeń $\\mathcal{F}$ to rodzina podzbiorów zbioru $\\Omega$, która spełnia warunki: 1) $\\Omega \\in \\mathcal{F}$, 2) jeśli $A \\in \\mathcal{F}$, to $A^c \\in \\mathcal{F}$ (dopełnienie), 3) jeśli $A_1, A_2, \\dots \\in \\mathcal{F}$, to $\\bigcup_{i=1}^{\\infty} A_i \\in \\mathcal{F}$ (domkniętość na przeliczalne sumy). Własności obejmują m.in. to, że iloczyn przeliczalnej liczby zdarzeń oraz zbiór pusty również należą do $\\sigma$-algebry."
+  },
+  {
+    "sekcja": "Podstawy rachunku prawdopodobieństwa",
+    "zagadnienie": "3. Przestrzeń probabilistyczna. Miara probabilistyczna i jej własności. Prawdopodobieństwo.",
+    "opracowanie": "Przestrzeń probabilistyczna to trójka $(\\Omega, \\mathcal{F}, P)$. Miara probabilistyczna $P$ to funkcja przypisująca każdemu zdarzeniu $A \\in \\mathcal{F}$ liczbę z przedziału $[0, 1]$, spełniająca aksjomaty Kołmogorowa: 1) $P(A) \\ge 0$, 2) $P(\\Omega) = 1$, 3) $\\sigma$-addytywność: dla ciągu zdarzeń rozłącznych $P(\\bigcup A_i) = \\sum P(A_i)$. Własności wynikające z aksjomatów: $P(\\emptyset) = 0$, $P(A^c) = 1 - P(A)$, prawdopodobieństwo sumy $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$ oraz monotoniczność: jeśli $A \\subset B$, to $P(A) \\le P(B)$."
+  },
+  {
+    "sekcja": "Podstawy rachunku prawdopodobieństwa",
+    "zagadnienie": "4. Prawdopodobieństwo w przestrzeni przeliczalnej. Prawdopodobieństwo klasyczne.",
+    "opracowanie": "Jeśli $\\Omega$ jest zbiorem przeliczalnym $\\Omega = \\{\\omega_1, \\omega_2, \\dots\\}$, to prawdopodobieństwo dowolnego zdarzenia $A$ jest sumą prawdopodobieństw zdarzeń elementarnych wchodzących w jego skład: $P(A) = \\sum_{\\omega_i \\in A} p_i$. Prawdopodobieństwo klasyczne to szczególny przypadek, gdy $\\Omega$ jest zbiorem skończonym, a wszystkie zdarzenia elementarne są jednakowo prawdopodobne ($p_i = 1/|\\Omega|$). Wówczas wzór przyjmuje postać $P(A) = \\frac{|A|}{|\\Omega|}$, czyli stosunek liczby zdarzeń sprzyjających do liczby wszystkich możliwych wyników."
+  },
+  {
+    "sekcja": "Podstawy rachunku prawdopodobieństwa",
+    "zagadnienie": "5. Prawdopodobieństwo w przestrzeni euklidesowej $R^N$.",
+    "opracowanie": "Nazywane również prawdopodobieństwem geometrycznym. Stosowane, gdy zbiór wyników $\\Omega$ jest podzbiorem przestrzeni $\\mathbb{R}^N$ o skończonej i dodatniej mierze (np. długości, polu powierzchni lub objętości). Jeśli losowanie polega na 'przypadkowym' wybraniu punktu z obszaru $\\Omega$, to prawdopodobieństwo zdarzenia $A \\subset \\Omega$ wynosi $P(A) = \\frac{\\mu(A)}{\\mu(\\Omega)}$, gdzie $\\mu$ oznacza miarę Lebesgue’a odpowiedniego wymiaru. Zakłada się tu jednostajny rozkład prawdopodobieństwa w danym obszarze."
+  },
+  {
+    "sekcja": "Podstawy rachunku prawdopodobieństwa",
+    "zagadnienie": "6. Prawdopodobieństwo warunkowe i jego własności. Reguła wielokrotnego warunkowania.",
+    "opracowanie": "Prawdopodobieństwo warunkowe zdarzenia $A$ pod warunkiem zajścia zdarzenia $B$ ($P(B) > 0$) definiujemy jako $P(A|B) = \\frac{P(A \\cap B)}{P(B)}$. Własności: $P(\\cdot | B)$ jest miarą probabilistyczną na $(\\Omega, \\mathcal{F})$. Reguła wielokrotnego warunkowania (łańcuchowa) pozwala obliczyć prawdopodobieństwo iloczynu wielu zdarzeń: $P(A_1 \\cap A_2 \\cap \\dots \\cap A_n) = P(A_1) \\cdot P(A_2|A_1) \\cdot P(A_3|A_1 \\cap A_2) \\dots P(A_n|A_1 \\cap \\dots \\cap A_{n-1})$."
+  },
+  {
+    "sekcja": "Podstawy rachunku prawdopodobieństwa",
+    "zagadnienie": "7. Niezależność zdarzeń i jej własności.",
+    "opracowanie": "Zdarzenia $A$ i $B$ nazywamy niezależnymi, gdy $P(A \\cap B) = P(A) \\cdot P(B)$. Intuicyjnie oznacza to, że fakt zajścia jednego zdarzenia nie zmienia prawdopodobieństwa zajścia drugiego ($P(A|B) = P(A)$). Własności: 1) zdarzenie niemożliwe $\\emptyset$ i pewne $\\Omega$ są niezależne od każdego innego zdarzenia, 2) jeśli $A$ i $B$ są niezależne, to niezależne są również pary $(A, B^c)$, $(A^c, B)$ oraz $(A^c, B^c)$. Dla większej liczby zdarzeń wymagana jest niezależność zespołowa (iloczyn dowolnego podzbioru musi się równać iloczynowi prawdopodobieństw)."
+  },
+  {
+    "sekcja": "Podstawy rachunku prawdopodobieństwa",
+    "zagadnienie": "8. Układ zupełny zdarzeń. Twierdzenie o prawdopodobieństwie całkowitym.",
+    "opracowanie": "Układ zupełny zdarzeń to rodzina $\\{B_1, B_2, \\dots, B_n\\}$, taka że: 1) są one wzajemnie rozłączne ($B_i \\cap B_j = \\emptyset$), 2) ich suma stanowi całą przestrzeń ($\\bigcup B_i = \\Omega$), 3) $P(B_i) > 0$. Twierdzenie o prawdopodobieństwie całkowitym pozwala wyznaczyć prawdopodobieństwo dowolnego zdarzenia $A$ za pomocą wag z układu zupełnego: $P(A) = \\sum_{i=1}^{n} P(A|B_i) \\cdot P(B_i)$. Jest to przydatne, gdy znamy szanse zajścia $A$ w różnych 'scenariuszach' $B_i$."
+  },
+  {
+    "sekcja": "Podstawy rachunku prawdopodobieństwa",
+    "zagadnienie": "9. Twierdzenie Bayesa.",
+    "opracowanie": "Twierdzenie to pozwala na obliczenie prawdopodobieństwa 'a posteriori', czyli zaktualizowanie szansy zajścia hipotezy $B_k$ po zaobserwowaniu skutku w postaci zdarzenia $A$. Wzór: $P(B_k|A) = \\frac{P(A|B_k) \\cdot P(B_k)}{P(A)}$, gdzie $P(A)$ oblicza się ze wzoru na prawdopodobieństwo całkowite. Jest to fundamentalne narzędzie we wnioskowaniu statystycznym, pozwalające odwrócić relację warunkowania."
+  },
+  {
+    "sekcja": "Podstawy rachunku prawdopodobieństwa",
+    "zagadnienie": "10. Niezależność warunkowa zdarzeń i jej własności.",
+    "opracowanie": "Zdarzenia $A$ i $B$ są warunkowo niezależne pod warunkiem zdarzenia $C$, jeżeli $P(A \\cap B | C) = P(A|C) \\cdot P(B|C)$. Oznacza to, że jeśli znamy wynik zdarzenia $C$, to informacja o $B$ nie daje nam żadnej dodatkowej wiedzy o szansie zajścia $A$. Ważna cecha: niezależność bezwarunkowa nie implikuje niezależności warunkowej i na odwrót (paradoks Simpsona jest z tym pośrednio związany)."
+  },
+  {
+    "sekcja": "Zmienne losowe jednowymiarowe",
+    "zagadnienie": "1. Definicja zmiennej losowej.",
+    "opracowanie": "Zmienna losowa $X$ to funkcja mierzalna odwzorowująca przestrzeń zdarzeń elementarnych w zbiór liczb rzeczywistych ($X: \\Omega \\to \\mathbb{R}$). Oznacza to, że dla każdego $x \\in \\mathbb{R}$ zbiór $\\{\\omega \\in \\Omega : X(\\omega) \\leq x\\}$ jest zdarzeniem należącym do $\\sigma$-algebry $\\mathcal{F}$."
+  },
+  {
+    "sekcja": "Zmienne losowe jednowymiarowe",
+    "zagadnienie": "2. Definicja i podstawowe własności rozkładu prawdopodobieństwa zmiennej losowej.",
+    "opracowanie": "Rozkład prawdopodobieństwa to miara probabilistyczna $P_X$ na prostej rzeczywistej, określona wzorem $P_X(B) = P(X \\in B)$ dla dowolnego zbioru borelowskiego $B$. Rozkład w pełni opisuje zachowanie zmiennej losowej, przypisując prawdopodobieństwa do zbiorów wartości, jakie zmienna może przyjąć."
+  },
+  {
+    "sekcja": "Zmienne losowe jednowymiarowe",
+    "zagadnienie": "3. Dystrybuanta i jej własności.",
+    "opracowanie": "Dystrybuanta $F(x)$ to funkcja określona jako $F(x) = P(X \\leq x)$. Jej kluczowe własności to: 1) jest niemalejąca, 2) jest prawostronnie ciągła, 3) $\\lim_{x \\to -\\infty} F(x) = 0$ oraz $\\lim_{x \\to +\\infty} F(x) = 1$. Pozwala ona obliczyć prawdopodobieństwo w przedziale: $P(a < X \\leq b) = F(b) - F(a)$."
+  },
+  {
+    "sekcja": "Zmienne losowe jednowymiarowe",
+    "zagadnienie": "4. Rozkłady dyskretne i ich własności.",
+    "opracowanie": "Zmienna ma rozkład dyskretny, jeśli przyjmuje skończoną lub przeliczalną liczbę wartości $\\{x_1, x_2, \\dots\\}$. Charakteryzuje się ją funkcją prawdopodobieństwa $p_i = P(X = x_i)$, gdzie $\\sum p_i = 1$. Dystrybuanta takiego rozkładu jest funkcją schodkową."
+  },
+  {
+    "sekcja": "Zmienne losowe jednowymiarowe",
+    "zagadnienie": "5. Rozkłady ciągłe i ich własności.",
+    "opracowanie": "Zmienna ma rozkład ciągły (absolutnie ciągły), jeśli istnieje nieujemna funkcja gęstości $f(x)$, taka że $F(x) = \\int_{-\\infty}^x f(t)dt$. Właściwości: $\\int_{-\\infty}^{\\infty} f(x)dx = 1$, a prawdopodobieństwo przyjęcia konkretnej wartości wynosi zero ($P(X=x)=0$)."
+  },
+  {
+    "sekcja": "Zmienne losowe jednowymiarowe",
+    "zagadnienie": "6. Wartość oczekiwana i jej własności.",
+    "opracowanie": "Wartość oczekiwana $E[X]$ to parametr położenia (średnia). Dla dyskretnych: $E[X] = \\sum x_i p_i$, dla ciągłych: $E[X] = \\int x f(x)dx$. Własności: $E[aX+b] = aE[X]+b$ oraz $E[X+Y] = E[X]+E[Y]$ (liniowość)."
+  },
+  {
+    "sekcja": "Zmienne losowe jednowymiarowe",
+    "zagadnienie": "7. Momenty i momenty centralne. Twierdzenie o istnieniu momentów niższego rzędu. Wariancja i jej własności.",
+    "opracowanie": "Moment zwykły rzędu $k$: $m_k = E[X^k]$. Moment centralny rzędu $k$: $\\mu_k = E[(X-E[X])^k]$. Wariancja to $Var(X) = \\mu_2 = E[X^2] - (E[X])^2$. Twierdzenie: jeśli istnieje moment rzędu $k$, to istnieją wszystkie momenty rzędów niższych. Własności wariancji: $Var(aX+b) = a^2 Var(X)$, $Var(X) \\geq 0$."
+  },
+  {
+    "sekcja": "Zmienne losowe jednowymiarowe",
+    "zagadnienie": "8. Zmienne standaryzowane.",
+    "opracowanie": "Standaryzacja to transformacja $Z = \\frac{X - E[X]}{\\sigma(X)}$, gdzie $\\sigma(X)$ to odchylenie standardowe. Zmienna $Z$ ma zawsze wartość oczekiwaną równą 0 i wariancję równą 1. Umożliwia to porównywanie zmiennych o różnych jednostkach i skalach."
+  },
+  {
+    "sekcja": "Zmienne losowe jednowymiarowe",
+    "zagadnienie": "9. Nierówność Czebyszewa z wnioskami.",
+    "opracowanie": "Nierówność Czebyszewa: $P(|X - E[X]| \\geq \\epsilon) \\leq \\frac{Var(X)}{\\epsilon^2}$. Pozwala ona ograniczyć prawdopodobieństwo dużych odchyleń od średniej, nawet jeśli nie znamy dokładnego rozkładu zmiennej, pod warunkiem że znamy jej wariancję."
+  },
+  {
+    "sekcja": "Zmienne losowe jednowymiarowe",
+    "zagadnienie": "10. Odchylenie standardowe. Odchylenie przeciętne.",
+    "opracowanie": "Odchylenie standardowe $\\sigma = \\sqrt{Var(X)}$ określa stopień rozproszenia w tych samych jednostkach co zmienna. Odchylenie przeciętne to $d = E[|X - E[X]|]$, rzadziej stosowane, ale bardziej odporne na wartości odstające niż wariancja."
+  },
+  {
+    "sekcja": "Zmienne losowe jednowymiarowe",
+    "zagadnienie": "11. Kwantyle. Mediana. Moda.",
+    "opracowanie": "Kwantyl rzędu $p$ to wartość $x_p$, taka że $F(x_p) \\geq p$. Mediana to kwantyl rzędu $0.5$ (dzieli rozkład na pół). Moda (wartość modalna) to wartość najbardziej prawdopodobna (dyskretne) lub argument, dla którego gęstość osiąga maksimum (ciągłe)."
+  },
+  {
+    "sekcja": "Zmienne losowe jednowymiarowe",
+    "zagadnienie": "12. Momenty wyższych rzędów, współczynnik asymetrii, kurtoza i kurtoza nadwyżkowa.",
+    "opracowanie": "Współczynnik asymetrii: $A = \\frac{\\mu_3}{\\sigma^3}$ (informuje o skośności). Kurtoza: $K = \\frac{\\mu_4}{\\sigma^4}$ (informuje o koncentracji i 'ogonach'). Kurtoza nadwyżkowa (eksces): $E_k = K - 3$. Dla rozkładu normalnego $E_k = 0$."
+  },
+  {
+    "sekcja": "Zmienne losowe jednowymiarowe",
+    "zagadnienie": "13. Rozkłady dyskretne: jednopunktowy, dwupunktowy, dyskretny jednostajny, dwumianowy, geometryczny i Poissona.",
+    "opracowanie": "Jednopunktowy: $P(X=c)=1$. Dwupunktowy (Bernoulliego): sukces (1) z prob. $p$, porażka (0) z prob. $1-p$. Dwumianowy $B(n, p)$: liczba sukcesów w $n$ próbach. Geometryczny: liczba prób do pierwszego sukcesu. Poissona: liczba zdarzeń w jednostce czasu/przestrzeni."
+  },
+  {
+    "sekcja": "Zmienne losowe jednowymiarowe",
+    "zagadnienie": "14. Twierdzenie Poissona.",
+    "opracowanie": "Twierdzenie to mówi, że rozkład dwumianowy $B(n, p)$ dąży do rozkładu Poissona z parametrem $\\lambda = np$, gdy liczba prób $n \\to \\infty$, a prawdopodobieństwo sukcesu $p \\to 0$, tak że iloczyn $np$ pozostaje stały. Stosowane jako przybliżenie, gdy $n > 20$ i $p < 0.1$."
+  },
+  {
+    "sekcja": "Zmienne losowe jednowymiarowe",
+    "zagadnienie": "15. Rozkłady ciągłe: jednostajny, wykładniczy, normalny i gamma.",
+    "opracowanie": "Jednostajny $U(a,b)$: stała gęstość na $[a,b]$. Wykładniczy: modeluje czas między zdarzeniami (brak pamięci). Normalny $N(\\mu, \\sigma)$: symetryczny, dzwonowaty, opisuje zjawiska naturalne. Gamma: uogólnienie rozkładu wykładniczego, modeluje czas oczekiwania na $k$-te zdarzenie."
+  },
+  {
+    "sekcja": "Zmienne losowe jednowymiarowe",
+    "zagadnienie": "16. Przedziały wysokiego prawdopodobieństwa w rozkładzie normalnym.",
+    "opracowanie": "Zasada trzech sigm: w rozkładzie $N(\\mu, \\sigma)$ przedział $[\\mu - \\sigma, \\mu + \\sigma]$ zawiera ok. $68.3\\%$ obserwacji, $[\\mu - 2\\sigma, \\mu + 2\\sigma]$ ok. $95.4\\%$, a $[\\mu - 3\\sigma, \\mu + 3\\sigma]$ ok. $99.7\\%$ wszystkich wartości."
+  },
+  {
+    "sekcja": "Zmienne losowe jednowymiarowe",
+    "zagadnienie": "17. Funkcja tworząca momenty i jej własności.",
+    "opracowanie": "Funkcja $M_X(t) = E[e^{tX}]$. Jej własności: $M_X(0) = 1$. k-ta pochodna w punkcie 0 daje k-ty moment zwykły: $M_X^{(k)}(0) = E[X^k]$. Funkcja ta jednoznacznie wyznacza rozkład zmiennej losowej."
+  },
+  {
+    "sekcja": "Zmienne losowe jednowymiarowe",
+    "zagadnienie": "18. Rozkład funkcji zmiennej losowej: metoda dystrybuanty i metoda transformacji.",
+    "opracowanie": "Metoda dystrybuanty polega na wyznaczeniu $F_Y(y) = P(g(X) \\leq y)$ i zróżniczkowaniu jej. Metoda transformacji (tw. o gęstości funkcji zmiennej) dla funkcji monotonicznej $g$: $f_Y(y) = f_X(g^{-1}(y)) \\cdot |(g^{-1})'(y)|$."
+  },{
+    "sekcja": "Zmienne losowe wielowymiarowe",
+    "zagadnienie": "1. Rozkład zmiennej losowej wielowymiarowej. Dystrybuanta. Rozkłady wielowymiarowe dyskretne i ciągłe.",
+    "opracowanie": "Zmienna losowa n-wymiarowa to wektor losowy $\\mathbf{X} = (X_1, \\dots, X_n)$. Łączna dystrybuanta $F(x_1, \\dots, x_n)$ to prawdopodobieństwo $P(X_1 \\leq x_1, \\dots, X_n \\leq x_n)$. W rozkładzie dyskretnym określamy funkcję prawdopodobieństwa $P(X=x_i, Y=y_j)$, a w ciągłym łączną gęstość $f(x, y)$, taką że prawdopodobieństwo to całka podwójna z gęstości po danym obszarze."
+  },
+  {
+    "sekcja": "Zmienne losowe wielowymiarowe",
+    "zagadnienie": "2. Rozkłady brzegowe i ich charakteryzacja.",
+    "opracowanie": "Rozkład brzegowy to rozkład pojedynczej zmiennej wyodrębniony z rozkładu łącznego. Dla przypadku ciągłego, gęstość brzegową $f_X(x)$ otrzymujemy przez wycałkowanie gęstości łącznej po wszystkich pozostałych zmiennych: $f_X(x) = \\int_{-\\infty}^{\\infty} f(x, y) dy$. W przypadku dyskretnym jest to sumowanie prawdopodobieństw po wszystkich $y_j$."
+  },
+  {
+    "sekcja": "Zmienne losowe wielowymiarowe",
+    "zagadnienie": "3. Niezależność zmiennych losowych. Charakteryzacja zmiennych niezależnych.",
+    "opracowanie": "Zmienne $X$ i $Y$ są niezależne, jeśli ich łączna dystrybuanta jest iloczynem dystrybuant brzegowych dla każdego punktu. Równoważnie: dla rozkładów ciągłych $f(x, y) = f_X(x) \\cdot f_Y(y)$, a dla dyskretnych $P(X=x, Y=y) = P(X=x) \\cdot P(Y=y)$. Brak zależności oznacza, że wiedza o jednej zmiennej nie zmienia rozkładu drugiej."
+  },
+  {
+    "sekcja": "Zmienne losowe wielowymiarowe",
+    "zagadnienie": "4. Rozkłady warunkowe. Warunkowa gęstość i warunkowa funkcja prawdopodobieństwa.",
+    "opracowanie": "Rozkład warunkowy opisuje zachowanie jednej zmiennej, gdy wiemy, jaką wartość przyjęła druga. Warunkowa gęstość $f(x|y) = \\frac{f(x, y)}{f_Y(y)}$ (dla $f_Y(y) > 0$). Analogicznie dla zmiennych dyskretnych: $P(X=x|Y=y) = \\frac{P(X=x, Y=y)}{P(Y=y)}$."
+  },
+  {
+    "sekcja": "Zmienne losowe wielowymiarowe",
+    "zagadnienie": "5. Związek rozkładów warunkowych z niezależnością.",
+    "opracowanie": "Jeżeli zmienne $X$ i $Y$ są niezależne, to rozkład warunkowy jest identyczny z rozkładem brzegowym: $f(x|y) = f_X(x)$ oraz $f(y|x) = f_Y(y)$. Oznacza to, że warunkowanie nie wnosi nowej informacji o prawdopodobieństwie danej zmiennej."
+  },
+  {
+    "sekcja": "Zmienne losowe wielowymiarowe",
+    "zagadnienie": "6. Metoda transformacji dla zmiennych wielowymiarowych. Rozkład sumy, iloczynu i ilorazu zmiennych jednowymiarowych.",
+    "opracowanie": "Wyznaczanie rozkładu nowej zmiennej $Z = g(X, Y)$ wymaga użycia metody dystrybuanty lub twierdzenia o transformacji gęstości (z użyciem Jakobianu). Dla sumy $Z = X+Y$ dwóch niezależnych zmiennych stosuje się splot: $f_Z(z) = \\int_{-\\infty}^{\\infty} f_X(t) f_Y(z-t) dt$."
+  },
+  {
+    "sekcja": "Zmienne losowe wielowymiarowe",
+    "zagadnienie": "7. Rozkłady sum zmiennych niezależnych o rozkładach normalnych, gamma i Poissona.",
+    "opracowanie": "Wymienione rozkłady mają własność reproduktywności: suma niezależnych zmiennych o rozkładzie Normalnym ma rozkład Normalny; suma niezależnych zmiennych Poissona ($\\lambda_1, \\lambda_2$) ma rozkład Poissona ($\\lambda_1 + \\lambda_2$); suma niezależnych zmiennych Gamma o tym samym parametrze skali również ma rozkład Gamma."
+  },
+  {
+    "sekcja": "Zmienne losowe wielowymiarowe",
+    "zagadnienie": "8. Wartość oczekiwana rozkładu wielowymiarowego i jej własności.",
+    "opracowanie": "Wartość oczekiwana wektora losowego to wektor wartości oczekiwanych jego składowych: $E[\\mathbf{X}] = (E[X_1], \\dots, E[X_n])$. Własności: $E[X+Y] = E[X] + E[Y]$ (zawsze) oraz $E[XY] = E[X] \\cdot E[Y]$, pod warunkiem że zmienne są niezależne."
+  },
+  {
+    "sekcja": "Zmienne losowe wielowymiarowe",
+    "zagadnienie": "9. Momenty i momenty centralne rozkładów wielowymiarowych. Wariancja, kowariancja, współczynnik korelacji i ich własności.",
+    "opracowanie": "Kowariancja $Cov(X, Y) = E[(X-EX)(Y-EY)]$ mierzy siłę zależności liniowej. Współczynnik korelacji $\\rho = \\frac{Cov(X,Y)}{\\sigma_X \\sigma_Y}$ jest unormowany do $[-1, 1]$. Jeśli $X, Y$ są niezależne, to $Cov(X, Y) = 0$ (odwrotnie nie zawsze). Własność: $Var(X+Y) = Var(X) + Var(Y) + 2Cov(X, Y)$."
+  },
+  {
+    "sekcja": "Zmienne losowe wielowymiarowe",
+    "zagadnienie": "10. Macierz kowariancji i jej własności.",
+    "opracowanie": "Macierz $\\Sigma$, gdzie elementami są $\\sigma_{ij} = Cov(X_i, X_j)$. Właściwości: 1) jest symetryczna, 2) na przekątnej znajdują się wariancje poszczególnych zmiennych, 3) jest nieujemnie określona. Macierz ta w pełni opisuje strukturę zmienności i zależności w wektorze losowym."
+  },
+  {
+    "sekcja": "Zmienne losowe wielowymiarowe",
+    "zagadnienie": "11. Wielowymiarowy rozkład normalny.",
+    "opracowanie": "Rozkład wektora $\\mathbf{X}$ scharakteryzowany przez wektor średnich $\\mu$ i macierz kowariancji $\\Sigma$. Gęstość dana jest wzorem wykładniczym z formą kwadratową w wykładniku. Cecha szczególna: jeśli składowe wielowymiarowego rozkładu normalnego są nieskorelowane, to są one również niezależne."
+  },
+  {
+    "sekcja": "Zmienne losowe wielowymiarowe",
+    "zagadnienie": "12. Warunkowa niezależność zmiennych losowych, jej charakteryzacja i związek z rozkładami warunkowymi.",
+    "opracowanie": "Zmienne $X$ i $Y$ są warunkowo niezależne pod warunkiem $Z$, jeśli $f(x, y | z) = f(x | z) \\cdot f(y | z)$. Oznacza to, że po ustaleniu wartości $Z$, zmienna $X$ nie dostarcza żadnych nowych informacji o $Y$. Jest to fundament grafowych modeli probabilistycznych."
+  },
+  {
+    "sekcja": "Zmienne losowe wielowymiarowe",
+    "zagadnienie": "13. Naiwny model bayesowski i naiwny klasyfikator bayesowski.",
+    "opracowanie": "Model 'naiwny', ponieważ zakłada, że wszystkie cechy wejściowe są warunkowo niezależne względem klasy decyzyjnej. Klasyfikator wybiera klasę $C$, która maksymalizuje prawdopodobieństwo a posteriori: $P(C | X_1, \\dots, X_n) \\propto P(C) \\cdot \\prod P(X_i | C)$. Mimo uproszczenia, często działa bardzo skutecznie."
+  },
+  {
+    "sekcja": "Wnioskowanie statystyczne",
+    "zagadnienie": "1. Rodzaje zbieżności zmiennych losowych: zbieżność z prawdopodobieństwem 1 i zbieżność według rozkładów. Związki między rodzajami zbieżności.",
+    "opracowanie": "Zbieżność z prawdopodobieństwem 1 (prawie na pewno): $P(\\lim X_n = X) = 1$. Oznacza, że ciąg wartości zmiennych dąży do X dla prawie wszystkich zdarzeń. Zbieżność według rozkładów ($X_n \\xrightarrow{d} X$): dystrybuanty $F_n(x)$ dążą do $F(x)$ w każdym punkcie ciągłości $F$. Związek: zbieżność prawie na pewno implikuje zbieżność według prawdopodobieństwa, a ta implikuje zbieżność według rozkładów."
+  },
+  {
+    "sekcja": "Wnioskowanie statystyczne",
+    "zagadnienie": "2. Modele statystyczne. Modele identyfikowalne.",
+    "opracowanie": "Model statystyczny to rodzina rozkładów prawdopodobieństwa $\\mathcal{P} = \\{P_\\theta : \\theta \\in \\Theta\\}$, z których jeden opisuje badaną cechę. Model jest identyfikowalny, jeśli różnym wartościom parametrów $\\theta_1 \\neq \\theta_2$ odpowiadają różne rozkłady $P_{\\theta_1} \\neq P_{\\theta_2}$. Brak identyfikowalności uniemożliwia jednoznaczne wyznaczenie parametru na podstawie danych."
+  },
+  {
+    "sekcja": "Wnioskowanie statystyczne",
+    "zagadnienie": "3. Prosta próba losowa i jej realizacje.",
+    "opracowanie": "Prosta próba losowa to ciąg niezależnych zmiennych losowych $X_1, X_2, \\dots, X_n$ o tym samym rozkładzie (i.i.d.). Realizacja próby to konkretne wartości liczbowe $(x_1, \\dots, x_n)$ uzyskane w wyniku doświadczenia. Próba jest łącznikiem między nieznanym rozkładem populacji a badaczem."
+  },
+  {
+    "sekcja": "Wnioskowanie statystyczne",
+    "zagadnienie": "4. Dystrybuanta empiryczna.",
+    "opracowanie": "Funkcja schodkowa $\\hat{F}_n(x)$ zdefiniowana jako frakcja obserwacji w próbie mniejszych lub równych $x$: $\\hat{F}_n(x) = \\frac{1}{n} \\sum \\mathbb{I}(X_i \\leq x)$. Zgodnie z twierdzeniem Gliwenki-Cantelliego, dla dużych prób dystrybuanta empiryczna jednostajnie dąży do prawdziwej dystrybuanty teoretycznej."
+  },
+  {
+    "sekcja": "Wnioskowanie statystyczne",
+    "zagadnienie": "5. Statystyki. Średnia i wariancja w prostej próbie losowej.",
+    "opracowanie": "Statystyka to dowolna funkcja próby losowej, która nie zależy od nieznanych parametrów. Średnia z próby $\\bar{X} = \\frac{1}{n} \\sum X_i$ oraz wariancja z próby $S^2 = \\frac{1}{n-1} \\sum (X_i - \\bar{X})^2$ to podstawowe statystyki opisujące położenie i rozproszenie danych w próbce."
+  },
+  {
+    "sekcja": "Wnioskowanie statystyczne",
+    "zagadnienie": "6. Własności statystyki $\\bar{X}$: wartość oczekiwana i wariancja, prawo wielkich liczb.",
+    "opracowanie": "Dla próby z populacji o średniej $\\mu$ i wariancji $\\sigma^2$: $E[\\bar{X}] = \\mu$ oraz $Var(\\bar{X}) = \\sigma^2/n$. Słabe prawo wielkich liczb mówi, że średnia z próby dąży według prawdopodobieństwa do średniej populacyjnej, co uzasadnia wyciąganie wniosków o całości na podstawie części."
+  },
+  {
+    "sekcja": "Wnioskowanie statystyczne",
+    "zagadnienie": "7. Centralne Twierdzenie Graniczne (Lindeberga-Lévy’ego) i wniosek dla prostej próby losowej.",
+    "opracowanie": "CTG orzeka, że dla dużej próby ($n \\to \\infty$) rozkład standaryzowanej średniej $\\frac{\\bar{X} - \\mu}{\\sigma/\\sqrt{n}}$ dąży do standardowego rozkładu normalnego $N(0, 1)$, niezależnie od rozkładu populacji. Jest to podstawa konstrukcji testów i przedziałów ufności."
+  },
+  {
+    "sekcja": "Wnioskowanie statystyczne",
+    "zagadnienie": "8. Estymatory punktowe.",
+    "opracowanie": "Estymator to statystyka służąca do szacowania nieznanej wartości parametru $\\theta$. Wynik obliczony na podstawie konkretnej realizacji próby nazywamy oceną punktową. Estymator sam w sobie jest zmienną losową, ponieważ zależy od losowej próby."
+  },
+  {
+    "sekcja": "Wnioskowanie statystyczne",
+    "zagadnienie": "9. Estymatory nieobciążone i asymptotycznie nieobciążone. Estymatory nieobciążone o minimalnej wariancji.",
+    "opracowanie": "Estymator jest nieobciążony, jeśli jego wartość oczekiwana równa się szacowanemu parametrowi: $E[\\hat{\\theta}] = \\theta$. Asymptotycznie nieobciążony: błąd (obciążenie) dąży do 0 przy $n \\to \\infty$. Najlepszy estymator nieobciążony (MVUE) to taki, który ma najmniejszą możliwą wariancję wśród wszystkich estymatorów nieobciążonych."
+  },
+  {
+    "sekcja": "Wnioskowanie statystyczne",
+    "zagadnienie": "10. Błąd średniokwadratowy estymatora. Estymatory dominujące i dopuszczalne. Związek między obciążeniem a błędem średniokwadratowym.",
+    "opracowanie": "Błąd średniokwadratowy (MSE): $MSE(\\hat{\\theta}) = E[(\\hat{\\theta} - \\theta)^2] = Var(\\hat{\\theta}) + [Bias(\\hat{\\theta})]^2$. Estymator $\\hat{\\theta}_1$ dominuje $\\hat{\\theta}_2$, jeśli ma mniejszy MSE dla wszystkich $\\theta$. Estymator jest dopuszczalny, jeśli żaden inny go nie dominuje. MSE pokazuje kompromis między precyzją (wariancją) a dokładnością (obciążeniem)."
+  },
+  {
+    "sekcja": "Wnioskowanie statystyczne",
+    "zagadnienie": "11. Estymatory wariancji i ich cechy.",
+    "opracowanie": "Wariancja z próby ze współczynnikiem $1/n$ jest estymatorem obciążonym. Aby uzyskać nieobciążoność, stosuje się współczynnik $1/(n-1)$, co nazywamy poprawką Bessela. W obu przypadkach estymatory te są zgodne (dążą do $\\sigma^2$ przy dużym $n$)."
+  },
+  {
+    "sekcja": "Wnioskowanie statystyczne",
+    "zagadnienie": "12. Błąd standardowy estymatora.",
+    "opracowanie": "Błąd standardowy (SE) to odchylenie standardowe rozkładu estymatora. Informuje on, jak bardzo oceny parametru różniłyby się, gdybyśmy wielokrotnie powtarzali losowanie próby o tej samej wielkości. Dla średniej $SE = \\sigma/\\sqrt{n}$."
+  },
+  {
+    "sekcja": "Wnioskowanie statystyczne",
+    "zagadnienie": "13. Estymatory największej wiarygodności (MLE).",
+    "opracowanie": "Metoda MLE polega na wyborze takiej wartości parametru $\\theta$, która maksymalizuje funkcję wiarygodności $L(\\theta)$, czyli prawdopodobieństwo (lub gęstość) uzyskania dokładnie takich danych, jakie zaobserwowaliśmy w próbie. Estymatory MLE są zazwyczaj zgodne i asymptotycznie najefektywniejsze."
+  },
+  {
+    "sekcja": "Wnioskowanie statystyczne",
+    "zagadnienie": "14. Estymatory metody momentów (MM).",
+    "opracowanie": "Metoda momentów polega na przyrównaniu $k$ pierwszych momentów teoretycznych (zależnych od $\\theta$) do odpowiadających im momentów z próby. Następnie rozwiązuje się układ równań względem $\\theta$. Metoda ta jest zazwyczaj prostsza obliczeniowo niż MLE, ale często daje estymatory o większej wariancji."
+  },{
+    "sekcja": "Wnioskowanie statystyczne",
+    "zagadnienie": "15. Przedziały ufności dla rozkładów ciągłych i dyskretnych.",
+    "opracowanie": "Przedział ufności to losowy przedział $[L, U]$, który z zadanym prawdopodobieństwem $1-\\alpha$ (poziom ufności) pokrywa nieznaną wartość parametru $\\theta$. Dla rozkładów ciągłych szukamy statystyki o znanym rozkładzie (tzw. funkcja centralna). Dla rozkładów dyskretnych (np. frakcji) często stosuje się przybliżenia rozkładem normalnym dla dużych prób."
+  },
+  {
+    "sekcja": "Wnioskowanie statystyczne",
+    "zagadnienie": "16. Przedziały ufności dla średniej w rozkładzie normalnym o znanej wariancji.",
+    "opracowanie": "Gdy znamy $\\sigma$, przedział ufności dla $\\mu$ wyznaczamy ze wzoru: $\\bar{X} \\pm z_{1-\\alpha/2} \\cdot \\frac{\\sigma}{\\sqrt{n}}$, gdzie $z_{1-\\alpha/2}$ to kwantyl standardowego rozkładu normalnego. Szerokość przedziału zależy od poziomu ufności, odchylenia standardowego i wielkości próby."
+  },
+  {
+    "sekcja": "Wnioskowanie statystyczne",
+    "zagadnienie": "17. Statystyka T. Rozkład t (Studenta) - podstawowe własności, ale bez dokładnego wzoru na gęstość.",
+    "opracowanie": "Statystyka $T = \\frac{\\bar{X} - \\mu}{S/\\sqrt{n}}$ ma rozkład t-Studenta z $n-1$ stopniami swobody. Rozkład ten jest symetryczny względem zera i dzwonowaty (podobnie jak normalny), ale ma 'grubsze ogony', co uwzględnia dodatkową niepewność wynikającą z szacowania wariancji z próby. Dla $n \\to \\infty$ dąży do rozkładu $N(0, 1)$."
+  },
+  {
+    "sekcja": "Wnioskowanie statystyczne",
+    "zagadnienie": "18. Przedziały ufności dla średniej w rozkładzie normalnym o nieznanej wariancji.",
+    "opracowanie": "Gdy $\\sigma$ jest nieznane, stosujemy odchylenie standardowe z próby $S$ i rozkład t-Studenta: $\\bar{X} \\pm t_{1-\\alpha/2, n-1} \\cdot \\frac{S}{\\sqrt{n}}$. Przedział ten jest zazwyczaj szerszy niż w przypadku znanej wariancji, co odzwierciedla mniejszą wiedzę o populacji."
+  },
+  {
+    "sekcja": "Wnioskowanie statystyczne",
+    "zagadnienie": "19. Statystyka $\\chi^2$. Przedział ufności dla wariancji w rozkładzie normalnym.",
+    "opracowanie": "Wariancja z próby (odpowiednio przeskalowana) ma rozkład chi-kwadrat: $\\frac{(n-1)S^2}{\\sigma^2} \\sim \\chi^2_{n-1}$. Przedział ufności dla $\\sigma^2$ konstruuje się jako $\\left[ \\frac{(n-1)S^2}{\\chi^2_{1-\\alpha/2, n-1}}, \\frac{(n-1)S^2}{\\chi^2_{\\alpha/2, n-1}} \\right]$. Rozkład ten jest asymetryczny i przyjmuje tylko wartości nieujemne."
+  },
+  {
+    "sekcja": "Wnioskowanie statystyczne",
+    "zagadnienie": "20. Hipotezy statystyczne. Testowanie hipotezy zerowej przeciwko hipotezie alternatywnej.",
+    "opracowanie": "Hipoteza zerowa $H_0$ to założenie o braku efektu lub różnicy, które chcemy sprawdzić. Hipoteza alternatywna $H_1$ to zaprzeczenie $H_0$. Test polega na podjęciu decyzji o odrzuceniu lub braku podstaw do odrzucenia $H_0$ na podstawie danych z próby."
+  },
+  {
+    "sekcja": "Wnioskowanie statystyczne",
+    "zagadnienie": "21. Zbiór krytyczny testu.",
+    "opracowanie": "Zbiór krytyczny to obszar wartości statystyki testowej, których wystąpienie prowadzi do odrzucenia $H_0$. Jego wielkość zależy od przyjętego poziomu istotności $\\alpha$, a jego położenie (jedno- lub dwustronne) od sformułowania hipotezy alternatywnej."
+  },
+  {
+    "sekcja": "Wnioskowanie statystyczne",
+    "zagadnienie": "22. Błędy pierwszego i drugiego rodzaju - poziom istotności i moc testu.",
+    "opracowanie": "Błąd I rodzaju: odrzucenie prawdziwej $H_0$ (prawdopodobieństwo $\\alpha$). Błąd II rodzaju: nieodrzucenie fałszywej $H_0$ (prawdopodobieństwo $\\beta$). Moc testu to $1-\\beta$, czyli zdolność testu do wykrycia fałszywości $H_0$."
+  },
+  {
+    "sekcja": "Wnioskowanie statystyczne",
+    "zagadnienie": "23. p-wartości.",
+    "opracowanie": "p-wartość (p-value) to najmniejszy poziom istotności, przy którym zaobserwowana wartość statystyki testowej prowadziłaby do odrzucenia $H_0$. Jeśli p-wartość $\\leq \\alpha$, odrzucamy $H_0$. Pozwala ona ocenić siłę dowodów przeciwko $H_0$ bez sztywnego ustalania zbioru krytycznego."
+  },
+  {
+    "sekcja": "Wnioskowanie statystyczne",
+    "zagadnienie": "24. Test dla wartości średniej przy znanej wariancji w rozkładzie normalnym (test z).",
+    "opracowanie": "Stosowany, gdy badamy średnią $\\mu$ i znamy $\\sigma$. Statystyka testowa: $Z = \\frac{\\bar{X} - \\mu_0}{\\sigma/\\sqrt{n}}$. Przy prawdziwej $H_0$ ma ona rozkład $N(0, 1)$. Pozwala na weryfikację, czy średnia populacyjna istotnie różni się od zakładanej wartości $\\mu_0$."
+  },
+  {
+    "sekcja": "Wnioskowanie statystyczne",
+    "zagadnienie": "25. Test dla wartości średniej przy nieznanej wariancji w rozkładzie normalnym (test t).",
+    "opracowanie": "Najczęściej stosowany test dla jednej średniej. Statystyka $T = \\frac{\\bar{X} - \\mu_0}{S/\\sqrt{n}}$ ma rozkład t-Studenta. Używany w badaniach naukowych do sprawdzania istotności różnic, gdy nie dysponujemy parametrami całej populacji."
+  },
+  {
+    "sekcja": "Wnioskowanie statystyczne",
+    "zagadnienie": "26. Porównywanie wartości średnich w dwóch populacjach o rozkładzie normalnym.",
+    "opracowanie": "Testuje się hipotezę $H_0: \\mu_1 = \\mu_2$. W zależności od tego, czy wariancje są znane, czy nie (oraz czy są równe), stosuje się odpowiednie warianty testu z lub testu t dla dwóch prób (np. test Welcha w przypadku nierównych wariancji)."
+  },
+  {
+    "sekcja": "Wnioskowanie statystyczne",
+    "zagadnienie": "27. Porównywanie wariancji w dwóch populacjach o rozkładzie normalnym (test F).",
+    "opracowanie": "Służy do sprawdzenia $H_0: \\sigma_1^2 = \\sigma_2^2$. Statystyka testowa to iloraz wariancji z prób: $F = S_1^2 / S_2^2$. Ma ona rozkład F Snedecora. Test ten jest bardzo wrażliwy na założenie o normalności rozkładów w populacjach."
+  },
+  {
+    "sekcja": "Wnioskowanie statystyczne",
+    "zagadnienie": "28. Testy zgodności (test $\\chi^2$ Pearsona).",
+    "opracowanie": "Służą do sprawdzenia, czy dane z próby pochodzą z konkretnego rozkładu teoretycznego. Statystyka opiera się na różnicach między liczebnościami obserwowanymi a oczekiwanymi: $\\sum \\frac{(O_i - E_i)^2}{E_i}$. Przy dużej próbie ma rozkład $\\chi^2$ z liczbą stopni swobody zależną od liczby kategorii."
+  },
+  {
+    "sekcja": "Analiza zależności zmiennych losowych",
+    "zagadnienie": "1. Funkcja regresji.",
+    "opracowanie": "Funkcja regresji opisuje, jak średnia wartość zmiennej objaśnianej $Y$ zmienia się w zależności od wartości zmiennej objaśniającej $X$. Matematycznie jest to warunkowa wartość oczekiwana $E(Y|X=x)$."
+  },
+  {
+    "sekcja": "Analiza zależności zmiennych losowych",
+    "zagadnienie": "2. Przedmiot uczenia statystycznego z nadzorem.",
+    "opracowanie": "Uczenie z nadzorem polega na poszukiwaniu zależności między cechami wejściowymi (predyktorami) a znaną etykietą (wyjściem). Na podstawie zestawu treningowego model uczy się przewidywać wartości dla nowych, nieznanych danych."
+  },
+  {
+    "sekcja": "Analiza zależności zmiennych losowych",
+    "zagadnienie": "3. Zadanie uczenia statystycznego z nadzorem.",
+    "opracowanie": "Zadaniem jest znalezienie funkcji $f(x)$, która najlepiej przybliża rzeczywistą zależność $Y = f(x) + \\epsilon$, minimalizując przy tym błąd predykcji na danych testowych."
+  },
+  {
+    "sekcja": "Analiza zależności zmiennych losowych",
+    "zagadnienie": "4. Cele uczenia statystycznego z nadzorem.",
+    "opracowanie": "Główne cele to: 1) Predykcja – dokładne przewidywanie wartości $Y$ dla nowego $X$, 2) Inferencja – zrozumienie charakteru związku między $X$ a $Y$ (np. czy wzrost $X$ powoduje wzrost $Y$)."
+  },
+  {
+    "sekcja": "Analiza zależności zmiennych losowych",
+    "zagadnienie": "5. Model zależności liniowej. Prosta regresja liniowa.",
+    "opracowanie": "Zakłada związek postaci $Y = \beta_0 + \beta_1 X + \\epsilon$. $\beta_0$ to wyraz wolny (punkt przecięcia z osią $Y$), a $\beta_1$ to współczynnik kierunkowy (nachylenie linii), pokazujący o ile zmieni się $Y$, gdy $X$ wzrośnie o jednostkę."
+  },
+  {
+    "sekcja": "Analiza zależności zmiennych losowych",
+    "zagadnienie": "6. Metoda najmniejszych kwadratów (MNK): sformułowanie i algorytm uczenia.",
+    "opracowanie": "MNK polega na wyznaczeniu parametrów $\\beta$, które minimalizują sumę kwadratów różnic między wartościami rzeczywistymi a przewidywanymi przez model liniowy: $RSS = \\sum (y_i - \\hat{y}_i)^2$."
+  },
+  {
+    "sekcja": "Analiza zależności zmiennych losowych",
+    "zagadnienie": "7. Własności estymatorów parametrów regresji.",
+    "opracowanie": "Estymatory uzyskane metodą MNK są nieobciążone i (według twierdzenia Gaussa-Markowa) mają najmniejszą wariancję wśród wszystkich liniowych estymatorów nieobciążonych, jeśli błędy mają stałą wariancję i zerową wartość oczekiwaną."
+  },
+  {
+    "sekcja": "Analiza zależności zmiennych losowych",
+    "zagadnienie": "8. Przedziały ufności i testy dla współczynników regresji.",
+    "opracowanie": "Najczęściej testuje się $H_0: \beta_1 = 0$ (brak zależności). Jeśli odrzucimy $H_0$, oznacza to, że zmienna $X$ ma istotny wpływ na $Y$. Do weryfikacji używa się statystyki $t$ i rozkładu Studenta."
+  },
+  {
+    "sekcja": "Analiza zależności zmiennych losowych",
+    "zagadnienie": "9. Statystyki stosowane do oceny jakości dopasowania modelu prostej regresji liniowej.",
+    "opracowanie": "Kluczowe miary to: 1) Współczynnik determinacji $R^2$ (procent wyjaśnionej zmienności $Y$), 2) Błąd standardowy regresji (RSE) – miara przeciętnego odchylenia punktów od linii regresji."
+  },
+  {
+    "sekcja": "Podstawy łańcuchów Markowa",
+    "zagadnienie": "1. Definicja procesu stochastycznego. Czas i przestrzeń stanów.",
+    "opracowanie": "Proces stochastyczny to rodzina zmiennych losowych indeksowanych czasem. Przestrzeń stanów to zbiór wszystkich możliwych wartości (stanów), w jakich może znajdować się system w danym momencie."
+  },
+  {
+    "sekcja": "Podstawy łańcuchów Markowa",
+    "zagadnienie": "2. Łańcuch Markowa: definicja, prawdopodobieństwo przejścia, rozkłady łączne. Jednorodne łańcuchy Markowa.",
+    "opracowanie": "System, w którym przyszły stan zależy wyłącznie od stanu obecnego, a nie od przeszłości (brak pamięci). Łańcuch jest jednorodny, jeśli prawdopodobieństwa przejścia między stanami nie zmieniają się w czasie."
+  },
+  {
+    "sekcja": "Podstawy łańcuchów Markowa",
+    "zagadnienie": "3. Prawdopodobieństwo przejścia w n krokach i równanie Chapmana-Kołmogorowa.",
+    "opracowanie": "Równanie to pozwala obliczyć prawdopodobieństwo przejścia ze stanu $i$ do $j$ w $n$ krokach poprzez sumowanie ścieżek przechodzących przez stany pośrednie. Macierzowo: $P^{(n)} = P^n$."
+  },
+  {
+    "sekcja": "Podstawy łańcuchów Markowa",
+    "zagadnienie": "4. Macierze przejścia i ich własności.",
+    "opracowanie": "Macierz stochastyczna, w której wiersze sumują się do 1. Element $p_{ij}$ to prawdopodobieństwo przejścia ze stanu $i$ do stanu $j$ w jednym kroku."
+  },
+  {
+    "sekcja": "Podstawy łańcuchów Markowa",
+    "zagadnienie": "5. Relacje osiągalności i komunikacji.",
+    "opracowanie": "Stan $j$ jest osiągalny z $i$, jeśli istnieje ścieżka o dodatnim prawdopodobieństwie. Jeśli $i$ jest osiągalne z $j$ i na odwrót, mówimy, że stany się komunikują. Pozwala to na podział przestrzeni na klasy komunikujące się."
+  },
+  {
+    "sekcja": "Podstawy łańcuchów Markowa",
+    "zagadnienie": "6. Klasyfikacja stanów łańcucha Markowa.",
+    "opracowanie": "Stany dzielimy na powracające (zawsze do nich wrócimy) oraz chwilowe (istnieje szansa, że system opuści je na zawsze). Dodatkowo wyróżniamy stany absorbujące, z których nie da się wyjść."
+  },
+  {
+    "sekcja": "Podstawy łańcuchów Markowa",
+    "zagadnienie": "7. Rozkłady stacjonarne łańcuchów nieredukowalnych i ergodycznych.",
+    "opracowanie": "Rozkład stacjonarny $/\\pi$ to taki, który nie zmienia się po wykonaniu kroku procesu ($/\\pi P = \\pi$). W łańcuchach ergodycznych system dąży do tego rozkładu niezależnie od stanu początkowego."
+  },
+  {
+    "sekcja": "Podstawy łańcuchów Markowa",
+    "zagadnienie": "8. Algorytm PageRank.",
+    "opracowanie": "Zastosowanie łańcuchów Markowa do oceny ważności stron WWW. PageRank to prawdopodobieństwo znalezienia się na danej stronie przez 'losowego surfera' w stanie stacjonarnym, przy założeniu stałego prawdopodobieństwa 'teleportacji' na losową stronę."
+  }
+  
+]
