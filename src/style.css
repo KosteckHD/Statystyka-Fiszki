@@ -1,0 +1,238 @@
+:root {
+  font-family: 'Inter', system-ui, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #0f172a;
+  background-color: #f8fafc;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #e0f2fe 0%, #f8fafc 45%, #f1f5f9 100%);
+  color: inherit;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.topbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  line-height: 1.1;
+}
+
+.subtitle {
+  margin: 0.4rem 0 0;
+  color: #475569;
+}
+
+.deck {
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  font-weight: 600;
+  color: #0f172a;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+}
+
+main {
+  display: grid;
+  gap: 2rem;
+}
+
+.card-area {
+  display: grid;
+  place-items: center;
+  gap: 1rem;
+}
+
+.card {
+  width: min(700px, 100%);
+  height: 450px;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  perspective: 1200px;
+}
+
+.card:focus-visible {
+  outline: 3px solid #38bdf8;
+  border-radius: 24px;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 24px;
+  transform-style: preserve-3d;
+  transition: transform 0.6s ease;
+  box-shadow: 0 25px 60px rgba(15, 23, 42, 0.2);
+}
+
+.card-inner.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.card-face {
+  position: absolute;
+  inset: 0;
+  border-radius: 24px;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  backface-visibility: hidden;
+  background: #ffffff;
+  overflow-y: auto;
+}
+
+.card-front {
+  border: 1px solid #e2e8f0;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  background: #0f172a;
+  color: #f8fafc;
+}
+
+.label {
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: inherit;
+  opacity: 0.6;
+}
+
+.card-front .label {
+  color: #64748b;
+}
+
+.card-front h2 {
+  margin: 0;
+  font-size: 1.75rem;
+}
+
+.card-back p {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.hint {
+  margin: 0;
+  color: #64748b;
+  font-size: 0.95rem;
+}
+
+.controls {
+  display: grid;
+  gap: 1.25rem;
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 20px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+.buttons.secondary button {
+  background: #f1f5f9;
+  color: #0f172a;
+}
+
+button {
+  border-radius: 999px;
+  border: 1px solid transparent;
+  padding: 0.7rem 1.6rem;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: inherit;
+  background: #0f172a;
+  color: #f8fafc;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+button.primary {
+  background: linear-gradient(135deg, #38bdf8, #6366f1);
+  color: #0f172a;
+}
+
+button:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.2);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.status {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  color: #475569;
+}
+
+@media (max-width: 640px) {
+  .card {
+    height: 380px;
+  }
+
+  .card-face {
+    padding: 2rem 1.5rem;
+  }
+}
+.card-question{
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #0f172a;
+  line-height: 1.4;
+}
+.card-answer{
+  font-size: 1.05rem;
+  color: #f8fafc;
+  line-height: 1.7;
+  text-align: left;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
