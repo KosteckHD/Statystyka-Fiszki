@@ -1,0 +1,1493 @@
+[
+  {
+    "question": "Kto w latach 70. XX wieku opracował model relacyjny danych?",
+    "options": [
+      "Alan Turing",
+      "E.F. Codd",
+      "Bill Gates",
+      "James Gosling"
+    ],
+    "correctAns": "E.F. Codd"
+  },
+  {
+    "question": "Zgodnie z postulatem informacyjnym Codda, w jakiej postaci reprezentowane są wszystkie informacje w bazie danych?",
+    "options": [
+      "W postaci plików tekstowych",
+      "W postaci drzew binarnych",
+      "W postaci logicznych tabel",
+      "W postaci obiektów i klas"
+    ],
+    "correctAns": "W postaci logicznych tabel"
+  },
+  {
+    "question": "Co oznacza 'Postulat fizycznej niezależności danych'?",
+    "options": [
+      "Dane muszą być fizycznie odizolowane od serwera",
+      "Sposób przechowywania danych nie może mieć wpływu na aplikacje klienckie",
+      "Każdy użytkownik musi mieć własną fizyczną kopię bazy danych",
+      "Dane nie mogą być przenoszone między dyskami"
+    ],
+    "correctAns": "Sposób przechowywania danych nie może mieć wpływu na aplikacje klienckie"
+  },
+  {
+    "question": "Jak serwer bazodanowy powinien traktować wartość NULL według postulatów Codda?",
+    "options": [
+      "Jako wartość zero (0)",
+      "Jako pusty ciąg znaków (\"\")",
+      "Jako brakującą informację, w sposób spójny",
+      "Jako błąd krytyczny systemu"
+    ],
+    "correctAns": "Jako brakującą informację, w sposób spójny"
+  },
+  {
+    "question": "Gdzie w systemie SZBD przechowywane są metadane (informacje o strukturze bazy danych)?",
+    "options": [
+      "W kodzie źródłowym aplikacji",
+      "W katalogu (słowniku) bazy danych",
+      "Tylko w pamięci RAM serwera",
+      "W osobnych plikach konfiguracyjnych XML"
+    ],
+    "correctAns": "W katalogu (słowniku) bazy danych"
+  },
+  {
+    "question": "Która własność transakcji gwarantuje, że zostaną wykonane albo wszystkie jej operacje, albo żadna?",
+    "options": [
+      "Izolacja",
+      "Trwałość",
+      "Niepodzielność (atomowość)",
+      "Spójność"
+    ],
+    "correctAns": "Niepodzielność (atomowość)"
+  },
+  {
+    "question": "Czym jest 'mini-świat' (dziedzina problemu) w kontekście bazy danych?",
+    "options": [
+      "Małą bazą danych o rozmiarze poniżej 1 GB",
+      "Wybranym aspektem świata rzeczywistego reprezentowanym przez bazę",
+      "Środowiskiem testowym dla programistów",
+      "Wirtualną maszyną, na której działa SZBD"
+    ],
+    "correctAns": "Wybranym aspektem świata rzeczywistego reprezentowanym przez bazę"
+  },
+  {
+    "question": "Co zapewnia 'izolacja' w wielodostępnym systemie zarządzania bazą danych?",
+    "options": [
+      "Blokowanie dostępu dla wszystkich użytkowników zewnętrznych",
+      "Wykonywanie transakcji w separacji od pozostałych, równoległych transakcji",
+      "Przechowywanie danych na odizolowanych serwerach",
+      "Szyfrowanie połączenia z bazą danych"
+    ],
+    "correctAns": "Wykonywanie transakcji w separacji od pozostałych, równoległych transakcji"
+  },
+  {
+    "question": "Która z wymienionych opcji jest zaletą stosowania SZBD wymienioną w wykładzie?",
+    "options": [
+      "Zwiększenie nadmiarowości danych dla bezpieczeństwa",
+      "Wymuszanie więzów integralności",
+      "Rezygnacja z kluczy podstawowych",
+      "Brak konieczności tworzenia kopii zapasowych"
+    ],
+    "correctAns": "Wymuszanie więzów integralności"
+  },
+  {
+    "question": "Co to jest 'perspektywa' (view) w systemie bazy danych?",
+    "options": [
+      "Fizyczna kopia całej bazy danych",
+      "Podzbiór bazy danych dostosowany do potrzeb konkretnego użytkownika",
+      "Schemat graficzny przedstawiający relacje",
+      "Narzędzie do monitorowania obciążenia procesora"
+    ],
+    "correctAns": "Podzbiór bazy danych dostosowany do potrzeb konkretnego użytkownika"
+  }
+,
+  {
+    "question": "Czym jest 'schemat bazy danych' (database schema)?",
+    "options": [
+      "Zbiorem aktualnych danych w tabelach",
+      "Opisem struktury bazy danych (metadanymi)",
+      "Procesem tworzenia kopii zapasowej",
+      "Listą użytkowników uprawnionych do bazy"
+    ],
+    "correctAns": "Opisem struktury bazy danych (metadanymi)"
+  },
+  {
+    "question": "Co to jest 'egzemplarz bazy danych' (database instance)?",
+    "options": [
+      "Wersja oprogramowania SZBD",
+      "Dane zawarte w bazie w konkretnym momencie",
+      "Instrukcja obsługi bazy danych",
+      "Unikalny klucz główny tabeli"
+    ],
+    "correctAns": "Dane zawarte w bazie w konkretnym momencie"
+  },
+  {
+    "question": "Który poziom trójpoziomowej architektury SZBD opisuje fizyczną strukturę przechowywania danych?",
+    "options": [
+      "Poziom zewnętrzny (widoki)",
+      "Poziom koncepcyjny",
+      "Poziom wewnętrzny",
+      "Poziom logiki biznesowej"
+    ],
+    "correctAns": "Poziom wewnętrzny"
+  },
+  {
+    "question": "Na czym polega 'Logiczna niezależność danych'?",
+    "options": [
+      "Na możliwości zmiany schematu fizycznego bez zmiany logicznego",
+      "Na możliwości zmiany schematu koncepcyjnego bez konieczności zmiany schematów zewnętrznych (aplikacji)",
+      "Na niezależności bazy danych od systemu operacyjnego",
+      "Na możliwości pracy bez użycia języka SQL"
+    ],
+    "correctAns": "Na możliwości zmiany schematu koncepcyjnego bez konieczności zmiany schematów zewnętrznych (aplikacji)"
+  },
+  {
+    "question": "Język DDL (Data Definition Language) służy do:",
+    "options": [
+      "Wstawiania i usuwania rekordów",
+      "Definiowania schematów bazy danych",
+      "Wykonywania obliczeń matematycznych w zapytaniach",
+      "Zarządzania transakcjami"
+    ],
+    "correctAns": "Definiowania schematów bazy danych"
+  },
+  {
+    "question": "Który model danych typu Big Data opiera się na przechowywaniu informacji w formacie JSON lub XML?",
+    "options": [
+      "Model relacyjny",
+      "Model oparty na dokumentach",
+      "Model grafowy",
+      "Model klucz-wartość"
+    ],
+    "correctAns": "Model oparty na dokumentach"
+  },
+  {
+    "question": "W architekturze klient-serwer, za co odpowiedzialny jest moduł serwera?",
+    "options": [
+      "Za interfejs użytkownika i formatowanie danych",
+      "Za obsługę klawiatury i myszki",
+      "Za przechowywanie danych, dostęp i przeszukiwanie",
+      "Za generowanie raportów w PDF"
+    ],
+    "correctAns": "Za przechowywanie danych, dostęp i przeszukiwanie"
+  },
+  {
+    "question": "Czym charakteryzuje się model obiektowy baz danych?",
+    "options": [
+      "Przechowywaniem danych wyłącznie w płaskich plikach CSV",
+      "Definiowaniem danych w oparciu o obiekty, ich własności i operacje (metody)",
+      "Brakem możliwości łączenia tabel",
+      "Przechowywaniem danych tylko w pamięci RAM"
+    ],
+    "correctAns": "Definiowaniem danych w oparciu o obiekty, ich własności i operacje (metody)"
+  },
+  {
+    "question": "Która kategoria języków bazy danych służy do wyszukiwania i pobierania informacji?",
+    "options": [
+      "DDL",
+      "DML (w tym DQL)",
+      "VDL",
+      "SDL"
+    ],
+    "correctAns": "DML (w tym DQL)"
+  },
+  {
+    "question": "Co oznacza, że system SZBD jest 'heterogeniczny'?",
+    "options": [
+      "Wszystkie węzły używają tego samego oprogramowania SZBD",
+      "Dane są przechowywane tylko na jednym dysku",
+      "Używa różnych systemów SZBD w różnych węzłach sieci",
+      "Obsługuje tylko jednego użytkownika naraz"
+    ],
+    "correctAns": "Używa różnych systemów SZBD w różnych węzłach sieci"
+  },
+  {
+    "question": "Jak w formalnej terminologii relacyjnego modelu danych nazywamy 'wiersz' w tabeli?",
+    "options": [
+      "Atrybut",
+      "Krotka (tuple)",
+      "Domena",
+      "Relacja"
+    ],
+    "correctAns": "Krotka (tuple)"
+  },
+  {
+    "question": "Co określa 'stopień' (degree) relacji?",
+    "options": [
+      "Liczba wierszy w tabeli",
+      "Liczba atrybutów (kolumn) w schemacie relacji",
+      "Maksymalna liczba znaków w komórce",
+      "Liczba kluczy obcych"
+    ],
+    "correctAns": "Liczba atrybutów (kolumn) w schemacie relacji"
+  },
+  {
+    "question": "Czym charakteryzuje się 'superklucz' (superkey)?",
+    "options": [
+      "Zbiorem atrybutów, który pozwala jednoznacznie zidentyfikować każdą krotkę",
+      "Atrybutem, który musi mieć wartość numeryczną",
+      "Najmniejszym możliwym zbiorem atrybutów identyfikującym wiersz",
+      "Zbiorem atrybutów, który dopuszcza wartości NULL"
+    ],
+    "correctAns": "Zbiorem atrybutów, który pozwala jednoznacznie zidentyfikować każdą krotkę"
+  },
+  {
+    "question": "Jaka jest główna różnica między kluczem (key) a superkluczem?",
+    "options": [
+      "Klucz może zawierać wartości NULL, a superklucz nie",
+      "Klucz jest minimalnym superkluczem (usunięcie dowolnego atrybutu powoduje utratę unikatowości)",
+      "Superklucz jest zawsze kluczem głównym",
+      "Nie ma żadnej różnicy, to synonimy"
+    ],
+    "correctAns": "Klucz jest minimalnym superkluczem (usunięcie dowolnego atrybutu powoduje utratę unikatowości)"
+  },
+  {
+    "question": "Zasada integralności encji (Entity Integrity) mówi, że:",
+    "options": [
+      "Klucz obcy nie może być pusty",
+      "Żaden atrybut klucza głównego nie może przyjmować wartości NULL",
+      "Każda tabela musi mieć przynajmniej 10 rekordów",
+      "Relacje muszą być połączone w pary"
+    ],
+    "correctAns": "Żaden atrybut klucza głównego nie może przyjmować wartości NULL"
+  },
+  {
+    "question": "Więzy integralności referencyjnej dotyczą relacji pomiędzy:",
+    "options": [
+      "Dwoma kluczami głównymi w tej samej tabeli",
+      "Kluczem obcym a kluczem głównym (lub kluczem unikatowym) innej relacji",
+      "Nazwą tabeli a jej rozmiarem na dysku",
+      "Użytkownikiem a hasłem do bazy"
+    ],
+    "correctAns": "Kluczem obcym a kluczem głównym (lub kluczem unikatowym) innej relacji"
+  },
+  {
+    "question": "Na czym polega opcja 'CASCADE' przy usuwaniu krotki, do której odwołują się inne tabele?",
+    "options": [
+      "Baza danych blokuje operację usunięcia",
+      "Automatycznie usuwane są również wszystkie krotki, które odwoływały się do usuwanego elementu",
+      "Wartości odwołujące się są zmieniane na NULL",
+      "Użytkownik otrzymuje ostrzeżenie, ale dane pozostają nienaruszone"
+    ],
+    "correctAns": "Automatycznie usuwane są również wszystkie krotki, które odwoływały się do usuwanego elementu"
+  },
+  {
+    "question": "Co się dzieje w przypadku zastosowania opcji 'RESTRICT' podczas próby usunięcia rekordu?",
+    "options": [
+      "Rekord jest usuwany bez sprawdzania powiązań",
+      "Operacja usunięcia zostaje odrzucona, jeśli istnieją powiązane z nią rekordy",
+      "System zawiesza się do czasu ręcznej interwencji admina",
+      "Wszystkie powiązane rekordy są przenoszone do tabeli archiwalnej"
+    ],
+    "correctAns": "Operacja usunięcia zostaje odrzucona, jeśli istnieją powiązane z nią rekordy"
+  },
+  {
+    "question": "Która operacja może naruszyć integralność encji, jeśli spróbujemy wstawić wartość NULL w kolumnie PK?",
+    "options": [
+      "SELECT",
+      "INSERT",
+      "DELETE",
+      "CREATE VIEW"
+    ],
+    "correctAns": "INSERT"
+  },
+  {
+    "question": "Czym jest 'domena' w kontekście atrybutu?",
+    "options": [
+      "Adresem URL serwera bazy danych",
+      "Zbiorem dopuszczalnych, atomowych wartości dla danego atrybutu",
+      "Uprawnieniami użytkownika do tabeli",
+      "Fizycznym rozmiarem pliku bazy danych"
+    ],
+    "correctAns": "Zbiorem dopuszczalnych, atomowych wartości dla danego atrybutu"
+  },{
+    "question": "Która grupa poleceń SQL służy do definiowania schematów, typów atrybutów oraz warunków integralności?",
+    "options": [
+      "DML (Data Manipulation Language)",
+      "DDL (Data Definition Language)",
+      "DCL (Data Control Language)",
+      "TCL (Transaction Control Language)"
+    ],
+    "correctAns": "DDL (Data Definition Language)"
+  },
+  {
+    "question": "Czym różni się typ danych CHAR(n) od VARCHAR(n)?",
+    "options": [
+      "CHAR(n) służy tylko do cyfr, a VARCHAR(n) do liter",
+      "CHAR(n) ma stałą długość, a VARCHAR(n) zmienną długość (do n znaków)",
+      "VARCHAR(n) nie może przechowywać spacji",
+      "Nie ma między nimi żadnej różnicy w standardzie SQL"
+    ],
+    "correctAns": "CHAR(n) ma stałą długość, a VARCHAR(n) zmienną długość (do n znaków)"
+  },
+  {
+    "question": "Jaka jest główna różnica między więzami PRIMARY KEY a UNIQUE?",
+    "options": [
+      "UNIQUE pozwala na wartości NULL, a PRIMARY KEY nie",
+      "PRIMARY KEY można nadać wielu kolumnom, a UNIQUE tylko jednej",
+      "UNIQUE automatycznie usuwa duplikaty przy SELECT",
+      "PRIMARY KEY służy tylko do liczb, a UNIQUE do tekstów"
+    ],
+    "correctAns": "UNIQUE pozwala na wartości NULL, a PRIMARY KEY nie"
+  },
+  {
+    "question": "Które polecenie służy do usunięcia całej tabeli wraz z jej strukturą z bazy danych?",
+    "options": [
+      "DELETE TABLE",
+      "REMOVE TABLE",
+      "DROP TABLE",
+      "TRUNCATE TABLE"
+    ],
+    "correctAns": "DROP TABLE"
+  },
+  {
+    "question": "Jak za pomocą polecenia ALTER TABLE dodać nową kolumnę do istniejącej tabeli?",
+    "options": [
+      "ALTER TABLE nazwa_tabeli ADD nazwa_kolumny typ_danych",
+      "ALTER TABLE nazwa_tabeli INSERT nazwa_kolumny",
+      "UPDATE TABLE nazwa_tabeli ADD nazwa_kolumny",
+      "MODIFY TABLE nazwa_tabeli APPEND nazwa_kolumny"
+    ],
+    "correctAns": "ALTER TABLE nazwa_tabeli ADD nazwa_kolumny typ_danych"
+  },
+  {
+    "question": "Co definiuje klauzula DEFAULT przy tworzeniu tabeli?",
+    "options": [
+      "Wartość, która zostanie wstawiona, jeśli użytkownik nie poda innej",
+      "Maksymalny rozmiar kolumny",
+      "Wymóg, aby kolumna nie była pusta",
+      "Nazwę klucza głównego"
+    ],
+    "correctAns": "Wartość, która zostanie wstawiona, jeśli użytkownik nie poda innej"
+  },
+  {
+    "question": "Który typ danych w SQL najlepiej nadaje się do przechowywania kwot pieniężnych z określoną precyzją (np. 8 cyfr, w tym 2 po przecinku)?",
+    "options": [
+      "INTEGER",
+      "FLOAT",
+      "NUMERIC(8,2)",
+      "VARCHAR(10)"
+    ],
+    "correctAns": "NUMERIC(8,2)"
+  },
+  {
+    "question": "Więzy integralności referencyjnej (FOREIGN KEY) zapewniają, że:",
+    "options": [
+      "Wartość w kolumnie musi występować w kluczu głównym innej (lub tej samej) tabeli",
+      "Wszystkie wartości w kolumnie są unikatowe",
+      "Tabela nie może zawierać więcej niż 1000 rekordów",
+      "Dostęp do danych mają tylko administratorzy"
+    ],
+    "correctAns": "Wartość w kolumnie musi występować w kluczu głównym innej (lub tej samej) tabeli"
+  },
+  {
+    "question": "Które z poniższych poleceń usunie wszystkie wiersze z tabeli, ale pozostawi jej strukturę?",
+    "options": [
+      "DROP TABLE",
+      "DELETE FROM nazwa_tabeli",
+      "ALTER TABLE nazwa_tabeli REMOVE ALL",
+      "CLEAN TABLE"
+    ],
+    "correctAns": "DELETE FROM nazwa_tabeli"
+  },
+  {
+    "question": "Gdzie w poleceniu CREATE TABLE można zadeklarować klucz główny?",
+    "options": [
+      "Tylko bezpośrednio przy definicji kolumny",
+      "Tylko na końcu, po definicji wszystkich kolumn",
+      "Zarówno przy kolumnie, jak i jako oddzielny element (constraint) na końcu",
+      "Tylko w osobnym poleceniu ALTER TABLE"
+    ],
+    "correctAns": "Zarówno przy kolumnie, jak i jako oddzielny element (constraint) na końcu"
+  },{
+    "question": "Jak nazywamy atrybut, który można podzielić na mniejsze, niezależne podgrupy (np. Adres na Ulicę, Miasto, Kod)?",
+    "options": [
+      "Atrybut wielowartościowy",
+      "Atrybut złożony",
+      "Atrybut pochodny",
+      "Atrybut klucza"
+    ],
+    "correctAns": "Atrybut złożony"
+  },
+  {
+    "question": "Co na diagramie ER (notacja zbliżona do Chena) reprezentuje podwójna elipsa?",
+    "options": [
+      "Słaby typ encji",
+      "Atrybut pochodny",
+      "Atrybut wielowartościowy",
+      "Związek identyfikujący"
+    ],
+    "correctAns": "Atrybut wielowartościowy"
+  },
+  {
+    "question": "Przykładem atrybutu pochodnego (wywodzonego) według materiałów z wykładu jest:",
+    "options": [
+      "Numer PESEL",
+      "Wiek (wyliczany z daty urodzenia)",
+      "Kolor samochodu",
+      "Stopień naukowy"
+    ],
+    "correctAns": "Wiek (wyliczany z daty urodzenia)"
+  },
+  {
+    "question": "Zgodnie z wykładem, na którym etapie wybierany jest 'klucz główny' (Primary Key)?",
+    "options": [
+      "Bezpośrednio w modelu ER",
+      "Podczas analizy wymagań funkcjonalnych",
+      "Dopiero na etapie odwzorowania modelu ER w schemat relacyjny",
+      "Na etapie projektowania fizycznego"
+    ],
+    "correctAns": "Dopiero na etapie odwzorowania modelu ER w schemat relacyjny"
+  },
+  {
+    "question": "Co określa 'stopień' typu związku?",
+    "options": [
+      "Maksymalną liczbę encji w związku",
+      "Liczbę typów encji biorących udział w danym związku",
+      "Liczbę atrybutów przypisanych do związku",
+      "Ważność związku w hierarchii bazy danych"
+    ],
+    "correctAns": "Liczbę typów encji biorących udział w danym związku"
+  },
+  {
+    "question": "Czym charakteryzuje się słaby typ encji?",
+    "options": [
+      "Nie posiada atrybutów tekstowych",
+      "Może mieć tylko jeden atrybut",
+      "Nie posiada własnych atrybutów klucza",
+      "Zawsze posiada klucz obcy"
+    ],
+    "correctAns": "Nie posiada własnych atrybutów klucza"
+  },
+  {
+    "question": "Jak nazywamy zbiór atrybutów, który unikatowo identyfikuje słabe encje powiązane z tą samą encją właścicielską?",
+    "options": [
+      "Superklucz",
+      "Klucz częściowy (dyskryminator)",
+      "Atrybut pochodny",
+      "Klucz obcy"
+    ],
+    "correctAns": "Klucz częściowy (dyskryminator)"
+  },
+  {
+    "question": "Co oznacza 'całkowity udział' (pełny udział) encji w związku (prezentowany jako podwójna linia)?",
+    "options": [
+      "Każda encja danego typu musi uczestniczyć w przynajmniej jednym egzemplarzu związku",
+      "Encja posiada wszystkie możliwe atrybuty",
+      "Związek jest typu M:N",
+      "Encja nie może zostać usunięta z bazy danych"
+    ],
+    "correctAns": "Każda encja danego typu musi uczestniczyć w przynajmniej jednym egzemplarzu związku"
+  },
+  {
+    "question": "W jaki sposób na diagramie ER oznacza się związki identyfikujące (łączące słaby typ encji z właścicielem)?",
+    "options": [
+      "Linią przerywaną",
+      "Podwójnym rombem",
+      "Podwójnym prostokątem",
+      "Pogrubioną strzałką"
+    ],
+    "correctAns": "Podwójnym rombem"
+  },
+  {
+    "question": "Zgodnie z zasadami prawidłowego nazewnictwa, co w opisie wymagań powinno tworzyć nazwy typów związków?",
+    "options": [
+      "Rzeczowniki",
+      "Przymiotniki",
+      "Czasowniki",
+      "Liczebniki"
+    ],
+    "correctAns": "Czasowniki"
+  },{
+    "question": "Czym charakteryzuje się model EER w stosunku do tradycyjnego modelu ER?",
+    "options": [
+      "Jest uproszczoną wersją ER przeznaczoną dla małych baz danych",
+      "Wprowadza pojęcia nadklasy, podklasy oraz dziedziczenia",
+      "Służy wyłącznie do modelowania baz grafowych",
+      "Zastępuje diagramy tabelami relacyjnymi"
+    ],
+    "correctAns": "Wprowadza pojęcia nadklasy, podklasy oraz dziedziczenia"
+  },
+  {
+    "question": "Co podklasa dziedziczy od swojej nadklasy w modelu EER?",
+    "options": [
+      "Tylko klucz główny",
+      "Wszystkie atrybuty oraz wszystkie związki, w których występuje nadklasa",
+      "Jedynie metody dostępu do danych",
+      "Nic – podklasa jest całkowicie niezależnym bytem"
+    ],
+    "correctAns": "Wszystkie atrybuty oraz wszystkie związki, w których występuje nadklasa"
+  },
+  {
+    "question": "Proces identyfikacji wspólnych cech różnych typów encji i tworzenia ogólniejszej nadklasy to:",
+    "options": [
+      "Specjalizacja",
+      "Generalizacja",
+      "Agregacja",
+      "Normalizacja"
+    ],
+    "correctAns": "Generalizacja"
+  },
+  {
+    "question": "Co oznacza symbol 'd' (disjoint) umieszczony w kółku na diagramie EER?",
+    "options": [
+      "Ograniczenie rozłączności – encja nadklasy może należeć do maksymalnie jednej podklasy",
+      "Ograniczenie pokrywania się – encja może należeć do wielu podklas naraz",
+      "Domyślny brak ograniczeń dla podklas",
+      "Obowiązek usunięcia encji z bazy (delete)"
+    ],
+    "correctAns": "Ograniczenie rozłączności – encja nadklasy może należeć do maksymalnie jednej podklasy"
+  },
+  {
+    "question": "Ograniczenie kompletnej (pełnej) specjalizacji, oznaczane podwójną linią, mówi że:",
+    "options": [
+      "Każda encja nadklasy musi należeć do co najmniej jednej podklasy",
+      "Podklasy nie mogą posiadać własnych atrybutów lokalnych",
+      "Wszystkie podklasy muszą mieć te same klucze główne",
+      "Specjalizacja jest zablokowana dla nowych danych"
+    ],
+    "correctAns": "Każda encja nadklasy musi należeć do co najmniej jednej podklasy"
+  },
+  {
+    "question": "Jak nazywamy podklasę, która posiada więcej niż jedną nadklasę?",
+    "options": [
+      "Podklasa prosta",
+      "Podklasa dzielona (shared subclass)",
+      "Podklasa wirtualna",
+      "Kategoria unikalna"
+    ],
+    "correctAns": "Podklasa dzielona (shared subclass)"
+  },
+  {
+    "question": "Czym jest 'kategoria' (typ unii) w modelu EER?",
+    "options": [
+      "Główną tabelą w całej bazie danych",
+      "Podklasą reprezentującą podzbiór sumy (unii) różnych typów encji",
+      "Zbiorem wszystkich atrybutów pochodnych",
+      "Metodą grupowania zapytań SELECT"
+    ],
+    "correctAns": "Podklasą reprezentującą podzbiór sumy (unii) różnych typów encji"
+  },
+  {
+    "question": "Relacja 'IS-A' (JEST-A) opisuje w modelu EER związek między:",
+    "options": [
+      "Nadklasą a jej podklasą",
+      "Tabelą a jej indeksem",
+      "Kluczem głównym a kluczem obcym",
+      "Dwiema encjami w związku wiele-do-wielu"
+    ],
+    "correctAns": "Nadklasą a jej podklasą"
+  },
+  {
+    "question": "W 'specjalizacji zdefiniowanej przez użytkownika' przynależność encji do podklasy:",
+    "options": [
+      "Jest określana automatycznie przez system na podstawie predykatu",
+      "Jest określana przez użytkownika podczas dodawania encji (brak predykatu)",
+      "Wymaga posiadania wartości NULL we wszystkich polach",
+      "Jest niemożliwa do zdefiniowania w modelu koncepcyjnym"
+    ],
+    "correctAns": "Jest określana przez użytkownika podczas dodawania encji (brak predykatu)"
+  },
+  {
+    "question": "Pojęcie agregacji stosuje się, gdy chcemy:",
+    "options": [
+      "Ukryć atrybuty kluczowe przed użytkownikiem",
+      "Przedstawić obiekt złożony z jego elementów składowych jako całość",
+      "Policzyć sumę wartości w kolumnie",
+      "Podzielić dużą tabelę na mniejsze fragmenty fizyczne"
+    ],
+    "correctAns": "Przedstawić obiekt złożony z jego elementów składowych jako całość"
+  },{
+    "question": "W jaki sposób, według kroku 2 algorytmu, tworzony jest klucz główny dla relacji powstałej ze słabego typu encji?",
+    "options": [
+      "Jest to dowolnie wybrany atrybut prosty tej encji",
+      "Składa się z klucza głównego encji właścicielskiej oraz klucza częściowego słabej encji",
+      "System automatycznie generuje numerowaną listę (autoincrement)",
+      "Słaba encja nie posiada klucza głównego w modelu relacyjnym"
+    ],
+    "correctAns": "Składa się z klucza głównego encji właścicielskiej oraz klucza częściowego słabej encji"
+  },
+  {
+    "question": "Które podejście przy odwzorowaniu związku binarnego 1:1 (Krok 3) jest zalecane, gdy udział jednej ze stron jest całkowity?",
+    "options": [
+      "Podejście z relacją związków (osobna tabela)",
+      "Podejście z kluczem obcym (Foreign Key approach)",
+      "Metoda scalenia relacji (Merged relation)",
+      "Metoda klucza unikatowego"
+    ],
+    "correctAns": "Podejście z kluczem obcym (Foreign Key approach)"
+  },
+  {
+    "question": "Gdzie należy umieścić klucz obcy przy odwzorowaniu związku binarnego 1:N (Krok 4)?",
+    "options": [
+      "Po stronie '1' związku",
+      "Po stronie 'N' związku",
+      "W obu tabelach jednocześnie",
+      "Zawsze w nowo utworzonej tabeli trzeciej"
+    ],
+    "correctAns": "Po stronie 'N' związku"
+  },
+  {
+    "question": "Jak odwzorowujemy związki binarne typu M:N (Krok 5)?",
+    "options": [
+      "Dodając klucz obcy do tabeli z większą liczbą rekordów",
+      "Tworząc nową relację (tabelę), której klucz główny jest złożony z kluczy głównych obu encji",
+      "Łącząc obie encje w jedną dużą tabelę",
+      "Poprzez dodanie atrybutu wielowartościowego do jednej z encji"
+    ],
+    "correctAns": "Tworząc nową relację (tabelę), której klucz główny jest złożony z kluczy głównych obu encji"
+  },
+  {
+    "question": "Co należy zrobić z atrybutem wielowartościowym encji (Krok 6)?",
+    "options": [
+      "Ignorujemy go podczas mapowania",
+      "Tworzymy nową relację zawierającą ten atrybut oraz klucz główny encji właścicielskiej",
+      "Zapisujemy wszystkie wartości w jednej komórce oddzielone przecinkami",
+      "Zamieniamy go na klucz obcy w tabeli głównej"
+    ],
+    "correctAns": "Tworzymy nową relację zawierającą ten atrybut oraz klucz główny encji właścicielskiej"
+  },
+  {
+    "question": "W metodzie 8A (odwzorowanie specjalizacji), co jest kluczem głównym w relacjach utworzonych dla podklas?",
+    "options": [
+      "Dowolny atrybut lokalny podklasy",
+      "Klucz główny nadklasy",
+      "Nowo wygenerowany klucz sztuczny",
+      "Podklasy nie mają kluczy głównych"
+    ],
+    "correctAns": "Klucz główny nadklasy"
+  },
+  {
+    "question": "Kiedy stosujemy metodę 8C (pojedyncza relacja z atrybutem typu) do odwzorowania specjalizacji?",
+    "options": [
+      "Tylko gdy podklasy są rozłączne (disjoint)",
+      "Tylko gdy podklasy się pokrywają (overlapping)",
+      "Gdy chcemy uniknąć używania kluczy obcych",
+      "Zawsze, niezależnie od ograniczeń"
+    ],
+    "correctAns": "Tylko gdy podklasy są rozłączne (disjoint)"
+  },
+  {
+    "question": "Na czym polega metoda 8D odwzorowania specjalizacji?",
+    "options": [
+      "Na utworzeniu osobnej tabeli dla każdej podklasy",
+      "Na utworzeniu jednej relacji z wieloma atrybutami typu (flagami logicznymi) dla podklas pokrywających się",
+      "Na usunięciu nadklasy z bazy danych",
+      "Na zamianie wszystkich atrybutów na typy tekstowe"
+    ],
+    "correctAns": "Na utworzeniu jednej relacji z wieloma atrybutami typu (flagami logicznymi) dla podklas pokrywających się"
+  },
+  {
+    "question": "Jak postępujemy w Kroku 9 przy odwzorowaniu kategorii (unii), gdy nadklasy mają różne klucze główne?",
+    "options": [
+      "Wybieramy losowo jeden z kluczy jako obowiązujący",
+      "Definiujemy nowy, wspólny klucz sztuczny (surrogate key) dla kategorii",
+      "Kategorie nie mogą być mapowane, jeśli klucze są różne",
+      "Tworzymy tabelę z wieloma kluczami głównymi"
+    ],
+    "correctAns": "Definiujemy nowy, wspólny klucz sztuczny (surrogate key) dla kategorii"
+  },
+  {
+    "question": "Ile relacji (tabel) powstanie z odwzorowania związku n-arnego (np. trójskładnikowego) w Kroku 7?",
+    "options": [
+      "Jedna relacja, której kluczem będzie suma kluczy wszystkich uczestniczących encji",
+      "Tyle relacji, ile jest uczestniczących encji",
+      "Zawsze trzy relacje",
+      "Związki n-arne są pomijane w modelu relacyjnym"
+    ],
+    "correctAns": "Jedna relacja, której kluczem będzie suma kluczy wszystkich uczestniczących encji"
+  },{
+    "question": "Która z anomalii występuje, gdy przy próbie dodania nowego pracownika musimy znać numer projektu, do którego nie jest jeszcze przypisany (a projekt jest częścią klucza)?",
+    "options": [
+      "Anomalia modyfikacji",
+      "Anomalia usuwania",
+      "Anomalia wstawiania (insertion anomaly)",
+      "Anomalia odczytu"
+    ],
+    "correctAns": "Anomalia wstawiania (insertion anomaly)"
+  },
+  {
+    "question": "Czym są tzw. 'fałszywe krotki' (spurious tuples)?",
+    "options": [
+      "Rekordy zawierające nieprawdziwe dane wpisane przez użytkownika",
+      "Błędne wiersze powstałe w wyniku złączenia (join) niewłaściwie zaprojektowanych relacji",
+      "Kopie zapasowe usuniętych danych",
+      "Krotki, w których wszystkie pola mają wartość NULL"
+    ],
+    "correctAns": "Błędne wiersze powstałe w wyniku złączenia (join) niewłaściwie zaprojektowanych relacji"
+  },
+  {
+    "question": "Zależność funkcyjna X -> Y zachodzi, gdy:",
+    "options": [
+      "Wartości X są zawsze większe od Y",
+      "Dla każdych dwóch krotek t1, t2, jeśli t1[X] = t2[X], to t1[Y] = t2[Y]",
+      "Wartości Y są unikatowe w całej tabeli",
+      "X jest kluczem obcym, a Y kluczem głównym"
+    ],
+    "correctAns": "Dla każdych dwóch krotek t1, t2, jeśli t1[X] = t2[X], to t1[Y] = t2[Y]"
+  },
+  {
+    "question": "Relacja jest w Pierwszej Postaci Normalnej (1NF), jeżeli:",
+    "options": [
+      "Nie posiada kluczy obcych",
+      "Wszystkie wartości atrybutów są atomowe (niepodzielne)",
+      "Posiada co najmniej trzy tabele powiązane",
+      "Każdy atrybut niekluczowy zależy od klucza głównego"
+    ],
+    "correctAns": "Wszystkie wartości atrybutów są atomowe (niepodzielne)"
+  },
+  {
+    "question": "Kiedy relacja jest w Drugiej Postaci Normalnej (2NF)?",
+    "options": [
+      "Gdy jest w 1NF i nie posiada atrybutów wielowartościowych",
+      "Gdy jest w 1NF i każdy atrybut niekluczowy jest w pełni funkcyjnie zależny od klucza głównego",
+      "Gdy nie posiada wartości NULL",
+      "Gdy każdy wyznacznik jest kluczem kandydującym"
+    ],
+    "correctAns": "Gdy jest w 1NF i każdy atrybut niekluczowy jest w pełni funkcyjnie zależny od klucza głównego"
+  },
+  {
+    "question": "Czym jest zależność przechodnia (transitive dependency), której należy unikać w 3NF?",
+    "options": [
+      "Zależnością między dwoma kluczami głównymi",
+      "Zależnością funkcyjną między dwoma atrybutami niekluczowymi (X -> Y i Y -> Z)",
+      "Możliwością usunięcia rekordu z wielu tabel naraz",
+      "Zależnością atrybutu od samego siebie"
+    ],
+    "correctAns": "Zależnością funkcyjną między dwoma atrybutami niekluczowymi (X -> Y i Y -> Z)"
+  },
+  {
+    "question": "Postać normalna Boyce’a-Codda (BCNF) jest zachowana, gdy dla każdej niebanalnej zależności X -> A:",
+    "options": [
+      "X jest kluczem kandydującym",
+      "A jest atrybutem kluczowym",
+      "X zawiera wartości typu VARCHAR",
+      "Relacja posiada dokładnie dwie kolumny"
+    ],
+    "correctAns": "X jest kluczem kandydującym"
+  },
+  {
+    "question": "Pełna zależność funkcyjna (full functional dependency) X -> Y oznacza, że:",
+    "options": [
+      "X musi być kluczem głównym",
+      "Usunięcie dowolnego atrybutu z X powoduje, że zależność przestaje zachodzić",
+      "Y zależy od co najmniej jednego atrybutu z X",
+      "Zależność ta jest zapisana w słowniku danych"
+    ],
+    "correctAns": "Usunięcie dowolnego atrybutu z X powoduje, że zależność przestaje zachodzić"
+  },
+  {
+    "question": "Która postać normalna zajmuje się eliminacją problemów wynikających z zależności wielowartościowych (MVD)?",
+    "options": [
+      "2NF",
+      "3NF",
+      "4NF",
+      "BCNF"
+    ],
+    "correctAns": "4NF"
+  },
+  {
+    "question": "Jaki jest główny cel normalizacji bazy danych?",
+    "options": [
+      "Zwiększenie rozmiaru bazy danych na dysku",
+      "Minimalizacja nadmiarowości (redundancji) i eliminacja anomalii",
+      "Szybsze wykonywanie zapytań typu JOIN",
+      "Ukrycie danych przed nieuprawnionymi użytkownikami"
+    ],
+    "correctAns": "Minimalizacja nadmiarowości (redundancji) i eliminacja anomalii"
+  },{
+    "question": "Czym w modelu relacyjnym jest widok (perspektywa)?",
+    "options": [
+      "Fizyczną kopią tabeli zapisaną w innym formacie",
+      "Relacją wirtualną, która nie jest częścią modelu konceptualnego",
+      "Tabelą tymczasową usuwaną po zakończeniu sesji",
+      "Indeksem przyspieszającym operacje wyszukiwania"
+    ],
+    "correctAns": "Relacją wirtualną, która nie jest częścią modelu konceptualnego"
+  },
+  {
+    "question": "Jaka jest główna różnica między definicją widoku a stworzeniem nowej relacji za pomocą zapytania?",
+    "options": [
+      "Definicja widoku nie zajmuje miejsca na dysku",
+      "Widok zawsze zawiera mniej kolumn niż tabela bazowa",
+      "Definicja widoku powoduje jedynie zapamiętanie wyrażenia SQL, a nie jego wyniku",
+      "Widoków nie można przeszukiwać poleceniem SELECT"
+    ],
+    "correctAns": "Definicja widoku powoduje jedynie zapamiętanie wyrażenia SQL, a nie jego wyniku"
+  },
+  {
+    "question": "Która funkcja widoków jest kluczowa w trójwarstwowej architekturze baz danych?",
+    "options": [
+      "Zapewnienie fizycznej niezależności danych",
+      "Zapewnienie logicznej niezależności danych",
+      "Automatyczne tworzenie kopii zapasowych",
+      "Zastępowanie kluczy głównych kluczami obcymi"
+    ],
+    "correctAns": "Zapewnienie logicznej niezależności danych"
+  },
+  {
+    "question": "Czym charakteryzuje się widok zmaterializowany (materialized view)?",
+    "options": [
+      "Jest widoczny tylko dla administratora systemu",
+      "Jego treść jest fizycznie przechowywana jako kopia danych",
+      "Jest usuwany natychmiast po odczytaniu danych",
+      "Nie pozwala na stosowanie funkcji agregujących"
+    ],
+    "correctAns": "Jego treść jest fizycznie przechowywana jako kopia danych"
+  },
+  {
+    "question": "Jaka jest główna wada stosowania widoków zmaterializowanych?",
+    "options": [
+      "Brak możliwości ich indeksowania",
+      "Konieczność ciągłego utrzymywania spójności (aktualizacji) po zmianach w tabelach bazowych",
+      "Bardzo długa składnia polecenia CREATE",
+      "Zablokowanie dostępu do tabel źródłowych"
+    ],
+    "correctAns": "Konieczność ciągłego utrzymywania spójności (aktualizacji) po zmianach w tabelach bazowych"
+  },
+  {
+    "question": "Na czym polega proces 'rozwijania widoku' (view expansion)?",
+    "options": [
+      "Na dodawaniu nowych kolumn do widoku przez użytkownika",
+      "Na fizycznym kopiowaniu danych z dysku do pamięci RAM",
+      "Na zastępowaniu nazwy widoku jego definicją w treści zapytania SQL",
+      "Na zwiększaniu uprawnień użytkownika korzystającego z widoku"
+    ],
+    "correctAns": "Na zastępowaniu nazwy widoku jego definicją w treści zapytania SQL"
+  },
+  {
+    "question": "Kiedy widok jest uznawany za modyfikowalny (updatable) według standardu SQL?",
+    "options": [
+      "Gdy zawiera złączenia co najmniej trzech tabel",
+      "Gdy zawiera klauzulę GROUP BY",
+      "Gdy zapytanie bazuje na jednej relacji i nie zawiera agregatów ani DISTINCT",
+      "Gdy został utworzony przez użytkownika z uprawnieniami ROOT"
+    ],
+    "correctAns": "Gdy zapytanie bazuje na jednej relacji i nie zawiera agregatów ani DISTINCT"
+  },
+  {
+    "question": "Do czego służy klauzula WITH CHECK OPTION w definicji widoku?",
+    "options": [
+      "Do sprawdzania, czy użytkownik ma uprawnienia do tabeli",
+      "Do zapobiegania wstawianiu wierszy, które nie spełniają warunków WHERE widoku",
+      "Do automatycznego naprawiania błędów w danych bazowych",
+      "Do wymuszenia unikatowości klucza głównego"
+    ],
+    "correctAns": "Do zapobiegania wstawianiu wierszy, które nie spełniają warunków WHERE widoku"
+  },
+  {
+    "question": "Co oznacza opcja CASCADE przy usuwaniu widoku (DROP VIEW ... CASCADE)?",
+    "options": [
+      "Usunięcie tylko rekordów z tabel bazowych",
+      "Usunięcie widoku oraz wszystkich innych widoków od niego zależnych",
+      "Zablokowanie możliwości ponownego stworzenia widoku",
+      "Usunięcie widoku tylko jeśli nie ma do niego żadnych odwołań"
+    ],
+    "correctAns": "Usunięcie widoku oraz wszystkich innych widoków od niego zależnych"
+  },
+  {
+    "question": "Który z poniższych widoków prawdopodobnie NIE będzie modyfikowalny w większości systemów?",
+    "options": [
+      "SELECT * FROM pracownicy WHERE pensja > 3000",
+      "SELECT imie, nazwisko FROM pracownicy",
+      "SELECT dept_name, SUM(salary) FROM instructor GROUP BY dept_name",
+      "SELECT * FROM instructor WHERE dept_name = 'Physics'"
+    ],
+    "correctAns": "SELECT dept_name, SUM(salary) FROM instructor GROUP BY dept_name"
+  },{
+    "question": "Czym jest procedura składowana?",
+    "options": [
+      "Plikiem tekstowym na dysku serwera",
+      "Fragmentem kodu SQL przechowywanym w katalogu RDBMS, wywoływanym jawnie",
+      "Automatycznym mechanizmem uruchamianym przy zmianie danych",
+      "Sposobem na fizyczne sortowanie tabeli"
+    ],
+    "correctAns": "Fragmentem kodu SQL przechowywanym w katalogu RDBMS, wywoływanym jawnie"
+  },
+  {
+    "question": "Które słowo kluczowe służy do uruchomienia procedury składowanej?",
+    "options": [
+      "RUN",
+      "START",
+      "EXECUTE (lub EXEC)",
+      "OPEN"
+    ],
+    "correctAns": "EXECUTE (lub EXEC)"
+  },
+  {
+    "question": "Jak w definicji procedury oznacza się parametry, które mają zwracać wartość do programu wywołującego?",
+    "options": [
+      "Słowem kluczowym RETURN",
+      "Słowem kluczowym OUTPUT (lub OUT)",
+      "Znakami zapytania '?'",
+      "Parametry nie mogą zwracać wartości"
+    ],
+    "correctAns": "Słowem kluczowym OUTPUT (lub OUT)"
+  },
+  {
+    "question": "Do czego służy słowo kluczowe AS w instrukcji CREATE PROCEDURE?",
+    "options": [
+      "Oddziela nagłówek procedury (nazwę i parametry) od jej treści",
+      "Służy do nadawania aliasów kolumnom wewnątrz procedury",
+      "Wskazuje na typ zwracany przez procedurę",
+      "Jest opcjonalne i nie ma żadnej funkcji"
+    ],
+    "correctAns": "Oddziela nagłówek procedury (nazwę i parametry) od jej treści"
+  },
+  {
+    "question": "Które polecenie pozwala na zmianę definicji istniejącej procedury bez jej usuwania?",
+    "options": [
+      "UPDATE PROCEDURE",
+      "MODIFY PROCEDURE",
+      "ALTER PROCEDURE",
+      "REPLACE PROCEDURE"
+    ],
+    "correctAns": "ALTER PROCEDURE"
+  },
+  {
+    "question": "Czym różni się procedura składowana od widoku?",
+    "options": [
+      "Widok może przyjmować parametry, a procedura nie",
+      "Procedura może zawierać instrukcje sterujące (logikę) i modyfikować dane, widok to tylko zapisane zapytanie SELECT",
+      "Widok jest bezpieczniejszy niż procedura",
+      "Nie ma żadnej różnicy"
+    ],
+    "correctAns": "Procedura może zawierać instrukcje sterujące (logikę) i modyfikować dane, widok to tylko zapisane zapytanie SELECT"
+  },
+  {
+    "question": "W jaki sposób można zadeklarować zmienną lokalną wewnątrz procedury (T-SQL)?",
+    "options": [
+      "VAR nazwa_zmiennej",
+      "DECLARE @nazwa_zmiennej TYP_DANYCH",
+      "SET @nazwa_zmiennej = TYP_DANYCH",
+      "CREATE VARIABLE @nazwa_zmiennej"
+    ],
+    "correctAns": "DECLARE @nazwa_zmiennej TYP_DANYCH"
+  },
+  {
+    "question": "Do czego służy instrukcja RAISERROR?",
+    "options": [
+      "Do automatycznego naprawiania błędów w tabelach",
+      "Do generowania własnych komunikatów o błędach i przesyłania ich do klienta",
+      "Do usuwania błędnych rekordów z bazy",
+      "Do mierzenia czasu wykonania procedury"
+    ],
+    "correctAns": "Do generowania własnych komunikatów o błędach i przesyłania ich do klienta"
+  },
+  {
+    "question": "Co oznacza parametr 'severity' o wartości 16 w instrukcji RAISERROR?",
+    "options": [
+      "Błąd krytyczny powodujący wyłączenie serwera",
+      "Informację (warning) dla użytkownika",
+      "Błąd ogólny, który może zostać poprawiony przez użytkownika",
+      "Sukces wykonania operacji"
+    ],
+    "correctAns": "Błąd ogólny, który może zostać poprawiony przez użytkownika"
+  },
+  {
+    "question": "Blok TRY...CATCH w procedurach służy do:",
+    "options": [
+      "Pętli wykonującej zapytanie aż do skutku",
+      "Przechwytywania i obsługi błędów wykonania kodu SQL",
+      "Testowania wydajności zapytań",
+      "Sprawdzania, czy użytkownik jest zalogowany"
+    ],
+    "correctAns": "Przechwytywania i obsługi błędów wykonania kodu SQL"
+  },
+{
+    "question": "Zgodnie z regułą ECA, z jakich trzech elementów składa się definicja wyzwalacza (triggera)?",
+    "options": [
+      "Entity, Class, Attribute",
+      "Event, Condition, Action",
+      "Execute, Create, Alter",
+      "Error, Control, Access"
+    ],
+    "correctAns": "Event, Condition, Action"
+  },
+  {
+    "question": "Który rodzaj wyzwalacza wykonuje się w miejsce instrukcji modyfikującej (np. zamiast INSERT)?",
+    "options": [
+      "AFTER Trigger",
+      "BEFORE Trigger",
+      "INSTEAD OF Trigger",
+      "FOR EACH ROW Trigger"
+    ],
+    "correctAns": "INSTEAD OF Trigger"
+  },
+  {
+    "question": "Do czego służą tabele wirtualne 'inserted' i 'deleted' wewnątrz wyzwalacza?",
+    "options": [
+      "Do przechowywania kopii zapasowej całej bazy danych",
+      "Do dostępu do wierszy, które są właśnie wstawiane, usuwane lub modyfikowane",
+      "Do logowania błędów serwera",
+      "Do trwałego przechowywania usuniętych rekordów"
+    ],
+    "correctAns": "Do dostępu do wierszy, które są właśnie wstawiane, usuwane lub modyfikowane"
+  },
+  {
+    "question": "Co zawiera tabela 'deleted' podczas wykonywania operacji UPDATE?",
+    "options": [
+      "Nic, jest pusta",
+      "Nowe wartości, które mają zostać wprowadzone",
+      "Wartości wierszy sprzed modyfikacji",
+      "Tylko klucze główne modyfikowanych wierszy"
+    ],
+    "correctAns": "Wartości wierszy sprzed modyfikacji"
+  },
+  {
+    "question": "Jaka jest główna funkcja indeksów w bazie danych?",
+    "options": [
+      "Szybsze wyszukiwanie rekordów bez konieczności przeglądania całej relacji",
+      "Szyfrowanie danych wrażliwych",
+      "Zmniejszenie rozmiaru bazy danych na dysku",
+      "Automatyczne usuwanie duplikatów"
+    ],
+    "correctAns": "Szybsze wyszukiwanie rekordów bez konieczności przeglądania całej relacji"
+  },
+  {
+    "question": "Czym charakteryzuje się indeks klastrowy (clustered index)?",
+    "options": [
+      "Może być ich wiele dla jednej tabeli",
+      "Narzuca fizyczną kolejność przechowywania danych na stronach danych",
+      "Jest zawsze wolniejszy od indeksu nieklastrowego",
+      "Nie może być założony na kluczu głównym"
+    ],
+    "correctAns": "Narzuca fizyczną kolejność przechowywania danych na stronach danych"
+  },
+  {
+    "question": "Ile indeksów klastrowych może posiadać jedna tabela?",
+    "options": [
+      "Dowolną liczbę",
+      "Maksymalnie 250",
+      "Tylko jeden",
+      "Dwa: jeden na początku i jeden na końcu tabeli"
+    ],
+    "correctAns": "Tylko jeden"
+  },
+  {
+    "question": "Jaka struktura danych jest najczęściej wykorzystywana do implementacji indeksów w SZBD (według wykładu)?",
+    "options": [
+      "Lista jednokierunkowa",
+      "B+-drzewo",
+      "Tablica asocjacyjna",
+      "Stos"
+    ],
+    "correctAns": "B+-drzewo"
+  },
+  {
+    "question": "Co znajduje się w liściach (leaf nodes) indeksu nieklastrowego?",
+    "options": [
+      "Wszystkie dane całego wiersza",
+      "Wartości klucza indeksu oraz wskaźniki (locators) do rzeczywistych danych",
+      "Tylko nazwy kolumn",
+      "Nic, liście są puste"
+    ],
+    "correctAns": "Wartości klucza indeksu oraz wskaźniki (locators) do rzeczywistych danych"
+  },
+  {
+    "question": "Kiedy wyzwalacz typu AFTER jest wywoływany?",
+    "options": [
+      "Przed sprawdzeniem więzów integralności",
+      "Po wykonaniu akcji (np. INSERT) i po pomyślnym sprawdzeniu więzów integralności",
+      "Tylko jeśli wystąpi błąd podczas zapytania",
+      "Zawsze o północy każdego dnia"
+    ],
+    "correctAns": "Po wykonaniu akcji (np. INSERT) i po pomyślnym sprawdzeniu więzów integralności"
+  },
+  {
+    "question": "Jaka jest główna różnica między uwierzytelnianiem a autoryzacją?",
+    "options": [
+      "Uwierzytelnianie to nadawanie uprawnień, a autoryzacja to logowanie",
+      "Uwierzytelnianie to potwierdzenie tożsamości, a autoryzacja to sprawdzenie uprawnień do zasobów",
+      "Nie ma żadnej różnicy, to synonimy",
+      "Autoryzacja dotyczy sprzętu, a uwierzytelnianie oprogramowania"
+    ],
+    "correctAns": "Uwierzytelnianie to potwierdzenie tożsamości, a autoryzacja to sprawdzenie uprawnień do zasobów"
+  },
+  {
+    "question": "W MS SQL Server, co jest wymagane, aby użytkownik mógł się połączyć z instancją serwera (poziom serwera)?",
+    "options": [
+      "DATABASE USER",
+      "LOGIN",
+      "SERVER KEY",
+      "ROLE MEMBERSHIP"
+    ],
+    "correctAns": "LOGIN"
+  },
+  {
+    "question": "Czym różni się 'Windows Authentication' od 'SQL Server Authentication'?",
+    "options": [
+      "SQL Server Authentication jest zawsze bezpieczniejszy",
+      "Windows Authentication wykorzystuje tożsamość użytkownika zalogowanego do systemu operacyjnego",
+      "Windows Authentication nie wymaga hasła",
+      "SQL Server Authentication służy tylko do baz w chmurze"
+    ],
+    "correctAns": "Windows Authentication wykorzystuje tożsamość użytkownika zalogowanego do systemu operacyjnego"
+  },
+  {
+    "question": "Co musi zrobić administrator po utworzeniu LOGINU, aby dana osoba mogła korzystać z konkretnej bazy danych?",
+    "options": [
+      "Stworzyć USERA w tej konkretnej bazie danych, powiązanego z loginem",
+      "Nic, login automatycznie ma dostęp do wszystkich baz",
+      "Podać hasło do bazy danych",
+      "Zrestartować serwer"
+    ],
+    "correctAns": "Stworzyć USERA w tej konkretnej bazie danych, powiązanego z loginem"
+  },
+  {
+    "question": "Które polecenie SQL służy do nadawania uprawnień (np. do odczytu tabeli)?",
+    "options": [
+      "ALLOW",
+      "GRANT",
+      "PERMIT",
+      "SET ACCESS"
+    ],
+    "correctAns": "GRANT"
+  },
+  {
+    "question": "Polecenie 'REVOKE' służy do:",
+    "options": [
+      "Całkowitego usunięcia użytkownika z bazy",
+      "Wycofania wcześniej nadanego uprawnienia",
+      "Zablokowania konta na 24 godziny",
+      "Zaszyfrowania tabeli"
+    ],
+    "correctAns": "Wycofania wcześniej nadanego uprawnienia"
+  },
+  {
+    "question": "Co oznacza polecenie 'DENY' w systemie uprawnień?",
+    "options": [
+      "Oznacza to samo co REVOKE",
+      "Jawnie zabrania dostępu do zasobu, co ma wyższy priorytet niż jakiekolwiek inne uprawnienie (GRANT)",
+      "Służy do usuwania pustych tabel",
+      "Jest używane tylko w procedurach składowanych"
+    ],
+    "correctAns": "Jawnie zabrania dostępu do zasobu, co ma wyższy priorytet niż jakiekolwiek inne uprawnienie (GRANT)"
+  },
+  {
+    "question": "Do czego służą 'Role' (np. db_datareader) w bazie danych?",
+    "options": [
+      "Są to opisy stanowisk pracy pracowników",
+      "Są kontenerami na uprawnienia, ułatwiającymi zarządzanie dostępem dla grup użytkowników",
+      "Służą do definiowania struktury tabel",
+      "To synonim dla widoków (views)"
+    ],
+    "correctAns": "Są kontenerami na uprawnienia, ułatwiającymi zarządzanie dostępem dla grup użytkowników"
+  },
+  {
+    "question": "W MS SQL Server, który login ma najwyższe uprawnienia na poziomie całej instancji serwera?",
+    "options": [
+      "guest",
+      "sa (system administrator)",
+      "dbo (database owner)",
+      "public"
+    ],
+    "correctAns": "sa (system administrator)"
+  },
+  {
+    "question": "Która rola bazodanowa pozwala użytkownikowi na modyfikację struktury tabel (DDL)?",
+    "options": [
+      "db_datareader",
+      "db_datawriter",
+      "db_ddladmin",
+      "db_owner"
+    ],
+    "correctAns": "db_ddladmin"
+  },{
+    "question": "Jaka jest główna różnica między uwierzytelnianiem a autoryzacją?",
+    "options": [
+      "Uwierzytelnianie to nadawanie uprawnień, a autoryzacja to logowanie",
+      "Uwierzytelnianie to potwierdzenie tożsamości, a autoryzacja to sprawdzenie uprawnień do zasobów",
+      "Nie ma żadnej różnicy, to synonimy",
+      "Autoryzacja dotyczy sprzętu, a uwierzytelnianie oprogramowania"
+    ],
+    "correctAns": "Uwierzytelnianie to potwierdzenie tożsamości, a autoryzacja to sprawdzenie uprawnień do zasobów"
+  },
+  {
+    "question": "W MS SQL Server, co jest wymagane, aby użytkownik mógł się połączyć z instancją serwera (poziom serwera)?",
+    "options": [
+      "DATABASE USER",
+      "LOGIN",
+      "SERVER KEY",
+      "ROLE MEMBERSHIP"
+    ],
+    "correctAns": "LOGIN"
+  },
+  {
+    "question": "Czym różni się 'Windows Authentication' od 'SQL Server Authentication'?",
+    "options": [
+      "SQL Server Authentication jest zawsze bezpieczniejszy",
+      "Windows Authentication wykorzystuje tożsamość użytkownika zalogowanego do systemu operacyjnego",
+      "Windows Authentication nie wymaga hasła",
+      "SQL Server Authentication służy tylko do baz w chmurze"
+    ],
+    "correctAns": "Windows Authentication wykorzystuje tożsamość użytkownika zalogowanego do systemu operacyjnego"
+  },
+  {
+    "question": "Co musi zrobić administrator po utworzeniu LOGINU, aby dana osoba mogła korzystać z konkretnej bazy danych?",
+    "options": [
+      "Stworzyć USERA w tej konkretnej bazie danych, powiązanego z loginem",
+      "Nic, login automatycznie ma dostęp do wszystkich baz",
+      "Podać hasło do bazy danych",
+      "Zrestartować serwer"
+    ],
+    "correctAns": "Stworzyć USERA w tej konkretnej bazie danych, powiązanego z loginem"
+  },
+  {
+    "question": "Które polecenie SQL służy do nadawania uprawnień (np. do odczytu tabeli)?",
+    "options": [
+      "ALLOW",
+      "GRANT",
+      "PERMIT",
+      "SET ACCESS"
+    ],
+    "correctAns": "GRANT"
+  },
+  {
+    "question": "Polecenie 'REVOKE' służy do:",
+    "options": [
+      "Całkowitego usunięcia użytkownika z bazy",
+      "Wycofania wcześniej nadanego uprawnienia",
+      "Zablokowania konta na 24 godziny",
+      "Zaszyfrowania tabeli"
+    ],
+    "correctAns": "Wycofania wcześniej nadanego uprawnienia"
+  },
+  {
+    "question": "Co oznacza polecenie 'DENY' w systemie uprawnień?",
+    "options": [
+      "Oznacza to samo co REVOKE",
+      "Jawnie zabrania dostępu do zasobu, co ma wyższy priorytet niż jakiekolwiek inne uprawnienie (GRANT)",
+      "Służy do usuwania pustych tabel",
+      "Jest używane tylko w procedurach składowanych"
+    ],
+    "correctAns": "Jawnie zabrania dostępu do zasobu, co ma wyższy priorytet niż jakiekolwiek inne uprawnienie (GRANT)"
+  },
+  {
+    "question": "Do czego służą 'Role' (np. db_datareader) w bazie danych?",
+    "options": [
+      "Są to opisy stanowisk pracy pracowników",
+      "Są kontenerami na uprawnienia, ułatwiającymi zarządzanie dostępem dla grup użytkowników",
+      "Służą do definiowania struktury tabel",
+      "To synonim dla widoków (views)"
+    ],
+    "correctAns": "Są kontenerami na uprawnienia, ułatwiającymi zarządzanie dostępem dla grup użytkowników"
+  },
+  {
+    "question": "W MS SQL Server, który login ma najwyższe uprawnienia na poziomie całej instancji serwera?",
+    "options": [
+      "guest",
+      "sa (system administrator)",
+      "dbo (database owner)",
+      "public"
+    ],
+    "correctAns": "sa (system administrator)"
+  },
+  {
+    "question": "Która rola bazodanowa pozwala użytkownikowi na modyfikację struktury tabel (DDL)?",
+    "options": [
+      "db_datareader",
+      "db_datawriter",
+      "db_ddladmin",
+      "db_owner"
+    ],
+    "correctAns": "db_ddladmin"
+  },{
+    "question": "Dlaczego dane z bazy danych muszą być kopiowane do pamięci głównej (RAM)?",
+    "options": [
+      "Ponieważ dyski twarde są zbyt małe, by pomieścić całą bazę",
+      "Ponieważ jednostka centralna (CPU) może przetwarzać dane tylko znajdujące się w pamięci głównej",
+      "Aby uniemożliwić hakerom dostęp do plików fizycznych",
+      "Jest to wymagane tylko w przypadku baz danych NoSQL"
+    ],
+    "correctAns": "Ponieważ jednostka centralna (CPU) może przetwarzać dane tylko znajdujące się w pamięci głównej"
+  },
+  {
+    "question": "Co jest podstawową jednostką transferu danych między dyskiem a pamięcią główną?",
+    "options": [
+      "Pojedynczy rekord",
+      "Bit danych",
+      "Blok (strona)",
+      "Cały plik relacji"
+    ],
+    "correctAns": "Blok (strona)"
+  },
+  {
+    "question": "Jaki jest główny cel działania Zarządcy Bufora (Buffer Manager)?",
+    "options": [
+      "Szyfrowanie haseł użytkowników",
+      "Minimalizacja liczby transferów bloków między dyskiem a pamięcią",
+      "Automatyczne tworzenie kopii zapasowych (backup)",
+      "Sortowanie rekordów w tabelach"
+    ],
+    "correctAns": "Minimalizacja liczby transferów bloków między dyskiem a pamięcią"
+  },
+  {
+    "question": "Kiedy Zarządca Bufora zapisuje zmodyfikowany blok z powrotem na dysk podczas wymiany bloków?",
+    "options": [
+      "Zawsze, gdy blok jest usuwany z bufora",
+      "Tylko jeśli blok został zmodyfikowany (tzw. 'dirty bit' jest ustawiony)",
+      "Dokładnie co 5 minut",
+      "Tylko na wyraźne polecenie użytkownika COMMIT"
+    ],
+    "correctAns": "Tylko jeśli blok został zmodyfikowany (tzw. 'dirty bit' jest ustawiony)"
+  },
+  {
+    "question": "Która technika wyboru bloku do usunięcia z bufora jest najczęściej stosowana (gdy brakuje miejsca)?",
+    "options": [
+      "MRU (Most Recently Used)",
+      "LRU (Least Recently Used)",
+      "LIFO (Last In First Out)",
+      "Losowy wybór bloku"
+    ],
+    "correctAns": "LRU (Least Recently Used)"
+  },
+  {
+    "question": "Jakie jest główne ograniczenie przy rekordach o stałej długości?",
+    "options": [
+      "Nie można ich usuwać",
+      "Rozmiar rekordu nie może przekraczać rozmiaru bloku",
+      "Muszą być zawsze posortowane alfabetycznie",
+      "Zajmują więcej miejsca niż rekordy zmiennej długości"
+    ],
+    "correctAns": "Rozmiar rekordu nie może przekraczać rozmiaru bloku"
+  },
+  {
+    "question": "Do czego służy tzw. 'free format' (bitmapa lub lista wolnych rekordów)?",
+    "options": [
+      "Do darmowego udostępniania danych w sieci",
+      "Do zarządzania wolnym miejscem wewnątrz bloku po usunięciu rekordów",
+      "Do określania, którzy użytkownicy mają darmowy dostęp do bazy",
+      "Do kompresji danych tekstowych"
+    ],
+    "correctAns": "Do zarządzania wolnym miejscem wewnątrz bloku po usunięciu rekordów"
+  },
+  {
+    "question": "Która metoda organizacji pliku jest najbardziej efektywna dla zapytań wyszukujących konkretną wartość (np. ID=100)?",
+    "options": [
+      "Heap file (sterta - brak porządku)",
+      "Hashing (pliki mieszające)",
+      "Sequential file (plik sekwencyjny)",
+      "Wszystkie są tak samo efektywne"
+    ],
+    "correctAns": "Hashing (pliki mieszające)"
+  },
+  {
+    "question": "Co charakteryzuje organizację pliku typu 'Heap' (sterta)?",
+    "options": [
+      "Rekordy są umieszczane w dowolnym miejscu, gdzie jest wolna przestrzeń",
+      "Rekordy są rygorystycznie sortowane według klucza głównego",
+      "Dostęp do danych odbywa się tylko za pomocą funkcji skrótu",
+      "Każdy rekord musi mieć ten sam rozmiar"
+    ],
+    "correctAns": "Rekordy są umieszczane w dowolnym miejscu, gdzie jest wolna przestrzeń"
+  },
+  {
+    "question": "Czym jest 'pinning' bloku w buforze?",
+    "options": [
+      "Zablokowaniem bloku przed usunięciem z pamięci RAM podczas jego przetwarzania",
+      "Trwałym zapisaniem bloku na dysku",
+      "Usunięciem bloku z pamięci podręcznej procesora",
+      "Oznaczeniem bloku jako uszkodzony"
+    ],
+    "correctAns": "Zablokowaniem bloku przed usunięciem z pamięci RAM podczas jego przetwarzania"
+  },{
+    "question": "Czym jest transakcja w systemie baz danych?",
+    "options": [
+      "Pojedynczą operacją zapisu na dysku",
+      "Niepodzielną jednostką pracy składającą się z jednej lub wielu operacji SQL",
+      "Kopią zapasową bazy danych wykonywaną co godzinę",
+      "Umową licencyjną między użytkownikiem a dostawcą SZBD"
+    ],
+    "correctAns": "Niepodzielną jednostką pracy składającą się z jednej lub wielu operacji SQL"
+  },
+  {
+    "question": "Która własność modelu ACID gwarantuje, że transakcja zostanie wykonana w całości albo wcale?",
+    "options": [
+      "Atomowość (Atomicity)",
+      "Spójność (Consistency)",
+      "Izolacja (Isolation)",
+      "Trwałość (Durability)"
+    ],
+    "correctAns": "Atomowość (Atomicity)"
+  },
+  {
+    "question": "Własność 'Trwałość' (Durability) oznacza, że:",
+    "options": [
+      "Transakcja trwa bardzo krótko",
+      "Po zatwierdzeniu (commit) zmiany są odporne na późniejsze awarie systemu",
+      "Baza danych nie pozwala na usuwanie rekordów",
+      "Tylko administrator może modyfikować dane"
+    ],
+    "correctAns": "Po zatwierdzeniu (commit) zmiany są odporne na późniejsze awarie systemu"
+  },
+  {
+    "question": "Co dzieje się, gdy transakcja przechodzi w stan 'Aborted' (przerwana)?",
+    "options": [
+      "System czeka na restart serwera",
+      "Wykonywana jest operacja ROLLBACK (wycofanie zmian), aby przywrócić bazę do stanu sprzed transakcji",
+      "Dane są trwale usuwane z dysku",
+      "Użytkownik otrzymuje nową sesję logowania"
+    ],
+    "correctAns": "Wykonywana jest operacja ROLLBACK (wycofanie zmian), aby przywrócić bazę do stanu sprzed transakcji"
+  },
+  {
+    "question": "Która anomalia współbieżności występuje, gdy transakcja odczytuje dane zapisane przez inną, jeszcze niezatwierdzoną transakcję?",
+    "options": [
+      "Lost Update (utracona aktualizacja)",
+      "Dirty Read (brudny odczyt)",
+      "Unrepeatable Read (niepowtarzalny odczyt)",
+      "Phantom Read (odczyt widmo)"
+    ],
+    "correctAns": "Dirty Read (brudny odczyt)"
+  },
+  {
+    "question": "Do czego służy blokada współdzielona (Shared lock - S) w kontroli współbieżności?",
+    "options": [
+      "Do modyfikowania danych przez wielu użytkowników jednocześnie",
+      "Do odczytu danych; pozwala wielu transakcjom czytać ten sam zasób",
+      "Do całkowitego zablokowania tabeli przed jakimkolwiek dostępem",
+      "Do przyspieszenia operacji usuwania"
+    ],
+    "correctAns": "Do odczytu danych; pozwala wielu transakcjom czytać ten sam zasób"
+  },
+  {
+    "question": "W dwufazowym protokole blokowania (2PL), faza 'kurczenia się' (shrinking phase) polega na:",
+    "options": [
+      "Zmniejszaniu rozmiaru bazy danych",
+      "Stopniowym zwalnianiu blokad bez możliwości nakładania nowych",
+      "Usuwaniu niepotrzebnych transakcji",
+      "Kompresji logu transakcyjnego"
+    ],
+    "correctAns": "Stopniowym zwalnianiu blokad bez możliwości nakładania nowych"
+  },
+  {
+    "question": "Czym jest sytuacja zakleszczenia (Deadlock)?",
+    "options": [
+      "Awarią zasilania serwera",
+      "Sytuacją, w której dwie transakcje czekają na zwolnienie blokad trzymanych przez siebie nawzajem",
+      "Błędem składniowym w zapytaniu SQL",
+      "Przepełnieniem pamięci RAM"
+    ],
+    "correctAns": "Sytuacją, w której dwie transakcje czekają na zwolnienie blokad trzymanych przez siebie nawzajem"
+  },
+  {
+    "question": "Log transakcyjny (pamiętnik) jest niezbędny dla SZBD głównie w celu:",
+    "options": [
+      "Przechowywania haseł użytkowników",
+      "Odtwarzania bazy danych po awarii (Recovery)",
+      "Generowania raportów dla zarządu",
+      "Szybszego wyszukiwania danych tekstowych"
+    ],
+    "correctAns": "Odtwarzania bazy danych po awarii (Recovery)"
+  },
+  {
+    "question": "Poziom izolacji 'Serializable' zapewnia:",
+    "options": [
+      "Najniższe bezpieczeństwo, ale najwyższą wydajność",
+      "Pełną izolację transakcji, zapobiegając wszystkim anomaliom (najwyższy poziom)",
+      "Dostęp do danych tylko w trybie 'tylko do odczytu'",
+      "Możliwość zapisu danych do plików tekstowych"
+    ],
+    "correctAns": "Pełną izolację transakcji, zapobiegając wszystkim anomaliom (najwyższy poziom)"
+  }
+]

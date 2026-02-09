@@ -1,0 +1,443 @@
+[
+  {
+    "id": 1,
+    "question": "Które ze stwierdzeń dotyczących wartości null są prawdziwe? (inne sformułowanie: \"Wskaż prawdziwe stwierdzenie dotyczące wartości null\")",
+    "options": [
+      "Jeżeli wystąpi w wartości atrybutu null, to suma po tym atrybucie też jest null",
+      "W modelu relacyjnym wartość null jest traktowana jako trzecia różna od false i true wartość logiczna",
+      "Wartość null oznacza zero",
+      "Klucz obcy musi zawierać przynajmniej jedną wartość null"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 2,
+    "question": "Generowanie fałszywych krotek jest wynikiem:",
+    "options": [
+      "Przechowywania w relacji atrybutów z dużą liczbą wartości null",
+      "Nieprzestrzegania właściwości zachowania zależności funkcyjnych",
+      "Zagnieżdżania relacji",
+      "Niezachowania właściwości złączenia nieaddytywnego (związanego ze złączeniem naturalnym)"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 3,
+    "question": "Które stwierdzenie jest prawdziwe dla indeksu klastrowego:",
+    "options": [
+      "Ma wpływ na fizyczne przechowywanie rekordów na stronach",
+      "Można go tworzyć na dowolnej liczbie kolumn",
+      "Jest odrębnym obiektem w bazie danych",
+      "Klucz główny ze względów wydajnościowych nie powinien być indeksem klastrowym"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 4,
+    "question": "Które stwierdzenie dotyczące kluczy obcych w relacyjnym modelu danych jest prawdziwe? (inne sformułowanie: \"Wskaż prawdziwe stwierdzenie dotyczące kluczy obcych...\")",
+    "options": [
+      "Wartości klucza obcego są unikatowe",
+      "Muszą zawierać nazwę tabeli głównej w swojej nazwie",
+      "Powinny wskazywać na klucz główny w tabeli głównej",
+      "Muszą się nazywać tak samo jak klucz tabeli głównej"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 5,
+    "question": "Które stwierdzenie jest prawdziwe?",
+    "options": [
+      "Wiele transakcji może posiadać blokadę dzieloną na tym samym obiekcie bazy danych.",
+      "Wiele transakcji może mieć blokadę na wyłączność na tym samym obiekcie bazy danych."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 6,
+    "question": "Które stwierdzenie nie jest poprawne?",
+    "options": [
+      "Zapobieganie zakleszczeniom (deadlock) można osiągnąć stosując Statyczny (Static) 2PL",
+      "Użycie krótkoterminowych blokad narusza regułę 3 protokołu 2PL, więc nie można już zagwarantować serializacji.",
+      "Jednym ze sposobów rozwiązywania zakleszczeń jest wybór ofiary, co oznacza wybranie i przerwanie jednej z transakcji związanych z zakleszczeniem.",
+      "Poziom izolacji zatwierdzonych odczytów (read commited) używa długoterminowych blokad odczytu, ale krótkoterminowych blokad zapisu."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 7,
+    "question": "Które stwierdzenie nie jest poprawne?",
+    "options": [
+      "Trwałość oznacza, że efekty każdej zatwierdzone transakcji powinny być na trwale zapisywane w bazie.",
+      "Stan bazy danych zmienia się, gdy dane są aktualizowane lub usuwane.",
+      "Koncepcyjny model danych jest zależny od implementacji.",
+      "W podejściu opartym o pliki różne aplikacje mogą używać starszych i nowszych wersji tych samych danych."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 8,
+    "question": "Wartości zagregowane przechowywane są w schemacie relacji w postaci:",
+    "options": [
+      "Nie jest to możliwe",
+      "Warunku check",
+      "Dodatkowej kolumny",
+      "Odpowiedniego wyrażenia algebry relacji"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 9,
+    "question": "Jakie cechy posiada harmonogram szeregowalny?",
+    "options": [
+      "Można go uporządkować według zadanych kryteriów",
+      "Przekształca bazę z jednego stanu spójnego w inny",
+      "Można zmienić kolejność operacji wewnątrz każdej transakcji",
+      "Jest równoważny pewnemu harmonogramowi szeregowemu"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 10,
+    "question": "Mamy następujący model danych dla zawodów sportowych przechowujący informacje o krajach i sportowcach. Między krajem a sportowcem występuje relacja 1-N, a sportowiec zawsze musi należeć do dokładnie jednego kraju. Relacyjny model danych zawierający tylko 1 tabelę prowadzi do:",
+    "options": [
+      "Niepotrzebnego powielania danych o sportowcach",
+      "Braku niepotrzebnego powtarzania danych",
+      "Niepotrzebnego powielanie danych o sportowcach i krajach.",
+      "Niepotrzebnego powielania danych o krajach."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 11,
+    "question": "Które właściwości relacji są prawdziwe?",
+    "options": [
+      "Krotki w relacji nie są uporządkowane",
+      "Niedopuszczalna jest wartość null",
+      "Dopuszczalne są wartości złożone i wielowartościowe",
+      "Porządek wartości w krotce nie jest istotny"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 12,
+    "question": "Które stwierdzenie jest prawdziwe?",
+    "options": [
+      "Każda relacja musi mieć klucz obcy.",
+      "Relacja nie może mieć więcej niż 1 klucza obcego.",
+      "Klucz obcy może mieć wartość NULL.",
+      "Klucz obcy relacji A nie może odnosić się do klucza głównego tej samej relacji A."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 13,
+    "question": "Wskaż prawdziwe stwierdzenie:",
+    "options": [
+      "Celem strategii wymiany bloków w buforze jest zminimalizowanie dostępu do dysku",
+      "Kolejka LRU znacząco pogarsza efektywność pracy SZBD",
+      "Ze względów bezpieczeństwa dane natychmiast po modyfikacji zapisywane są na dysk",
+      "Wielkość puli buforów w pamięci dzielonej jest stała i uzależniona od systemu operacyjnego, na którym pracuje SZBD"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 14,
+    "question": "Rozpatrzmy następującą definicję widoku i wyrażenie modyfikacji:<br>CREATE VIEW TOPPRODUCTS(PRODNR,PRODNAME,QUANTITY) AS<br>SELECT PRODNR,PRODNAME,AVAILABLE_QUANTITY<br>FROM PRODUCT WHERE AVAILBLE_QUANTITY>100<br>WITH CHECK OPTION<br>UPDATE TOPPRODUCTS<br>SET QUANTITY=80<br>WHERE PRODNR=0153<br><br>Jaki będzie rezultat tego wyrażenia modyfikacji?",
+    "options": [
+      "Aktualizacja zostanie przeprowadzona pomyślnie i zarówno widok jak i tabela PRODUCT zostaną zaktualizowane",
+      "Aktualizacja zostanie przeprowadzona pomyślnie ale tylko widok zostanie zaktualizowany",
+      "Aktualizacja zostanie przeprowadzona pomyślnie, ale zaktualizowana zostanie tylko tabela PRODUCT",
+      "Aktualizacja zostanie wstrzymana z powodu WITH CHECK OPTION"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 15,
+    "question": "Które stwierdzenie jest prawdziwe?",
+    "options": [
+      "Stan bazy danych określa różne elementy danych, ich cechy oraz związki i jest określany podczas projektowania bazy danych.",
+      "Stan bazy danych zmienia się, gdy dane są aktualizowane lub usuwane.",
+      "Stan bazy danych reprezentuje dane w bazie danych, gdy baza danych jest tworzona po raz pierwszy.",
+      "Baza danych jest przechowywana w katalogu."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 16,
+    "question": "Przy założeniu następującego schematu relacji (klucze główne są podkreślone, klucze obce pisane kursywą):<br>STUDENT(student_number, studentname, street name, street number, zip code, city)<br>ENROLLED(student_number, course_number)<br>COURSE(course_number, course name)<br>PROFESSOR(professor number, professor name)<br>TEACHES(course number, professor number)<br>Które stwierdzenie jest prawdziwe?",
+    "options": [
+      "Model nie pozwala profesorowi na prowadzenie wielu kursów.",
+      "Model nie pozwala na uczęszczanie na kurs wielu studentom.",
+      "Model nie pozwala na prowadzenie kursu przez wielu profesorów.",
+      "Model można dodatkowo znormalizować."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 17,
+    "question": "Gdy transakcja zostanie przerwana, ważne jest, aby...",
+    "options": [
+      "wykonywany jest rollback transakcji: wszystkie zmiany dokonane przez poszczególne operacje transakcji powinny zostać cofnięte",
+      "wszystkie zmiany wprowadzone przez poszczególne operacje należące do tej transakcji zostały wprowadzone na stałe"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 18,
+    "question": "Algebra relacji jest podstawą dla:",
+    "options": [
+      "Znajdowania podobnych encji",
+      "Realizacji przez relacyjny SZBD operacji języka manipulacji danymi",
+      "Budowy diagramów ERD",
+      "Wyliczania złożoności obliczeniowej"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 19,
+    "question": "Które stwierdzenie nie jest poprawne?",
+    "options": [
+      "Plik dziennika jest często duplikowany (np. w konfiguracji RAID poziomu 1).",
+      "Plik dziennika może być zaimplementowany jako plik sekwencyjny.",
+      "Plik dziennika zawiera wszystkie aktualizacje po ich zapisaniu na dysku.",
+      "Plik dziennika zawiera redundantne dane."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 20,
+    "question": "W jaki sposób rozwiązać problem odwzorowania w schemacie relacyjnej bazy danych relacji typu n:m (wiele do wiele)?",
+    "options": [
+      "Trzeba użyć dodatkowo perspektywę",
+      "Należy zdefiniować podwójne indeksowanie plików odpowiadających każdej z tabel",
+      "Należy dobrać odpowiedni klucz obcy w drugiej z tabel",
+      "Trzeba zaprojektować dodatkową tabelę"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 21,
+    "question": "Załóżmy, że mamy tabelę z zamówieniami zakupu o następującej strukturze:<br>CREATE TABLE PURCHASE_ORDER (<br>&nbsp;&nbsp;PONR CHAR(7) NOT NULL PRIMARY KEY,<br>&nbsp;&nbsp;PODATE DATE,<br>&nbsp;&nbsp;SUPNR CHAR(4) NOT NULL,<br>&nbsp;&nbsp;FOREIGN KEY (SUPNR) REFERENCES SUPPLIER (SUPNR)<br>&nbsp;&nbsp;ON DELETE CASCADE ON UPDATE CASCADE);<br>Co się stanie po usunięciu dostawcy (supplier)?",
+    "options": [
+      "Wszystkie rekordy zamówień zakupu powiązane z tym dostawcą są również usuwane.",
+      "SUPNR tego dostawcy jest usuwany w PURCHASE_ORDER.",
+      "SUPNR tego dostawcy jest zastępowany wartością NULL w PURCHASE_ORDER",
+      "SUPNR tego dostawcy jest usuwany tylko w SUPPLIER"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 22,
+    "question": "Które stwierdzenie jest prawdziwe?",
+    "options": [
+      "Forma normalna Boyce'a Codda jest bardziej rygorystyczna niż trzecia forma normalna.",
+      "Forma normalna Boyce'a Codda jest bardziej rygorystyczna niż czwarta forma normalna.",
+      "Pierwsza forma normalna jest bardziej rygorystyczna niż forma normalna Boyce'a Codda.",
+      "Druga forma normalna jest bardziej rygorystyczna niż forma normalna Boyce'a Codda."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 23,
+    "question": "W jakich sytuacjach możemy aktualizować widoki?",
+    "options": [
+      "W każdej sytuacji.",
+      "Gdy widok zbudowany jest w oparciu o co najwyżej dwie tabele bazowe.",
+      "Gdy jest zbudowany w oparciu o pojedynczą tabelę bazową.",
+      "Gdy zawiera co najwyżej jedno wyrażenie agregujące."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 24,
+    "question": "Które stwierdzenie nie jest poprawne?",
+    "options": [
+      "W podejściu bazodanowym definicje danych lub metadane są przechowywane w aplikacjach uzyskujących dostęp do danych.",
+      "W podejściu bazodanowym utrzymanie danych i metadanych jest łatwiejsze.",
+      "W podejściu opartym na bazie danych zwykle potrzeba mniej pamięci w porównaniu z podejściem opartym na plikach.",
+      "W podejściu bazodanowym aplikacje nie mają własnych plików, ale wszystkie aplikacje uzyskują dostęp do tej samej wersji danych poprzez połączenie z DBMS."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 25,
+    "question": "Stwierdzenie A: Fizyczna niezależność danych oznacza, że ani aplikacje, ani widoki lub logiczne modele danych nie muszą być zmieniane, gdy wprowadzane są zmiany w specyfikacjach przechowywania danych w wewnętrznym modelu danych. Stwierdzenie B: Logiczna niezależność danych oznacza, że na aplikacje w minimalnym stopniu wpływają zmiany w koncepcyjnym lub logicznym modelu danych. Które z powyższych twierdzeń są prawdziwe?",
+    "options": [
+      "Zarówno A jak i B",
+      "Ani A, ani B",
+      "Tylko A",
+      "Tylko B"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 26,
+    "question": "Zgodnie z protokołem wielokrotnej ziarnistości MGL",
+    "options": [
+      "Blokady są uzyskiwane od dołu do góry, ale zwalniane od góry do dołu w hierarchii.",
+      "Blokady są uzyskiwane od góry do dołu, ale zwalniane od dołu do góry w hierarchii."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 27,
+    "question": "Które stwierdzenie NIE jest poprawne:",
+    "options": [
+      "Odtwarzanie to czynność polegająca na zapewnieniu, że niezależnie od zaistniałego problemu, baza danych zostanie po nim przywrócona do spójnego stanu, bez utraty danych",
+      "Transakcja to zbiór operacji na bazie danych (np. wykonanie poleceń SQL w relacyjnej bazie danych), wywołanych przez jednego użytkownika lub aplikację, które należy traktować jako jedną niepodzielną jednostkę pracy",
+      "Transakcje zazwyczaj istnieją w izolacji i nie mogą być wykonywane równolegle z innymi transakcjami na tym samym zbiorze danych",
+      "Nie powinno być możliwe zakończenie transakcji w taki sposób, że baza danych pozostaje w niespójnym stanie, ponieważ niektóre operacje pojedynczej transakcji zostały przeprowadzone pomyślnie, a inne nie"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 28,
+    "question": "Wskaż prawdziwe stwierdzenie dotyczące zależności funkcyjnych",
+    "options": [
+      "Nie da się ich wywnioskować ze stanu bazy danych",
+      "Określa zależności między rekordami w różnych relacjach",
+      "Wszystkie postaci normalne są na nich oparte",
+      "Nie obejmują zależności trywialnych"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 29,
+    "question": "Które stwierdzenie jest prawdziwe:",
+    "options": [
+      "Wiele transakcji może posiadać wyłączną blokadę na tym samym obiekcie",
+      "Wiele transakcji może posiadać współdzieloną blokadę na tym samym obiekcie"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 30,
+    "question": "Atrybuty pochodne przechowywane są w schemacie relacji w postaci:",
+    "options": [
+      "Nie jest to możliwe",
+      "Warunku check",
+      "Dodatkowej kolumny",
+      "Odpowiedniego wyrażenia algebry relacji"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 31,
+    "question": "We fragmentacji poziomej:",
+    "options": [
+      "Każdy fragment składa się z wierszy, które spełniają określone predykaty zapytania",
+      "Każdy fragment składa się z podzbioru kolumn globalnego zbioru danych"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 32,
+    "question": "Które stwierdzenie jest poprawne:",
+    "options": [
+      "W architekturze pamięci współdzielonej wiele połączonych procesorów, na których działa oprogramowanie DBMS, korzysta z tej samej centralnej pamięci masowej i pamięci dodatkowej",
+      "W przypadku architektury ze współdzielonym dyskiem każdy procesor ma własną centralną pamięć masową, ale współdzieli z innymi procesorami pamięć dodatkową",
+      "W architekturze bez współdzielenia każdy procesor ma własną pamięć centralną i jednostki dysku twardego",
+      "Wszystkie stwierdzenia są poprawne"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 33,
+    "question": "Rozważ model danych dla Igrzysk Olimpijskich przechowujący informacje o krajach i sportowcach. Między krajem a sportowcem występuje relacja 1-N, a sportowiec zawsze musi należeć do dokładnie jednego kraju. Relacyjny model danych zawierający tylko 1 tabelę prowadzi do:",
+    "options": [
+      "Niepotrzebnego powielania danych o sportowcach",
+      "Braku niepotrzebnego powtarzania danych",
+      "Niepotrzebnego powielanie danych o sportowcach i krajach.",
+      "Niepotrzebnego powielania danych o krajach."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 34,
+    "question": "Które stwierdzenie jest prawidłowe?",
+    "options": [
+      "SQL to język baz danych do zarządzania DBMS bez konieczności pisania znacznej ilości kodu programistycznego.",
+      "Czas odpowiedzi to czas potrzebny do zbudowania koncepcyjnego modelu danych.",
+      "Stan bazy danych zawiera opis bazy danych i jest przechowywany w katalogu.",
+      "Wykonywanie zapytań do systemu bazy danych jest bardziej kłopotliwe niż do systemu opartego na plikach."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 35,
+    "question": "Który z wymienionych nie jest częścią menadżera przechowywania w architekturze DBMS:",
+    "options": [
+      "Menadżer transakcji (transaction manager).",
+      "Menedżer odzyskiwania (recovery menager).",
+      "Menedżer buforów (buffer manager).",
+      "Menadżer połączeń (connection manager)."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 36,
+    "question": "Jakie pojęcie określa różne elementy danych, ich cechy i zależności, ograniczenia, szczegóły projektowania bazy danych?",
+    "options": [
+      "Żaden z powyższych.",
+      "Model bazy danych.",
+      "Stan bazy danych.",
+      "Katalog."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 37,
+    "question": "Wskaż, które ograniczenia można zdefiniować na poziomie kolumny (w instrukcji create table)",
+    "options": [
+      "Wyzwalacze typu \"zdarzenie, warunek, akcja\"",
+      "Wyrażenia regularne",
+      "Unikalne wartości atrybutu",
+      "Funkcje walidujące"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 38,
+    "question": "Które z poniższych cech posiadają widoki",
+    "options": [
+      "Zabezpieczają dane przed ich utratą w trakcie realizacji złożonych transakcji",
+      "Dostarczają prostego mechanizmu uaktualnienia danych",
+      "Mogą realizować politykę ograniczenia dostępu do danych",
+      "Powodują problemy z konstrukcją zapytań SQL do bazy danych"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 39,
+    "question": "Wskaż prawdziwe stwierdzenia dotyczące postaci normalnej Boyce'a-Codda",
+    "options": [
+      "Schematy relacji, które są w 3NF, są również w BCNF",
+      "Schematy relacji zawsze należy doprowadzać do postaci BCNF",
+      "Dowolna relacja dwuatrybutowa jest w BCNF",
+      "Atrybut z prawej strony zależności funkcyjnej może być podstawowy"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 40,
+    "question": "Jak można przy pomocy SQL uzyskać informację o liczbie wierszy w tabeli \"Osoby\", w których wartość atrybutu \"Imie\" zaczyna się od \"a\"?",
+    "options": [
+      "SELECT COUNT(*) FROM Osoby Imie = 'a'",
+      "SELECT COUNT(*) FROM Osoby WHERE Imie = '\\%a\\%'",
+      "SELECT COUNT(*) FROM Osoby WHERE Imie LIKE '\\%a'",
+      "SELECT COUNT(*) FROM Osoby WHERE Imie LIKE 'a%'"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 41,
+    "question": "Którą z poniższych cech musi posiadać nadklucz",
+    "options": [
+      "Jego wartość składa się tylko z jednego atrybutu",
+      "Nie może zawierać atrybutów nadmiarowych",
+      "Jest automatycznie generowany przes System Zarządzania Bazą Danych",
+      "Jego wartość jednoznacznie wyznacza wiersz w danej tabeli"
+    ],
+    "correctAnswer": 3
+  }
+]
