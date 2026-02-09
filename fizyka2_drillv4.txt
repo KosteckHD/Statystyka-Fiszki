@@ -1,0 +1,774 @@
+W którym przypadku obie z konfiguracji elektronowych (s, p, d) nie są dozwolone: 5s^1, 3p^7, 3d^1, 4s^3?
+A) 5s^1, 3p^7
+B) 3d^1, 4s^3
+C) 5s^1, 3d^1
+>>>D) 3p^7, 4s^3
+
+Światło o długości 500 nm pada na siatkę dyfrakcyjną o szerokości 2 cm, mającą 2000 nacięć. Jaka jest odległość między prążkiem zerowym, a obrazem pierwszego rzędu na ekranie odległym od siatki o 4 m?
+A) 10 cm
+B) 5 cm
+>>>C) 20 cm
+D) 1 cm
+
+Energia wytwarzana jest w Słońcu głównie poprzez
+A) reakcje chemiczne
+>>>B) reakcje termojądrowe
+C) reakcje rozszczepienia
+D) zapadanie grawitacyjne
+
+Izolowana kulka metalowa o średnicy 2R = 2cm oświetlona jest światłem o długości fali = 0,4 um. W wyniku zjawiska fotoelektrycznego kulka traci elektrony i ładuje się dodatnio. Do jakiego maksymalnego potencjału V naładuje się kulka? (na czacie podobno dopisał, że praca wyjścia W = 1.5 eV | podobno błędna treść, ma być 0.4 mikrometra
+>>>A) 1.6 V (z uwzględnieniem powyższych poprawek)
+B) 12 V
+C) 16 mV
+D) 5.4 V
+
+Całkowita energia zgromadzona na obwodzie LC wynosi U, a całkowity (maksymalny) ładunek zgromadzony na kondensatorze wynosi Q. Jeżeli w danej chwili ładunek na kondensatorze wynosi Q/2 to energia zgromadzona w cewce wynosi:
+A) U/2
+B) U/4
+C) U
+>>>D) 3U/4
+
+Wyznacz długość fali de Broglie’a elektronu w stanie podstawowym atomu wodoru (wg modelu
+Bohra). Dane: r1 = 0.53 * 10^(-10) m.
+A) 8.5 * 10^(-10) m
+B) 19.1 * 10^(-10) m
+C) 2.1 * 10^(-10) m
+>>>D) 3.3 * 10^(-10) m
+
+Elektron jest uwięziony w nieskończonej studni potencjału o szerokości L = 100 pm. Ile wynosi najmniejsza możliwa energia tego elektronu? (wskazówka: L = n * λ / 2). Stała Plancka h = 6.6 * 10^(-34) J*s. Masa spoczynkowa elektronu m = 9.1 * 10^(-31) kg.
+A) 18.7 [eV]
+>>>B) 37.4 [eV]
+C) 74.8 [eV]
+D) 56.1 [eV]
+
+Jaką ilość energii uzyskujemy w reakcji rozszczepienia 1 kg uranu, jeżeli w reakcji rozszczepienia jądra uranu wydziela się energia 200 MeV. Liczba masowa uranu (A = 235). Liczba Avogadro NAv = 6 * 10^23 mol^(-1)
+>>>A) 8.2 * 10^13 [J]
+B) 2.1 * 10^16 [J]
+C) 8.2 * 10^10 [J]
+D) 2.1 * 10^9[J]
+
+Na rysunku (str. 2) pokazana jest pojedyncza szczelina, której brzegi oznaczono X i Y. W punkcie P na odległym ekranie obserwujemy pierwsze maksimum (najbliższe maksimum centralnego). Różnica dróg (PX) - (PY) wynosi:
+A) λ
+B) λ / 2
+C) 2 λ
+>>>D) 3 λ / 2
+
+W eksperymencie użyto światła o długości fali 180 nm, padającego na nieznany metal. Zmierzony fotoprąd przestawał płynąć po przyłożeniu napięcia hamującego 0.8 V. Częstotliwość progowa w zjawisku fotoelektrycznym wynosi dla tego metalu w przybliżeniu
+A) 1.3 * 10^6 Hz
+B) 6.2 * 10^5 Hz
+C) 1.0 * 10^6 Hz
+>>>D) 1.5 * 10^15 Hz
+
+Opór omowy o wartości R = 10 połączony szeregowo z cewką o indukcyjności L = 50 mH przyłączono do źródła napięcia przemiennego o amplitudzie U0 = 60 V i częstości ω = 200 rad/s. Moc wydzielona na oporniku wynosi:
+A) 10 W
+B) 1.5 kW
+>>>C) 90 W
+D) 500 W
+
+Jeżeli w równaniu Schroedingera przyjmiemy U(x) = 0 to cząstkę (swobodną) opisuje funkcja falowa ψ = Ae^(ikx). Ile wynosi liczba falowa k dla tej cząstki?
+>>>A) (2π sqrt(2mE)) / h
+B) sqrt(2mE)
+C) żadna z odpowiedzi nie jest poprawna
+D) (8π^2 mE) / h
+
+Ile stanów elektronowych wchodzi w skład powłoki n = 4?
+A) 16
+B) 4
+>>>C) 32
+D) 8
+
+Dla fali elektromagnetycznej wektor E x B wyznacza kierunek:
+A) pola magnetycznego fali
+>>>B) rozchodzenia się fali
+C) wszystkie odpowiedzi są niepoprawne
+D) pola elektromagnetycznego fali
+
+Energia jonizacji atomu wodoru znajdującego się w trzecim stanie wzbudzonym wynosi:
+A) 3.4 eV
+>>>B) 0.85 eV
+C) 13.6 eV
+D) 1.5 eV
+
+Funkcja falowa ψ100 = e^(-r/a) / sqrt(π a^3) (konfiguracja 1s^1, gdzie a jest pierwszym promieniem Bohra, opisuje stan podstawowy elektronu w atomie wodoru. Dla jakiej odległości od jądra atomu prawdopodobieństwo znalezienia elektronujest największe.
+A) r = 2a
+>>>B) r = a
+C) r = sqrt(a)
+
+Radialna funkcja falowa wodoru w stanie podstawowym ma postać R1,0 = (1/a)^(3/2) * 2 * e^(-r/a). Ile wynosi radialna gęstość prawdopodobieństwa P1,0(r) dla r = a (promień Bohra) ?
+>>>A) 4 / (ae^2)
+B) 4/a^3
+C) 4/(a^3e^2)
+D) 4/a
+
+Chcąc dostroić odbiornik do odbioru fal radiowych o różnych długościach można zmienić pojemność kondensatora w wejściowym obwodzie rezonansowym odbiornika. Ile razy należy zmienić odległość między okładkami kondensatora płaskiego w celu zmiany odbioru fal z λ1=20 m na fale λ2 = 60 m?
+A) d2/d1 = 9
+B) d2/d1 = 1/3
+>>>C) d2/d1 = 1/9
+D) d2/d1 = 3
+
+Ile wynosi maksymalna prędkość fotoelektronów emitowanych z powierzchni metalu oświetlonej światłem o długości fali 400 nm? Praca wyjścia wynosi 2 eV. Stała Plancka h = 6.6 * 10^(-34) J * s. Masa spoczynkowa elektronu m = 9.1 * 10^(-31) kg.
+A) 1.96 * 10^6[m/s]
+B) 4.38 * 10^5[m/s]
+C) 1.96 * 10^5[m/s]
+>>>D) 6.2 * 10^5[m/s]
+
+Światło monochromatyczne o długości λ = 560 nm pada na przesłonę z dwoma szczelinami odległymi o d = 8 * 10^(-5) m. Położenie kątowe drugiego minimum wynosi:
+A) 1.0°
+B) 1.4°
+C) 0.2°
+>>>D) 0.6°
+
+Pomiary zawartości atomów potasu i argonu w próbce skały księżycowej wykazały, że stosunek liczby (trwałych) atomów argonu do liczby (promieniotwórczych) atomów potasu wynosi 10. Jaki jest wiek tej skały, jeżeli przyjmiemy, że wszystkie atomy argonu powstały na drodze rozpadu promieniotwórczego atomów potasu z czasem połowicznego rozpadu T?
+A) T ln10 / ln2
+>>>B) T ln11 / ln2
+C) T ln2
+D) T ln2/ln10
+
+Jakie kąty z osią tworzy wektor orbitalnego momentu pędu elektronu w stanie p (l=1)?
+>>>A) 45°, 90°, 135°
+B) 30°, 90°, 120°
+C) 15°, 30°, 45°
+D) 0°, 90°, 180°
+
+Na rysunku (str. 4) przedstawiona jest zależność napięcia hamowania Uh od częstotliwości f padającego promieniowania w zjawisku fotoelektrycznym obserwowanym dla 3 różnych metali. Prace wyjścia dla tych metali uporządkowane od najmniejszej do największej tworzą sekwencję:
+A) 3, 2, 1
+B) 2, 1, 3
+C) 3, 1, 2
+>>>D) 1, 2, 3
+
+Swobodny proton ma funkcję falową daną przez ψ(x,t) = Ae^(i(5.02 * 10^11 x - 8 * 10 ^ 15 t)), Współczynnik przy x wyrażony jest w m^(-1), a współczynnik przy t w s^(-1). Pęd (w kg * m/s) i energia (w eV) protonu wynoszą odpowiednio:
+>>>A) 5.3 * 10^(-23), 5.25
+B) 5.3 * 10^(-23), 33.0
+C) 1.7 * 10^(-23), 5.25
+D) 1.7 * 10^(-23), 33.0
+
+Pod jakim kątem wystąpi pierwsze minimum dla światła o długości 550 nm padającego na pojedynczą szczelinę o szerokości 1 μm? Czy wystąpi drugie minimum?
+>>>A) 33.4°, NIE
+B) 33.4°, TAK
+C) 66.8°, TAK
+D) 66.8°, NIE
+
+Jaki będzie rozmiar atomu wodoru (wg Modelu Bohra), który będąc w stanie podstawowym o E = -13.6 eV zaabsorbuje foton o długości fali 93.7 nm? Promień najmniejszej orbity r = 0.53 * 10^(-10) m.
+>>>A) 19,1 * 10^(-10)
+B) 3,2 ∙ 10^(-10)
+C) 2,1 ∙ 10^(-10)
+D) 8,5 ∙ 10^(-10)
+
+Na szczelinę o szerokości 0.16 mm pada światło monochromatyczne o długości 500 nm a następnie na ekranie za szczelinami tworzy się obraz dyfrakcyjny. Odległość między pierwszym a drugim minimum dyfrakcyjnym wynosi 6 mm. Jaka jest odległość ekranu od szczeliny?
+>>>A) 1,92 m
+B) 0,96 m
+C) 3,84 m
+D) 5,76 m
+
+Mamy atom o masie M, który posiada Z protonów o masie mp oraz N neutronów o masie mn. Ile wynosi energia wiązania tego atomu?
+A) Mc^2
+B) (M - Zmp-Nmn)c^2
+>>>C) (Zmp + Nmn - M)c^2
+D) (Zmp + Nmn)c^2
+
+Napięcie hamowania elektronów wybitych z metalu światłem o częstotliwości 6,8 * 10^14 Hz wynosi 1,8 V. Jaka jest maksymalna energia kinetyczna fotoelektronów i jaka jest praca wyjścia dla tego metalu?
+A) 1,8 eV; 4,6 eV
+B) 2,8 eV; 1,0 eV
+C) 1,8 eV; 2,8 eV
+>>>D) 1,8 eV; 1,0 eV
+
+Który z poniższych zestawów liczb kwantowych może opisywać elektron w atomie wodoru?
+>>>A) n = 4, l = 3, m = -3
+B) n = 4, l = 4, m = -2
+C) n = 3, l = 1, m = -2
+D) n = 5, l = -1, m = 2
+
+aka jest różnica faz pomiędzy promieniami wychodzącymi z góry szczeliny i ze środka szczeliny w miejscu pierwszego minimum dyfrakcyjnego (przylegającego do środkowego maksimum)?
+A) π / 4
+B) π / 8
+>>>C) π
+D) π / 2
+
+W obwodzie RLC, C = 12 μF, L = 25 mH, R = 60Ω. Oscylacje prądu w tym obwodzie mają w przybliżeniu częstość:
+>>>A) 1,4 * 10^3 rad/s
+B) 1,2 * 10^3 rad/s
+C) 1,8 * 10^3 rad/s
+D) 2,2 * 10^3 rad/s
+
+Swobodny elektron i proton mają takie same energie kinetyczne. Z tego wynika, że fala materii związana z elektronem ma, w porównaniu z falą materii związaną z protonem, odpowiednio długość λ i częstotliwość f:
+A) większą λ, taką samą f
+B) mniejszą λ, większą f
+>>>C) większą λ, mniejszą f
+D) taką samą λ, taką sama f
+
+Które z podanych wyrażeń prawidłowo opisuje prawo rozpadu promieniotwórczego izotopu o połówkowym czasie rozpadu T?
+A) N0 exp[-t/(Tln2)]
+B) N0 exp[-tTln2]
+C) N0 exp[-t/T]
+>>>D) N0 exp[-(tln2)/T]
+
+Średnia ilość energii (na jednostkę czasu) promieniowania słonecznego padającego na jednostkę powierzchni Ziemi wynosi 355 W/m^2. Jeżeli przyjmiemy, że Ziemia jest ciałem doskonale czarnym wypromieniowującym w przestrzeń właśnie tyle energii na jednostkę powierzchni i czasu to średnia temperatura jej powierzchni wynosi: Stała Stefana-Boltzmanna: 5,67 * 10^(-8) W / (m^2K^4)
+A) 300 K
+>>>B) 281 K
+C) 290 K
+D) 273 K
+
+Jeżeli amplituda pola elektrycznego płaskiej fali elektromagnetycznej wynosi 100V/m, to amplituda pola magnetycznego jest równa:
+A) 8,0 ∙ 10^7 T
+>>>B) 3,3 ∙ 10^(-7) T
+C) 0,27 T
+D) 6,7 ∙ 10^(-7) T
+
+Średni czas życia stanu wzbudzonego elektronu w swobodnym atomie wynosi 10^(-8)s. Ile wynosi niepewność   f częstotliwości emitowanej fali elektromagnetycznej (naturalna szerokość linii widmowej)?
+>>>A) 8 MHz
+B) 8 kHz
+C) 4 kHz
+D) 4 MHz
+
+Jaka jest wartość napięcia hamującego dla fotoelektronów wylatujących z powierzchni metalu oświetlonej światłem o długości fali 400 nm? Praca wyjścia wynosi 2 eV. Stała Plancka h = 6,63 ∙ 10^(-34) J * s.
+A) 1,5 V
+B) 0,7 V
+C) 0,3 V
+>>>D) 1,1 V
+
+W którym stanie znajdował się atom wodoru, jeśli do jego jonizacji trzeba było dostarczyć energię o wartości 0,85 eV?
+A) 2
+>>>B) 4
+C) 1
+D) 3
+
+Jeżeli funkcja falowa Ѱ ma symetrię sferyczną to radialna gęstość prawdopodobieństwa wynosi:
+A) 4π |Ѱ|^2
+>>>B) 4π r2|Ѱ|^2
+C) 4πѰ
+D) |Ѱ|^2
+
+Fotony w promieniowaniu laserowym mają tę samą energię, długość fali, polaryzację i fazę, ponieważ:
+A) wszystkie fotony są zawsze identyczne, bez względu na źródło emisji
+B) są emitowane przez identyczne atomy
+C) atomy biorące udział w akcji laserowej mogą być tylko w 2 stanach energetycznych
+>>>D) powstają w wyniku emisji wymuszonej
+
+Ile wynosi stosunek energii kinetycznej do energii potencjalnej elektronu w modelu Bohra atomu wodoru? (uwaga istnieje podobne ale z odwrotnym stosunkiem więc wynik tam to -2)
+A) -1
+>>>B) -½
+C) ½
+D) 1
+
+Dwa polaryzatory o równoległych kierunkach polaryzacji przepuszczają światło o natężeniu I0. O jaki kąt należy obrócić jeden z polaryzatorów, aby natężenie przechodzącego światła zmalało o ¾ I0?
+>>>A) 60°
+B) 45°
+C) 30°
+D) 90°
+
+Gazowy wodór został wzbudzony do stanu n = 4. Jaką energię zaabsorbował atom? Ile linii zaobserwuje w widmie emisyjnym tego gazu? E1 = -13.6 eV.
+A) 12.75 [eV], 4
+B) 10.2 [eV], 6
+C) 10,2 [eV], 4
+>>>D) 12,75 [eV], 6
+
+Antena stacji telewizyjnej wysyła impuls fali elektromagnetycznej trwający delta t = 10^(-6) s, ile maksymalnie takich kanałów telewizyjnych, może emitować sygnały w paśmie o szerokości 10 MHz?
+A) 10^6
+>>>B) 125
+C) inf
+D) 10
+
+Zakaz Pauliego dotyczy:
+>>>A) cząstki ze spinem ½
+B) wszystkich cząstek
+C) cząstek ze spinem 1
+D) cząstek naładowanych
+
+Jaki jest średni czas życia atomów radu, jeżeli liczba rozpadów na sekundę w jednym gramie radu wynosi dN/dt = 3.7*10^10 rozpadów/s. Liczba masowa radu A = 226.
+A) 1157 lat
+>>>B) 2275 lat
+C) 7225 lat
+D) 4550 lat
+
+Światło żółte o długości = 589 nm jest rejestrowane przez oko ludzkie przy minimalnej mocy promieniowania padajacego na siatkówke P = 1.7*10^(-8) W. Jaka jest ilość fotonów padajacych na siatkówke oka w ciagu jednej sekundy?/ Ilość fotonów padająca na sitkówke oka w ciągu jednej sekundy wynosi około? (wynik = 5,057 * 10^10)
+A) 6*10^5
+>>>B) 5*10^10
+C) 5*10^17
+D) 6*10^17
+
+W cyklu przemian, w wyniku których jądro U 238 przechodzi w U234 zostaną wyemitowane następujące cząstki (promieniowanie):
+>>>A) alfa,beta-,beta-
+B) alfa
+C) alfa,beta-,beta+
+D) alfa,beta-
+
+Dwie szczeliny o szerokości 0,02mm, środki szczelin oddalone o 0,2 mm, na szczeliny pada światło monochromatyczne o długości 500 nm na ekranie powstaje połączenie obrazu interferencyjnego i dyfrakcyjnego. Ile prążków interf. Będzie w obszarze centralnego max dyfrakcyjnego.
+>>>A) 19
+B) 9
+C) 18
+D) 10
+
+Pomiar wskazuje, że atom pozostaje w stanie wzbudzonym przez 50 ns, a potem przechodzi do stanu podstawowego i emituje foton o energii 2,1 eV. Niepewność wyznaczenia częstości tego fotonu wynosi
+>>>A) 1.6 MHz
+B) 20 MHz
+C) 10 MHz
+D) 3.2 MHz
+
+W doświadczeniu Younga dwie szczeliny oświetlono światłem monochromatycznym (lambda = 546 nm). Szczeliny są odległe 0 0.01 mm, a ekran znajduje się w odległości 20 cm. Odległość liniowa na ekranie między sąsiednimi prążkami wynosi około:
+>>>A) 1 cm
+>>>B) 10 mm
+C) 10 cm
+D) 1 mm
+
+W celu obrócenia o 90 stopni kierunku polaryzacji wiązki światła spolaryzowanego liniowo student umieszcza polaryzatory P1 i P2 w taki sposób, że kierunki polaryzacji tworzą odpowiednio kąty 45 i 90 stopni względem kierunku polaryzacji padającej wiązki światła. Jaka część światła padającego przechodzi przez układ polaryzacji?
+A) 0.5
+>>>B) 0.25
+C) 0.75
+D) 0
+
+Ile dozwolonych stanów kwantowych wyróżniamy dla n=3?
+A) 3
+B) 9
+>>>C) 18
+D) 6
+
+Na rysunku (str. 10) poniżej pokazane są 4 pary płytek polaryzujących. Kierunek polaryzacji są zaznaczone liniami przerywanymi. Dwie płytki z każdej pary są umieszczone jedna za drugą, a przednie płytki są oświetlone niespolaryzowanym światłem o takim samym natężeniu. Uporządkuj pary polaroidów względem natężenia przepuszczanego przez nie światła, od najmniej do największej wartości.
+A) 2,4,3,1
+B) 1,2,3,4
+>>>C) 2,4,1,3
+D) 4,2,1,3
+
+W obwodzie LC maksymalne napięcie na kondensatorze wynosi 15 V i wtedy energia zmagazynowana w kondensatorze (maksymalna energia) wynosi 360 uJ. Gdy, w danej chwili (podczas oscylacji w obwodzie) energia zmagazynowana w kondensatorze zmaleje do 40 uJ, to wtedy napięcie na cewce wynosi:
+A) 20 V
+B) 15 V
+>>>C) 5 V
+D) 10 V
+
+Powierzchnię litu (praca wyjścia dla litu wynosi W = 2.3 eV) oświetlamy kolejno światłem o długości 500 nm i 650 nm. Dla której długości fali wystąpi efekt fotoelektryczny:
+A) dla obu λ
+B) dla żadnej λ
+>>>C) 500 nm
+D) 650 nm
+
+Moc elektryczna dużej elektrowni jądrowej wynosi 900 MW. Osiąga ona sprawność konwersji energii jądrowej na elektryczną równą 35%. Ile jąder 235U ulega rozszczepieniu co sekundę przy założeniu, że typowe rozszczepienie wytwarza 200 MeV energii? Jaka masa 235U ulega rozszczepieniu w ciągu jednego roku pracy pełną mocą?
+A) 4.3*10^19, 518 kg
+B) 2.8*10^19, 346 kg
+>>>C) 8.0*10^19, 993 kg
+D) 9.8*10^18, 121 kg
+
+5 elektronów znajduje się w 2-wymiarowej, kwadratowej, nieskończonej studni potencjału o boku długości L. Energie stanów elektronowych są dane wyrażeniem (8^2/(8mL^2)) * (nx^2+ny^2), gdzie nx i ny są liczbami całkowitymi. Energia stanu podstawowego (najniższa możliwa energia) układu 5 elektronów w jednostkach 8^2/(8mL^2) wynosi: Wskazówka: stan elektronu zależy od trzech liczb kwantowych nx, ny oraz liczby
+spinowej.
+A) 10
+B) 24
+>>>C) 19
+D) 0
+
+Energia fotonu i energia elektronu są równe 1eV. Ile wynosi (w przybliżeniu) stosunek długości fali fotonu do długości fali elektronu? Stała Plancka h = 6.6 * 10^(-34)J*s
+A) 1
+B) 10
+C) 10^6
+>>>D) 1000
+
+Czas połowiczny rozpadu radu wynosi 1600 lat. Jeżeli skała zawiera początkowo 1 g radu to ilość radu jaka pozostanie w skale po czasie 6400 lat wynosi około:
+A) mniej niż 16 mg
+B) 16 mg
+C) 31 mg
+>>>D) 62 mg
+
+W obwodzie RLC zasilanym napięciem sinusoidalnie zmiennym reaktancja (oporność) indukcyjna X   = 200 Ω, reaktancja (oporność) pojemnościowa X   = 100 Ω, a oporność R = 50 Ω. Prąd w obwodzie będzie zgodny w fazie z napięciem zasilającym, gdy:
+A) zwiększymy oporność do 100 Ω
+B) zwiększymy pojemność 2-krotnie
+>>>C) zmniejszymy pojemność 2-krotnie
+D) zwiększymy oporność do 200 Ω
+
+Elektron znajduje się w stanie, w którym wartość momentu orbitalnego wynosi (3h√2)/π. Ile jest dozwolonych wartości składowej z momentu orbitalnego w tym stanie?
+A) 5
+B) 7
+>>>C) 8
+D) 4
+
+Częstość własna oscylacji w obwodzie RLC wynosi ⍵0. DO tego obwodu dołączono źródło napięcia zmiennego o zmiennej częstotliwości ⍵ i stałej amplitudzie. Dla jakiej wartości ⍵ prąd w obwodzie osiągnie wartość maksymalną?
+A) 2⍵0
+>>>B) ⍵0
+C) ⍵0/5
+D) ⍵0/2
+
+W doświadczeniu Younga odległość pomiędzy szczelinami d zwiększono dwukrotnie. Obraz interferencyjny na ekranie pozostanie bez zmian jeżeli zmienimy odległość D szczelin od ekranu do wartości (wskazówka D >> d):
+A) D/2
+>>>B) 2D
+C) D/4
+D) 4D
+
+Większość fotonów w widmie ciągłym promieniowania X ma energię w przybliżeniu równą
+A) energii spoczynkowej mc^2
+B) energii wszystkich elektronów anody (tarczę)
+>>>C) energii elektronu uderzającego w anodę (tarczę)
+D) energii kinetycznej elektronów anody (tarczy) z powłoki K (znajdującej się najbliżej jądra atomu)
+
+Elektron w atomie znajduje się w stanie opisanym azymutalną liczbą kwantowa l = 5. Najmniejszy kąt jaki tworzy wektor momentu pędu l z osią z wynosi:
+A) 0°
+B) 36.7°
+C) 18.0°
+>>>D) 24.1°
+
+W obwodzie RLC oporność wynosi 30   , a reaktancja 40   . Gdy obwód jest zasilany napięciem zmiennym o amplitudzie 420 V to maksymalny prąd w obwodzie wynosi
+A) 10.5 A
+>>>B) 8.4 A
+C) 6.0 A
+D) 12 A
+
+Energia kinetyczna swobodnego elektronu wynosi K. Jeżeli długość fali materii tego elektronu podwoiła się to jego energia kinetyczna wynosi teraz:
+A) K/2
+>>>B) K/4
+C) K
+D) 2K
+
+Wiązka promieniowania lasera o długości    = 653 nm pada prostopadle na płytę CD. Po odbiciu od płytki, na ekranie znajdującym się w odległości L = 1.2 m, zaobserwowano rząd plamek dyfrakcyjnych. Odległość między centralną plamką i sąsiednimi wynosi y = 0.5 m. Odległość między ścieżkami zapisu wynosi
+A) 13   m
+B) 1.3   m
+>>>C) 1.7   m
+D) 0.1   m
+
+W półprzewodniku samoistnym, w temperaturze pokojowej:
+A) jest więcej elektronów w m^3 w paśmie walencyjnym niż w T = 0K
+B) jest więcej elektronów w m^3 w paśmie walencyjnym niż w typowym metalu
+C) jest więcej elektronów w m^3 w paśmie przewodnictwa niż dziur w m^3 w paśmie walencyjnym
+>>>D) żadna z odpowiedzi nie jest poprawna
+
+Niepewność położenia elektronu w danym kierunku wynosi 5 * 10^(-10) m. Niepewność określenia pędu w tym kierunku może wynosić ( w jednostkach kg*m/s)
+A) 2*10^(−25)
+B) 4*10^(−25)
+C) 3*10^(−25)
+>>>D) wszystkie odpowiedzi są poprawne
+
+W ciągu 15 minut ⅞ próbki zawierającej rozpadło się do Zn. Czas połowiczny tego rozpadu wynosi:
+>>>A) 5 minut
+B) 10 minut
+C) 15 minut
+D) 7 minut
+
+Inwersja obsadzeń jest konieczna do wytworzenia wiązki laserowej ponieważ wtedy
+>>>A) więcej fotonów jest emitowanych niż absorbowanych
+B) fotony nie dzielą się zbyt szybko
+C) fotony nie zderzają się ze sobą
+D) emisja spontaniczna ma miejsce częściej niż emisja wymuszona (zaznaczone)
+
+Atom wodoru przechodzi z drugiego stanu wzbudzonego do stanu podstawowego (-13.6eV). Częstotliwość emitowanego światła (fotonu) wynosi:
+>>>A) 2.92 * 10^15 He
+B) 3.28 * 10^15 Hz
+C) 2.20 * 10^15 Hz
+D) 3.62 * 10^14 Hz
+
+Pewien materiał ma oporność właściwą równą 7.8 * 10   m w temperaturze pokojowej i ta oporność rośnie ze wzrostem temperatury. Ten materiał jest
+A) półprzewodnikiem domieszkowym
+B) półprzewodnikiem
+C) izolatorem
+>>>D) metalem
+
+Na rysunku (str. 14) poniżej pokazana jest struktura pasmowa:
+A) izolatora
+>>>B) półprzewodnika
+C) przewodnika
+D) izolowanego atomu
+
+Pole magnetyczne w sinusoidalnej fali elektromagnetycznej ma amplitudę 3.3*10^(-7) T. Strumień przenoszonej energii wynosi: Przenikalność magnetyczna w próżni u0 = 4π*10^(-7)H.
+A) 13 W/m^2
+>>>B) 26 W/m^2
+C) 1.7*10^(-7) W/m^2
+D) 1.0*10^5 W/m^2
+
+Swobodny elektron ma pęd 5*10^(-24) kgm/s. Związana z elektronem fala materii ma długość: Stała Plancka h = 6.6*10^(-34) J*s
+A) 2.1*10^(-11) m
+B) 2.1*10^(-13) m
+>>>C) 1.3*10^(-10) m
+D) 1.3*10^(-8) m
+
+Dwa protony są oddalone od siebie o 1 fm (10^(-15)). Uporządkuj w kolejności rosnącej oddziaływania E (elektrostatyczne), N (jądrowe), G (grawitacyjne) między tymi protonami.
+A) E, N, G
+>>>B) G, E, N
+C) G, N, E
+D) N, G, E
+
+Praca wyjścia dla danego metalu wynosi 2.3 eV. Jakie jest napięcie hamowania fotoelektronów wybijanych z tego metalu światłem o częstotliwości 7*10^14 Hz? Stała Plancka h = 6.6*10^(-34) J*s
+A) 2.9 V
+B) 5.2 V
+C) 2.3 V
+>>>D) 0.60 V
+
+Elektron znajduje się w nieskończonej studni potencjału (potencjał wewnątrz = 0, na ścianach jest nieskończenie duży). Na wykresie (str. 15) poniżej pokazana jest funkcja falowa tego elektronu   (x). Liczba kwantowa n dla tego stanu wynosi:
+A) 6
+>>>B) 4
+C) 8
+D) 2
+
+Dwie, różne wiązki elektronów uderzają w dwie różne anody (tarcze) w lampie rentgenowskiej. Krótkofalowa granica widma ciągłego promieniowania X dla anody 1 jest krótsza od tej dla anody 2. Wnioskujemy, że:
+A) pierwiastek anody 2 ma wyższą liczbę atomową niż pierwiastek anody 1
+B) anoda 1 jest grubsza niż anoda 2
+>>>C) elektrony we wiązce 1 mają większą energię kinetyczną niż te we wiązce 2
+D) elektrony we wiązce 2 mają większą energię kinetyczną niż te we wiązce 1
+
+Na rysunku (str. 16) poniżej pokazana jest struktura pasmowa:
+>>>A) przewodnika
+B) pojedynczego atomu
+C) izolatora
+D) półprzewodnika
+
+Ile stanów elektronowych wchodzi w skład powłoki n=2 (pomiń spin elektronu)?
+A) 2
+>>>B) 4
+C) 1
+D) 3
+
+W T = 0 K prawdopodobieństwo obsadzenia stanu energii wyższej o 0.5 ev od energii Fermiego wynosi:
+A) 5 * 10^(−3)
+B) 1
+>>>C) 0
+D) 5 * 10^(−6)
+
+Obwód LC z cewką o indukcyjności L i kondensatorem o pojemności C ma częstotliwość oscylacji f. Gdy połączymy szeregowo dwie takie cewki i dwa kondensatory to częstotliwość oscylacji w takim obwodzie wyniesie:
+A) f/2
+B) 2f
+>>>C) f
+D) f/4
+
+Elektron w długiej cząsteczce organicznej używanej w laserach barwnikowych zachowuje się w przybliżeniu jak cząsteczka kwantowa w pudełku o szerokości 4.18 nm. Częstotliwość fotonów wyemitowanych przy przejściu tego elektronu z pierwszego stanu wzbudzonego do stanu podstawowego wynosi: Stała Plancka h = 6.6*10^(-34) J*s, masa spoczynkowa elektronu 9.1*10^(-31) kg
+A) 1.1*10^13 Hz
+>>>B) 1.56*10^13 Hz
+C) 0.5*10^13 Hz
+D) 3.1*10^13 Hz
+
+Funkcja falowa elektronu    w atomie wodoru zależy od trzech liczb kwantowych n, l, m. Liczba możliwych stanów energetycznych dla zadanej głównej liczby kwantowej n wynosi (bez uwzględnienia spinu elektronu)
+>>>A) n^2
+B) nm
+C) n-l
+D) n(2l+1)
+
+Półprzewodnik domieszkowany można zidentyfikować jako typu p lub n przez:
+A) pomiar przewodności elektrycznej
+>>>B) pomiar efektu Halla
+C) pomiar ciepła właściwego
+D) pomiar oporu właściwego
+
+Jeżeli jądro ma masę M i zawiera Z protonów (każdy o masie mp) i N neutronów (każdy o masie mn) to energia wiązania jądra jest dana wyrażeniem
+A) (M - Zmp - Nmn)c^2
+B) Mc^2
+C) (Zmp + Nmn)c^2
+>>>D) (Zmp + Nmn - M)c^2
+
+5 elektronów znajduje się w 2-wymiarowej, kwadratowej, nieskończonej studni potencjału o boku długości L. Energie stanów elektronowych są dane wyrażeniem (h^2/(8mL^2)) * (nx^2+ny^2), gdzie nx i ny są liczbami całkowitymi. Energia pierwszego stanu wzbudzonego układu 5 elektronów w jednostkach h^2/(8mL^2) wynosi: Wskazówka: stan elektronu zależy od trzech liczb kwantowych nx, ny oraz liczby
+spinowej.
+A) 25
+>>>B) 22
+C) 24
+D) 13
+
+W obliczeniach energii promieniowania X uwzględniamy efektywny ładunek jądra atomowego Z - b gdzie Z jest liczbą atomową. Parametr b wprowadzono ze względu na to, że:
+>>>A) jądro atomowe jest ekranowane przez elektrony
+B) proton jest wybijany z jądra atomowego
+C) elektron jest wybijany z powłoki wewnętrznej
+D) obowiązuje zakaz Pauliego
+
+Jeśli odległość na ekranie pomiędzy pierwszym i drugim minimum obrazu pojedynczej szczeliny dyfrakcyjnej wynosi 6mm, to jaka jest odległość między ekranem a szczeliną? Światło ma długość fali 500nm, a szerokość szczeliny wynosi 0,16mm.
+>>>A) 1.92 m
+B) 3.84 m
+C) 5.76 m
+D) 0.96 m
+
+Pompowanie optyczne w laserze ma na celu (odpowiedź według GPT-4):
+A) emisję wymuszoną
+B) wytworzenie metastabilnych stanów energetycznych
+C) uzyskanie szybkiej emisji
+>>>D) inwersji obsadzeń
+
+W obwodzie RLC, w którym L = 100 mH i C = 1 μF, zasilanym napięciem o częstotliwości 1000 Hz przesunięcie fazowe między prądem i napięciem wynosi 75°. Jaka jest wartość oporu R w tym obwodzie?
+A) 12.6 Ω
+B) 1750 Ω
+>>>C) 126 Ω
+D) 175 Ω
+
+Odbiornik radiowy jest nastrojony na odbiór stacji o częstotliwości 600 kHz. Do jakiej wartości trzeba dostroić pojemność C w obwodzie wejściowym LC odbiornika, aby był dostrojony do stacji 1.2 MHz?
+A) C
+B) 2C
+C) C/2
+>>>D) C/4
+
+Ile elektronów może mieć na ostatniej orbicie atom domieszki akceptorowej w krzemie?
+A) 4
+>>>B) 3
+C) 6
+D) 5
+
+Na rysunku pokazana jest pojedyncza szczelina, której brzegi oznaczono X i Y. W punkcie P na odległym ekranie obserwujemy drugie minimum (licząc od maksimum centralnego). Różnica dróg (PX)-(PY) wynosi:
+A) λ
+B) λ / 2
+>>>C) 2 λ
+D) 3 λ / 2
+
+Elektron porusza się w dwu wymiarowej studni potencjału gdzie: V(x) = 0 dla 0<=x<=L, 0<=y<=2L. Poza tym obszarem V(x) = ∞. Które z poniższych stwierdzeń dotyczących energii stanu podstawowego i funkcji 𝐸1 falowej elektronu w stanie podstawowym są prawdziwe?
+A) 𝐸1 = ℎ^2/(4𝑚𝐿^2)
+B) 𝐸1 = 5ℎ^2/(32𝑚𝐿^2)
+>>>C) ψ = sqrt(2)/𝐿 * 𝑠𝑖𝑛(π𝑥/𝐿) * 𝑠𝑖𝑛(π𝑦/(2𝐿))
+D) ψ = sqrt(2)/𝐿 * 𝑐𝑜𝑠(π𝑥/𝐿) * 𝑐𝑜𝑠(π𝑦/(2𝐿))
+
+[N]Cząstka o masie m porusza się po orbicie kołowej pod wpływem przyciągającej siły F(r) = -kr, gdzie k jest
+dodatnią stałą. Zakładając kwantyzację Bohra momentu pędu oblicz całkowitą energię cząstki (sumę energii
+kinetycznej i potencjalnej)
+A) 𝐸 = ℎ/(2π𝑛) * sqrt(𝑘/𝑚)
+>>>B) 𝐸 = 𝑛ℎ/(2π) * sqrt(𝑘/𝑚)
+C) 𝐸 = 𝑛/(2π) * sqrt(𝑘/𝑚)
+D) 𝐸 = 𝑛^2ℎ/(2π) * sqrt(𝑘/𝑚)
+
+Dla jakich skończonych wartości r występują maksima i minima gęstości elektronowej dla orbitalu 2S(n=2, l=0) atomu wodoru. Radialna funkcja falowa 𝑅(𝑟)20 = (1/(2𝑟1))^(3/2) * 2(1 - r/(2r1))e^(-r/(2r1)), gdzie r_1 jest promieniem pierwszej orbity Bohra.
+A) maksima r = (3 - sqrt(5))r1 i r = (3 + sqrt(5)r1 . Minima r = 0 i r = r1
+B) maksima r = (3 - sqrt(3))r1 i r = (3 + sqrt(3)r1 . Minima r = 0 i r = r1
+>>>C) maksima r = (3 - sqrt(5))r1 i r = (3 + sqrt(5)r1 . Minima r = 0 i r = 2r1
+D) maksima r = (3 - sqrt(3))r1 i r = (3 + sqrt(3)r1 . Minima r = 0 i r = 2r1
+
+5 elektronów znajduje się w 2-wymiarowej, kwadratowej, nieskończonej studni potencjału o boku długości L. Energie stanów elektronowych są dane wyrażeniem (h^2/(8mL^2)) * (nx^2+ny^2), gdzie nx i ny są liczbami całkowitymi. Energia stanu podstawowego (najniższa możliwa energia) układu 5 elektronów w jednostkach h^2/(8mL^2) wynosi:
+A) 10
+B) 0
+>>>C) 19
+D) 24
+
+Impedancja(zawada) obwodu pokazanego (str. 20) poniżej w którym R = 50ohm, L = 0.02 H, C = 150uF, zasilanego z generatora o częstotliwości 50 Hz wynosi (odpowiedź według GPT-4):
+A) 98 Ohm
+B) 21 Ohm
+C) 65 Ohm
+>>>D) 50 Ohm
+
+Próbka zawiera atomy wodoru, wszystkie w stanie wzbudzonym n = 5. Ile fotonów o różnych energiach zostanie wyemitowanych, jeżeli wszystkie atomy próbki powrócą do stanu podstawowego n = 1, gdy mamy do czynienia z wszystkimi możliwymi rodzajami przejść? Jeżeli w próbce znajduje się 500 atomów to, jaka jest całkowita liczba fotonów wyemitowanych, gdy wszystkie atomy powrócą do stanu podstawowego n = 1? Zakładamy, że wszystkie przejścia z danego stanu do stanu o niższej energii są równie prawdopodobne.
+A) 10, 1042
+>>>B) 10, 1125
+C) 20, 1125
+
+Elektrony o energii E przylatujące z x = -inf uderzają w barierę potencjału o szerokości 2a i wysokości V0
+z V0 > E, jak pokazano na poniższym rysunku (str. 21). Jeżeli k - 2π(sqrt(2m(V2 - E)/h)) to w obszarze -a<= x <=a funkcja falowa elektronu jest liniową kombinacją funkcji (screenshot odpowiedzi był bardzo nieczytelny, ale odpowiedź którą należy zaznaczyć jest poprawnie zapisana)
+>>>A) e^(kx) oraz e^(-kx)
+B) e^(lkx) oraz e^(-kx)
+C) e^(lkx) oraz e^(kx)
+D) e^(lkx) oraz e^(-lkx)
+
+Ile elektronów w atomie Ge (Z = 32), będącym w stanie podstawowym, znajduje się w stanach n = 3 i n =4
+A) 32, 4
+B) 16, 4
+>>>C) 18, 4
+D) 18, 2
+
+Jaka jest minimalna energia kinetyczna protonu w jądrze o średnicy 8 * 10^15 m? Masa protonu m=1.67*10^(-27)kg.
+>>>A) 0.04MeV
+B) 0.16 MeV
+C) 0.12 MeV
+D) 0.08 MeV
+
+Aktywność próbki radioaktywnej spadła do 75% wartości początkowej w ciągu 30 dni. Czas połowicznego rozpadu tej próbki wynosi:
+A) 36 dni
+>>>B) 72 dni
+C) 45 dni
+D) 60 dni
+
+Pomiary zawartości atomów ołowiu 206Pb i uranu 258 U w rudzie uranu pokazały,że stosunek 206Pb/238U wynosi 0.60. Ile lat ma ta ruda uranu, jeżeli przyjmijmy,że cały ołów 256Pb powstał w wyniku rozpadu 238U? O czasie rozpadu 238U -> 256Pb (w szeregu radioaktywnym) decyduje czas połówkowego rozpadu 238U, który wynosi aż 4,47 * 10^9 lat.
+A) 2.5 * 10^9 lat
+B) 4 * 10^9 lat
+C) 3.5 * 10^9 lat
+>>>D) 3 * 10^9 lat
+
+Cząstka o masie m jest uwięziona w 3-wymiarowym sześciennym pudełku o boku a. Jaka jest degeneracja poziomu energetycznego o energii 14*((h^2)/(8ms^3)) . Mianem degeneracji określa się sytuację kiedy jednej wartości energii układu odpowiada wiele stanów kwantowych układu.
+>>>A) 6
+B) 8
+C) 2
+D) 4
+
+Elektron znajduje się w 2-wymiarowej, kwadratowej nieskończonej studni potencjału o boku długości L. Energie stanów elektronowych są dane wyrażeniem (h^2/(8mL^2)) * (nx^2+ny^2) gdzie nx i ny są liczbami całkowitymi. Liczba stanów o energii 5 * h^2/(8mL^2) wynosi:
+A) 4
+B) 3
+C) 1
+>>>D) 2
+
+Cząstka poruszająca się w nieskończonej studni potencjału znajduje się w stanie o energii 2eV, a jej funkcja falowa jest pokazana na rysunku (str. 23) poniżej. Najniższa możliwa energia tej cząstki wynosi
+A) 2 eV
+B) 1.5 eV
+>>>C) 0.5 eV
+D) 1 eV
+
+Elektron (e) i foton (f) mają oba energię 10 ev. Jeżeli λ i p są odpowiednio długości fali i pędem to
+prawdziwa jest relacja: (masa elektronu = 9.1 * 10 ^(-31) kg, c = 3 * 10^8 m/s)
+A) λ𝑒 > λ𝑓 i 𝑝𝑒 < 𝑝𝑓
+>>>B) λ𝑒 < λ𝑓 i 𝑝𝑒 > 𝑝𝑓
+C) λ𝑒 = λ𝑓 i 𝑝𝑒 = 𝑝𝑓
+D) λ𝑒 > λ𝑓 i 𝑝𝑒 > 𝑝𝑓
+
+Funkcja falowa opisująca stan cząstki jest dana wyrażeniem, gdzie ψ(𝑥) = (3/5) * ϕ1(𝑥) + (4/5) * ϕ2(𝑥) gdzieϕ1(𝑥) 𝑖 ϕ2(𝑥) są funkcjami własnymi z odpowiadającymi im wartościami własnymi energii -1 eV i -2 eV. Energia cząstki w stanie ψ(𝑥) wynosi:
+A) -11/5 eV
+B) 36/25 eV
+>>>C) -41/25 eV
+D) -7/5 eV
+
+W wodoropodobnym jonie różnica długości fali między pierwszą linią serii Balmera i linią serii Lymana wynosi 16.58 nm. Jakiego pierwiastka jest to jon
+A) Be
+B) Żadna odpowiedz nie jest prawidłowa
+>>>C) He
+D) Li
+
+Dla jakich skończonych wartości r występują minima gęstości elektronowej dla orbitalu3S(n=3, l=0) atomu wodoru. Radialna funkcja falowa R(r)30 = (1/(3r1)^(3/2) * 2(1 - 2r/3r1 + 2/27 * (r/r3)^2)e^(-r/3r), gdzie r1 jest promieniem pierwszej orbity Bohra.
+>>>A) r = 0, 2.4r1, 7.9 r1
+B) r = 0, 1.7 r1 7/3 r1
+C) r = 0, 2.1 r1 6.8 r1
+D) kr = 0, 1.9r1, 7.1 r1
+
+Izotop 18F (t1/2 = 110 minut) jest stosowany w diagnostyce medycznej. Ile czasu potrzeba, aby 99% 18F uległo rozkładowi?
+A) 1462 minuty
+B) 507 minut
+C) żadna odpowiedź nie jest prawidłowa
+>>>D) 731 minut
+
+Rzoważ dwa następujące tryby rozpadu 238U:
+(1) 238U -> 206Pb + 10p + 22n oraz (2) 238U -> 206Pb + 8(4He) + 6e-
+Które z poniższych stwierdzeń jest prawdziwe dla podanych trybów rozpadu 238U?
+A) (1) i (2) są dozwolone
+B) (1) i (2) nie są dozwolone
+C) (1) jest dozwolone a (2) nie
+>>>D) (2) jest dozwolone a (1) nie
+
+Dwa, kuliste jądra atomowe o liczbach masowych 216 i 64 mają promienie R1 oraz R2. Stosunek R1/R2 wynosi (odpowiedź według GPT-4):
+A) 1
+B) 2.5
+>>>C) 1.5
+D) 2
+
+W zjawisku fotoelektrycznym liczba wybitych fotoelektronów jest proporcjonalna do (odpowiedź według GPT-4)
+A) energii kinetycznej elektronów
+>>>B) liczby fotonów padających na próbkę
+C) pracy wyjścia z metalu
+D) częstotliwości padajacego światła
+
+Szczelina ma szerokość d wzdłuż kierunku x. Jeśli wiązka elektronów przyspieszona w kierunku y do określonej prędkości przez zastosowanie różnicy potencjałów 100+- 0.1kV przechodzi przez szczelinę to które z poniższych zdań są poprawne? (odpowiedź według GPT-4 bardzo niepewna)
+>>>A) 2, 3
+B) 3, 4
+C) 1, 2
+D) 2, 4
+
+Jeżeli Me, Mp i Mh są masami spoczynkowymi elektronu, protonu i atomu wodoru w stanie podstawowym o energii -13.6 eV to która z poniższych relacji jest prawdziwa? (c - prędkość światła) (odpowiedź według GPT-4)
+A) Mh = Mp + Me + K gdzie K != 13.6eV/c^2
+B) Mh = Mp + Me
+>>>C) Mh = Mp + Me - 13.6eV/c^2
+D) Mh = Mp + Me + 13.6eV/c^2
+
+Światło padające na powierzchnię metalu wywołuje zjawisko fotoelektryczne. Napięcie hamujące wynosi 5V, a praca wyjścia 2 eV. Jaka jest długość fali padającego promieniowania? Stała Plancka = 6.6*10^(-34) J*s (odpowiedź według GPT)
+A) 265 [nm]
+B) 344 [nm]
+>>>C) 177 [nm]
+D) 88 [nm]
+
+Przerwa energetyczna pomiędzy pasmem walencyjnym, a pasmem przewodnictwa jest w izolatorach rzędu (odpowiedź według GPT)
+A) 1000 eV
+B) 1eV
+>>>C) 10eV
+D) 0.001 eV
+
+Długość fali linii Ka promieniowania X żelaza (Z=26) wynosi 193 pm. Jaka jest długość fali linii Ka promieniowania X między (Z=29)?
+A) 193 pm
+B) 172 pm
+C) 136 pm
+>>>D) 154 pm
+
+Światło o długości fali 600nm pada na fotoelektrodę i wybija z niej elektrony o maksymalnej energii 0.17 eV. Praca wyjścia wynosi: Stała Plancka h = 6.63 * 10^(-34) J*s
+A) 5.7 eV
+>>>B) 1.9 eV
+C) 3.8 eV
+D) 0.95 eV
+
+Cząstka o masie m jest uwięziona w 3-wymiarowym sześciennym pudełku o boku a. Jaka jest degeneracja poziomu energetycznego o energii 14 * h^2/(8mL^2). Mianem degeneracji określa się sytuację, kiedy jednej wartości energii układu odpowiada wiele stanów kwantowych układu.
+A) 8
+B) 2
+C) 4
+>>>D) 6

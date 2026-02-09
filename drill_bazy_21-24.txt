@@ -1,0 +1,294 @@
+[#1] **Które ze stwierdzeń dotyczących wartości null są prawdziwe?**
+(inne sformułowanie: "Wskaż prawdziwe stwierdzenie dotyczące wartości null")
+    A) Jeżeli wystąpi w wartości atrybutu null, to suma po tym atrybucie też jest null
+    >>>B) W modelu relacyjnym wartość null jest traktowana jako trzecia różna od false i true wartość logiczna
+    C) Wartość null oznacza zero
+    D) Klucz obcy musi zawierać przynajmniej jedną wartość null
+
+[#2] **Generowanie fałszywych krotek jest wynikiem:**
+    A) Przechowywania w relacji atrybutów z dużą liczbą wartości null
+    B) Nieprzestrzegania właściwości zachowania zależności funkcyjnych
+    C) Zagnieżdżania relacji
+    >>>D) Niezachowania właściwości złączenia nieaddytywnego (związanego ze złączeniem naturalnym)
+
+[#3] **Które stwierdzenie jest prawdziwe dla indeksu klastrowego:**
+    >>>A) Ma wpływ na fizyczne przechowywanie rekordów na stronach
+    B) Można go tworzyć na dowolnej liczbie kolumn
+    C) Jest odrębnym obiektem w bazie danych
+    D) Klucz główny ze względów wydajnościowych nie powinien być indeksem klastrowym
+
+[#4] **Które stwierdzenie dotyczące kluczy obcych w relacyjnym modelu danych jest prawdziwe:**
+(inne sformułowanie: "Wskaż prawdziwe stwierdzenie dotyczące kluczy obcych..." )
+    A) Wartości klucza obcego są unikatowe
+    B) Muszą zawierać nazwę tabeli głównej w swojej nazwie
+    >>>C) Powinny wskazywać na klucz główny w tabeli głównej
+    D) Muszą się nazywać tak samo jak klucz tabeli głównej
+
+[#5] **Które stwierdzenie jest prawdziwe?**
+    >>>A) Wiele transakcji może posiadać blokadę dzieloną na tym samym obiekcie bazy danych.
+    B) Wiele transakcji może mieć blokadę na wyłączność na tym samym obiekcie bazy danych.
+
+[#6] **Które stwierdzenie nie jest poprawne?**
+    A) Zapobieganie zakleszczeniom (deadlock) można osiągnąć stosując Statyczny (Static) 2PL
+    B) Użycie krótkoterminowych blokad narusza regułę 3 protokołu 2PL, więc nie można już zagwarantować serializacji.
+    C) Jednym ze sposobów rozwiązywania zakleszczeń jest wybór ofiary, co oznacza wybranie i przerwanie jednej z transakcji związanych z zakleszczeniem.
+    >>>D) Poziom izolacji zatwierdzonych odczytów (read commited) używa długoterminowych blokad odczytu, ale krótkoterminowych blokad zapisu.
+
+[#7] **Które stwierdzenie nie jest poprawne?**
+    A) Trwałość oznacza, że efekty każdej zatwierdzone transakcji powinny być na trwale zapisywane w bazie.
+    B) Stan bazy danych zmienia się, gdy dane są aktualizowane lub usuwane.
+    >>>C) Koncepcyjny model danych jest zależny od implementacji.
+    D) W podejściu opartym o pliki różne aplikacje mogą używać starszych i nowszych wersji tych samych danych.
+
+[#8] **Wartości zagregowane przechowywane są w schemacie relacji w postaci:**
+    >>>A) Nie jest to możliwe
+    B) Warunku check
+    C) Dodatkowej kolumny
+    D) Odpowiedniego wyrażenia algebry relacji
+
+[#9] **Jakie cechy posiada harmonogram szeregowalny?**
+    A) Można go uporządkować według zadanych kryteriów
+    B) Przekształca bazę z jednego stanu spójnego w inny
+    C) Można zmienić kolejność operacji wewnątrz każdej transakcji
+    >>>D) Jest równoważny pewnemu harmonogramowi szeregowemu
+
+[#10] **Mamy następujący model danych dla zawodów sportowych przechowujący informacje o krajach i sportowcach.**
+Między krajem a sportowcem występuje relacja 1-N, a sportowiec zawsze musi należeć do dokładnie jednego kraju. Relacyjny model danych zawierający tylko 1 tabelę prowadzi do:
+    A) Niepotrzebnego powielania danych o sportowcach
+    B) Braku niepotrzebnego powtarzania danych
+    C) Niepotrzebnego powielanie danych o sportowcach i krajach.
+    >>>D) Niepotrzebnego powielania danych o krajach.
+
+[#11] **Które właściwości relacji są prawdziwe?**
+    >>>A) Krotki w relacji nie są uporządkowane
+    B) Niedopuszczalna jest wartość null
+    C) Dopuszczalne są wartości złożone i wielowartościowe
+    D) Porządek wartości w krotce nie jest istotny
+
+[#12] **Które stwierdzenie jest prawdziwe?**
+    A) Każda relacja musi mieć klucz obcy.
+    B) Relacja nie może mieć więcej niż 1 klucza obcego.
+    >>>C) Klucz obcy może mieć wartość NULL.
+    D) Klucz obcy relacji A nie może odnosić się do klucza głównego tej samej relacji A.
+
+[#13] **Wskaż prawdziwe stwierdzenie:**
+    >>>A) Celem strategii wymiany bloków w buforze jest zminimalizowanie dostępu do dysku
+    B) Kolejka LRU znacząco pogarsza efektywność pracy SZBD
+    C) Ze względów bezpieczeństwa dane natychmiast po modyfikacji zapisywane są na dysk
+    D) Wielkość puli buforów w pamięci dzielonej jest stała i uzależniona od systemu operacyjnego, na którym pracuje SZBD
+
+[#14] **Rozpatrzmy następującą definicję widoku i wyrażenie modyfikacji:**
+```sql
+CREATE VIEW TOPPRODUCTS(PRODNR,PRODNAME,QUANTITY) AS
+SELECT PRODNR,PRODNAME,AVAILABLE_QUANTITY
+FROM PRODUCT WHERE AVAILBLE_QUANTITY>100
+WITH CHECK OPTION
+UPDATE TOPPRODUCTS
+SET QUANTITY=80
+WHERE PRODNR=0153
+```
+**Jaki będzie tego rezultat tego wyrażenia modyfikacji?**
+    A) Aktualizacja zostanie przeprowadzona pomyślnie i zarówno widok jak i tabela PRODUCT zostaną zaktualizowane
+    B) Aktualizacja zostanie przeprowadzona pomyślnie ale tylko widok zostanie zaktualizowany
+    C) Aktualizacja zostanie przeprowadzona pomyślnie, ale zaktualizowana zostanie tylko tabela PRODUCT
+    >>>D) Aktualizacja zostanie wstrzymana z powodu WITH CHECK OPTION
+
+[#15] **Które stwierdzenie jest prawdziwe?**
+    A) Stan bazy danych określa różne elementy danych, ich cechy oraz związki i jest określany podczas projektowania bazy danych.
+    >>>B) Stan bazy danych zmienia się, gdy dane są aktualizowane lub usuwane.
+    C) Stan bazy danych reprezentuje dane w bazie danych, gdy baza danych jest tworzona po raz pierwszy.
+    D) Baza danych jest przechowywana w katalogu.
+
+[#16] **Przy założeniu następującego schematu relacji (klucze główne są podkreślone, klucze obce pisane kursywą):**
+STUDENT(<u>student_number</u>, studentname, street name, street number, zip code, city)<br>
+ENROLLED(<u>*student_number*</u>, <u>*course_number*</u>)<br>
+COURSE(<u>course_number</u>, course name)<br>
+PROFESSOR(<u>professor number</u>, professor name)<br>
+TEACHES(<u>course number</u>, <u>professor number</u>)
+**Które stwierdzenie jest prawdziwe?**
+(w innej wersji polecenia zaczyna się ono od: "Biorąc pod uwagę następujący model relacyjny...")
+    A) Model nie pozwala profesorowi na prowadzenie wielu kursów.
+    B) Model nie pozwala na uczęszczanie na kurs wielu studentom.
+    C) Model nie pozwala na prowadzenie kursu przez wielu profesorów.
+    >>>D) Model można dodatkowo znormalizować.
+
+[#17] **Gdy transakcja zostanie przerwana, ważne jest, aby...**
+    >>>A) wykonywany jest rollback transakcji: wszystkie zmiany dokonane przez poszczególne operacje transakcji powinny zostać cofnięte
+    B) wszystkie zmiany wprowadzone przez poszczególne operacje należące do tej transakcji zostały wprowadzone na stałe
+
+[#18] **Algebra relacji jest podstawą dla:**
+    A) Znajdowania podobnych encji
+    >>>B) Realizacji przez relacyjny SZBD operacji języka manipulacji danymi
+    C) Budowy diagramów ERD
+    D) Wyliczania złożoności obliczeniowej
+
+[#19] **Które stwierdzenie nie jest poprawne?**
+    A) Plik dziennika jest często duplikowany (np. w konfiguracji RAID poziomu 1).
+    B) Plik dziennika może być zaimplementowany jako plik sekwencyjny.
+    >>>C) Plik dziennika zawiera wszystkie aktualizacje po ich zapisaniu na dysku.
+    D) Plik dziennika zawiera redundantne dane.
+
+[#20] **W jaki sposób rozwiązać problem odwzorowania w schemacie relacyjnej bazy danych relacji typu n:m (wiele do wiele)**
+(inne sformułowanie: "Z jakim problemem trzeba się uporać przy odwzorowaniu...")
+    A) Trzeba użyć dodatkowo perspektywę
+    B) Należy zdefiniować podwójne indeksowanie plików odpowiadających każdej z tabel
+    C) Należy dobrać odpowiedni klucz obcy w drugiej z tabel
+    >>>D) Trzeba zaprojektować dodatkową tabelę
+
+[#21] **Załóżmy, że mamy tabelę z zamówieniami zakupu o następującej strukturze:**
+```sql
+CREATE TABLE PURCHASE_ORDER (
+    PONR CHAR(7) NOT NULL PRIMARY KEY,
+    PODATE DATE,
+    SUPNR CHAR(4) NOT NULL,
+    FOREIGN KEY (SUPNR) REFERENCES SUPPLIER (SUPNR)
+    ON DELETE CASCADE ON UPDATE CASCADE);
+```
+**Co się stanie po usunięciu dostawcy (supplier)?**
+    >>>A) Wszystkie rekordy zamówień zakupu powiązane z tym dostawcą są również usuwane.
+    B) SUPNR tego dostawcy jest usuwany w PURCHASE_ORDER.
+    C) SUPNR tego dostawcy jest zastępowany wartością NULL w PURCHASE_ORDER
+    D) SUPNR tego dostawcy jest usuwany tylko w SUPPLIER
+
+[#22] **Które stwierdzenie jest prawdziwe?**
+    >>>A) Forma normalna Boyce'a Codda jest bardziej rygorystyczna niż trzecia forma normalna.
+    B) Forma normalna Boyce'a Codda jest bardziej rygorystyczna niż czwarta forma normalna.
+    C) Pierwsza forma normalna jest bardziej rygorystyczna niż forma normalna Boyce'a Codda.
+    D) Druga forma normalna jest bardziej rygorystyczna niż forma normalna Boyce'a Codda.
+
+[#23] **W jakich sytuacjach możemy aktualizować widoki?**
+    A) W każdej sytuacji.
+    B) Gdy widok zbudowany jest w oparciu o co najwyżej dwie tabele bazowe.
+    >>>C) Gdy jest zbudowany w oparciu o pojedynczą tabelę bazową.
+    D) Gdy zawiera co najwyżej jedno wyrażenie agregujące.
+
+[#24] **Które stwierdzenie nie jest poprawne?**
+    >>>A) W podejściu bazodanowym definicje danych lub metadane są przechowywane w aplikacjach uzyskujących dostęp do danych.
+    B) W podejściu bazodanowym utrzymanie danych i metadanych jest łatwiejsze.
+    C) W podejściu opartym na bazie danych zwykle potrzeba mniej pamięci w porównaniu z podejściem opartym na plikach.
+    D) W podejściu bazodanowym aplikacje nie mają własnych plików, ale wszystkie aplikacje uzyskują dostęp do tej samej wersji danych poprzez połączenie z DBMS.
+
+[#25] **Stwierdzenie A:** Fizyczna niezależność danych oznacza, że ani aplikacje, ani widoki lub logiczne modele danych nie muszą być zmieniane, gdy wprowadzane są zmiany w specyfikacjach przechowywania danych w wewnętrznym modelu danych.
+**Stwierdzenie B:** Logiczna niezależność danych oznacza, że na aplikacje w minimalnym stopniu wpływają zmiany w koncepcyjnym lub logicznym modelu danych.
+**Które z powyższych twierdzeń są prawdziwe?**
+    >>>A) Zarówno A jak i B
+    B) Ani A, ani B
+    C) Tylko A
+    D) Tylko B
+
+[#26] **Zgodnie z protokołem wielokrotnej ziarnistości MGL**
+    A) Blokady są uzyskiwane od dołu do góry, ale zwalniane od góry do dołu w hierarchii.
+    >>>B) Blokady są uzyskiwane od góry do dołu, ale zwalniane od dołu do góry w hierarchii.
+
+[#27] **Które stwierdzenie NIE jest poprawne:**
+    A) Odtwarzanie to czynność polegająca na zapewnieniu, że niezależnie od zaistniałego problemu, baza danych zostanie po nim przywrócona do spójnego stanu, bez utraty danych
+    B) Transakcja to zbiór operacji na bazie danych (np. wykonanie poleceń SQL w relacyjnej bazie danych), wywołanych przez jednego użytkownika lub aplikację, które należy traktować jako jedną niepodzielną jednostkę pracy
+    >>>C) Transakcje zazwyczaj istnieją w izolacji i nie mogą być wykonywane równolegle z innymi transakcjami na tym samym zbiorze danych
+    D) Nie powinno być możliwe zakończenie transakcji w taki sposób, że baza danych pozostaje w niespójnym stanie, ponieważ niektóre operacje pojedynczej transakcji zostały przeprowadzone pomyślnie, a inne nie
+
+[#28] **Wskaż prawdziwe stwierdzenie dotyczące zależności funkcyjnych**
+    >>>A) Nie da się ich wywnioskować ze stanu bazy danych
+    B) Określa zależności między rekordami w różnych relacjach
+    C) Wszystkie postaci normalne są na nich oparte
+    D) Nie obejmują zależności trywialnych
+
+[#29] **Które stwierdzenie jest prawdziwe:**
+    A) Wiele transakcji może posiadać wyłączną blokadę na tym samym obiekcie
+    >>>B) Wiele transakcji może posiadać współdzieloną blokadę na tym samym obiekcie
+
+[#30] **Atrybuty pochodne przechowywane są w schemacie relacji w postaci:**
+    >>>A) Nie jest to możliwe
+    B) Warunku check
+    C) Dodatkowej kolumny
+    D) Odpowiedniego wyrażenia algebry relacji
+
+[#31] **We fragmentacji poziomej:**
+    >>>A) Każdy fragment składa się z wierszy, które spełniają określone predykaty zapytania
+    B) Każdy fragment składa się z podzbioru kolumn globalnego zbioru danych
+
+[#32] **Które stwierdzenie jest poprawne:**
+    A) W architekturze pamięci współdzielonej wiele połączonych procesorów, na których działa oprogramowanie DBMS, korzysta z tej samej centralnej pamięci masowej i pamięci dodatkowej
+    B) W przypadku architektury ze współdzielonym dyskiem każdy procesor ma własną centralną pamięć masową, ale współdzieli z innymi procesorami pamięć dodatkową
+    C) W architekturze bez współdzielenia każdy procesor ma własną pamięć centralną i jednostki dysku twardego
+    >>>D) Wszystkie stwierdzenia są poprawne
+
+[#33] **Rozważ model danych dla Igrzysk Olimpijskich przechowujący informacje o krajach i sportowcach.**
+Między krajem a sportowcem występuje relacja 1-N, a sportowiec zawsze musi należeć do dokładnie jednego kraju. Relacyjny model danych zawierający tylko 1 tabelę prowadzi do:
+    A) Niepotrzebnego powielania danych o sportowcach
+    B) Braku niepotrzebnego powtarzania danych
+    C) Niepotrzebnego powielanie danych o sportowcach i krajach.
+    >>>D) Niepotrzebnego powielania danych o krajach.
+
+[#34] **Które stwierdzenie jest prawidłowe?**
+    >>>A) SQL to język baz danych do zarządzania DBMS bez konieczności pisania znacznej ilości kodu programistycznego.
+    B) Czas odpowiedzi to czas potrzebny do zbudowania koncepcyjnego modelu danych.
+    C) Stan bazy danych zawiera opis bazy danych i jest przechowywany w katalogu.
+    D) Wykonywanie zapytań do systemu bazy danych jest bardziej kłopotliwe niż do systemu opartego na plikach.
+
+[#35] **Który z wymienionych nie jest częścią menadżera przechowywania w architekturze DBMS:**
+    A) Menadżer transakcji (transaction manager).
+    B) Menedżer odzyskiwania (recovery menager).
+    C) Menedżer buforów (buffer manager).
+    >>>D) Menadżer połączeń (connection manager).
+
+[#36] **Jakie pojęcie określa różne elementy danych, ich cechy i zależności, ograniczenia, szczegóły projektowania bazy danych?**
+    A) Żaden z powyższych.
+    >>>B) Model bazy danych.
+    C) Stan bazy danych.
+    D) Katalog.
+
+[#37] **Wskaż, które ograniczenia można zdefiniować na poziomie kolumny (w instrukcji create table)**
+    A) Wyzwalacze typu "zdarzenie, warunek, akcja"
+    B) Wyrażenia regularne
+    >>>C) Unikalne wartości atrybutu
+    D) Funkcje walidujące
+
+[#38] **Które z poniższych cech posiadają widoki**
+    A) Zabezpieczają dane przed ich utratą w trakcie realizacji złożonych transakcji
+    B) Dostarczają prostego mechanizmu uaktualnienia danych
+    >>>C) Mogą realizować politykę ograniczenia dostępu do danych
+    D) Powodują problemy z konstrukcją zapytań SQL do bazy danych
+
+[#39] **Wskaż prawdziwe stwierdzenia dotyczące postaci normalnej Boyce'a-Codda**
+    A) Schematy relacji, które są w 3NF, są również w BCNF
+    B) Schematy relacji zawsze należy doprowadzać do postaci BCNF
+    >>>C) Dowolna relacja dwuatrybutowa jest w BCNF
+    D) Atrybut z prawej strony zależności funkcyjnej może być podstawowy
+
+[#40] **Jak można przy pomocy SQL uzyskać informację o liczbie wierszy w tabeli "Osoby", w których wartość atrybutu "Imie" zaczyna się od "a"?**
+    A) SELECT COUNT(*) FROM Osoby Imie = 'a'
+    B) SELECT COUNT(*) FROM Osoby WHERE Imie = '\%a\%'
+    C) SELECT COUNT(*) FROM Osoby WHERE Imie LIKE '\%a'
+    >>>D) SELECT COUNT(*) FROM Osoby WHERE Imie LIKE 'a%'
+
+[#41] **Którą z poniższych cech musi posiadać nadklucz**
+    A) Jego wartość składa się tylko z jednego atrybutu
+    B) Nie może zawierać atrybutów nadmiarowych
+    C) Jest automatycznie generowany przes System Zarządzania Bazą Danych
+    >>>D) Jego wartość jednoznacznie wyznacza wiersz w danej tabeli
+
+<options> {
+    "format": "2.1",
+    "markdown": true,
+    "mathjax": true,
+    "grading": "custom: incorrect ? 0 : (missed == 0) ? 3 : (missed == 1 && correct) ? 1 : 0",
+    "timeLimit": 90,
+    "repeatIncorrect": true,
+    "explain": "always",
+    "explanations": {
+"3": " - CLUSTERED INDEX narzuca tabelom, jak mają zapisywać ficzycznie rekordy na kolejnych stronach (posortowane według indeksu). \n - Jeden na tabelę. \n - SQL Server domyślnie tworzy CLUSTERED INDEX dla PRIMARY KEY. \n - Nie wiem, o co jej chodziło z liczbą kolumn.",
+"4": " > A foreign key constraint doesn't have to be linked only to a primary key constraint in another table. Foreign keys can also be defined to reference the columns of a UNIQUE constraint in another table. \n https://learn.microsoft.com/en-us/sql/relational-databases/tables/create-foreign-key-relationships?view=sql-server-ver16",
+"6": " - Statyczny 2PL: wszystkie blokady uzyskiwane są na początku transakcji. Zapobiega to deadlockom. \n - Blokady krótkoterminowe: utrzymywane tylko w czasie potrzebnym do zakończenia operacji. 3cia zasada dotyczy tego, że na początku tylko uzyskujemy nowe blokady, a potem tylko je zwalniamy. \n - Read committed używa długoterminowych blokad zapisu, ale krótkoterminowych blokad odczytu.",
+"11": " - Wartości proste (atomowe) nie mogą być dalej dzielone na części, złożone mogą. \n - Atrybut jednowartościowy ma tylko jedną wartość dla określonej encji, wielowartościowy może mieć wiele.",
+"13": " - LRU jest jedną z najczęstszych strategii buforowania.",
+"14": " Opcja WITH CHECK sprawdza instrukcje UPDATE i INSERT pod kątem zgodności z definicją widoku ",
+"15": " Stan bazy danych reprezentuje dane w bazie danych w określonym momencie ",
+"16": " Chodzi chyba o to, że można znormalizować adres studenta.  ",
+"19": " wszystkie aktualizacje są rejestrowane w pliku dziennika przed zapisaniem na dysku.  ",
+"23": " Większość implementacji SQL pozwala na modyfikacje tylko prostych widoków – zapytanie tworzące widok musi spełniać wszystkie warunki (standard SQL) (rzekomo): \n – `FROM` ma tylko jedną relację \n – `SELECT` zawiera tylko nazwy atrybutów relacji i **nie** zawiera żadnych wyrażeń, agregatów ani specyfikacji `DISTINCT` \n – Atrybut niewyspecyfikowany w klauzuli `SELECT` może być ustawiony na `NULL` (brak ograniczenia `NOT NULL` ani nie należy do PK) (albo mieć wartości domyślne) \n – Zapytanie nie zawiera klauzul `GROUP BY` ani `HAVING` ",
+"26": " > W protokole MGL wszystkie blokady są uzyskiwane top-down, a zwalniane bottom-up. \n Rocznik 2024/25 tego chyba nie miał (a przynajmniej nie ma w slajdach z UPeLa).  ",
+"28": " 1NF nie jest oparta na zależnościach funkcyjnych.  ",
+"31": " Rocznik 2024/25 tego chyba nie miał (a przynajmniej nie ma w slajdach z UPeLa).  ",
+"32": " Rocznik 2024/25 tego chyba nie miał (a przynajmniej nie ma w slajdach z UPeLa).  "
+    }
+}

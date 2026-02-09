@@ -21,7 +21,11 @@ app.innerHTML = `
         <h1>Fiszki</h1>
         <p class="subtitle">Ucz się szybciej dzięki kartom pytań i odpowiedzi.</p>
       </div>
-      <div class="deck" id="deck-name">Talia: —</div>
+      <nav class="nav-buttons">
+        <a href="${import.meta.env.BASE_URL}drill.html" class="nav-link">⚡ Fizyka</a>
+        <a href="${import.meta.env.BASE_URL}drill-dbs.html" class="nav-link">🗄️ Bazy danych</a>
+        <div class="deck" id="deck-name">Talia: —</div>
+      </nav>
     </header>
 
     <main>
@@ -237,7 +241,7 @@ window.addEventListener('keydown', (event) => {
 
 const loadCards = async () => {
   try {
-    const response = await fetch('/data/flashcards.json')
+    const response = await fetch(`${import.meta.env.BASE_URL}data/flashcards.json`)
     if (!response.ok) {
       throw new Error('Nie udało się pobrać danych.')
     }
